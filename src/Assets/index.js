@@ -1,5 +1,5 @@
 export { default as github } from "./Images/github.png";
-export { default as insta } from "./Images/instagrm.png";
+export { default as insta } from "./Images/instgrm.png";
 export { default as logoITB } from "./Images/ITB.png";
 export { default as lightMode } from "./Images/light.png";
 export { default as logoGD19 } from "./Images/logoGD19.png";

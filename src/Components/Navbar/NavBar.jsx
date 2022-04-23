@@ -1,20 +1,16 @@
 import React from "react";
 import style from "./NavBarStyle.module.css";
+import { logoKemker } from "../../Assets";
 
 const NavBar = () => {
-  const {
-    navcontainer,
-    navelement,
-    geolokalogocontainer,
-    geolokalogo,
-    linkcontainer,
-  } = style;
+  const { navcontainer, navelement, kemkerlogocontainer, linkcontainer } =
+    style;
 
   return (
     <div className={navcontainer}>
       <div className={navelement}>
-        <div className={geolokalogocontainer}>
-          <img src="" className={geolokalogo}></img>
+        <div className={kemkerlogocontainer}>
+          <img src={logoKemker}></img>
         </div>
         <div className={linkcontainer}>
           <a href="/">WebGIS</a>

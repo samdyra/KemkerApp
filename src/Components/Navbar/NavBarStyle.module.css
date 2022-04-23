@@ -5,13 +5,13 @@
 .navelement {
   display: flex;
   justify-content: space-between;
-  max-width: 1170px;
+  max-width: 1280px;
   align-items: center;
   margin: 0 auto;
-  padding: 8px 15px 8px 15px;
+  padding: 8px 50px 8px 50px;
 }
 
-.geolokalogocontainer img {
+.kemkerlogocontainer img {
   display: flex;
   height: 42px;
   width: 42px;
