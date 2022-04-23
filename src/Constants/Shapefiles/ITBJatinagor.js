@@ -1,136 +1,136 @@
-{
-  "type": "FeatureCollection",
-  "name": "ITBJatinagor",
-  "crs": {
-    "type": "name",
-    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+const itbJatinangor = {
+  type: "FeatureCollection",
+  name: "ITBJatinagor",
+  crs: {
+    type: "name",
+    properties: { name: "urn:ogc:def:crs:OGC:1.3:CRS84" },
   },
-  "features": [
+  features: [
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "dummy data",
-        "Id": "dummy data",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "dummy data",
+        Id: "dummy data",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": { "type": "MultiPolygon", "coordinates": [] }
+      geometry: { type: "MultiPolygon", coordinates: [] },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "1",
-        "Id": "0",
-        "Jenis_Obj": "Tempat Parkir",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "1",
+        Id: "0",
+        Jenis_Obj: "Tempat Parkir",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.767692513626358, -6.933462915192245, -0.000023499996701],
               [107.767839057600057, -6.933488501009565, -0.000023499996701],
               [107.767802864137551, -6.933706187861012, -0.000023499996701],
               [107.76764247077989, -6.933676677599777, -0.000023499996701],
-              [107.767692513626358, -6.933462915192245, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.767692513626358, -6.933462915192245, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "2",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/T_us",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "2",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/T_us",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.767784488906287, -6.934210287345847, -0.000023499996701],
               [107.767665843441975, -6.934166506541243, -0.000023499996701],
               [107.767680223204096, -6.934117780864692, -0.000023499996701],
               [107.767799023402716, -6.934158427580406, -0.000023499996701],
-              [107.767784488906287, -6.934210287345847, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.767784488906287, -6.934210287345847, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "3",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "3",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.769459576215425, -6.933536413726147, -0.000023499996701],
               [107.769491042850575, -6.933568890285779, -0.000023499996701],
               [107.769477470425727, -6.933578989719897, -0.000023499996701],
               [107.769448976352137, -6.933547648879379, -0.000023499996701],
-              [107.769459576215425, -6.933536413726147, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.769459576215425, -6.933536413726147, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "4",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "4",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.769529778412746, -6.933536181286412, -0.000023499996701],
               [107.769501772978231, -6.933504721089313, -0.000023499996701],
               [107.769512511287701, -6.933493986882147, -0.000023499996701],
               [107.769541719319221, -6.933524739964199, -0.000023499996701],
-              [107.769529778412746, -6.933536181286412, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.769529778412746, -6.933536181286412, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "5",
-        "Id": "0",
-        "Jenis_Obj": "Gerbang Utama",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "5",
+        Id: "0",
+        Jenis_Obj: "Gerbang Utama",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.768533485648405, -6.933509619974249, -0.000023499996701],
@@ -153,25 +153,25 @@
               [107.768423344270388, -6.933573933684862, -0.000023499996701],
               [107.768481947607157, -6.933572156945054, -0.000023499996701],
               [107.768481568542441, -6.933512775691533, -0.000023499996701],
-              [107.768533485648405, -6.933509619974249, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.768533485648405, -6.933509619974249, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "6",
-        "Id": "0",
-        "Jenis_Obj": "Jembatan",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "6",
+        Id: "0",
+        Jenis_Obj: "Jembatan",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.769548979272187, -6.933558438163676, -0.000023499996701],
@@ -179,100 +179,100 @@
               [107.769509184091888, -6.93360112994337, -0.000023499996701],
               [107.769491042850575, -6.933568890285779, -0.000023499996701],
               [107.769529778412746, -6.933536181286412, -0.000023499996701],
-              [107.769548979272187, -6.933558438163676, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.769548979272187, -6.933558438163676, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "7",
-        "Id": "0",
-        "Jenis_Obj": "Jembatan",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "7",
+        Id: "0",
+        Jenis_Obj: "Jembatan",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.768954450471483, -6.932287600774011, -0.000023499996701],
               [107.768969492403556, -6.932285050831131, -0.000023499996701],
               [107.768971712985589, -6.93231111818161, -0.000023499996701],
               [107.768956736204458, -6.932313870673708, -0.000023499996701],
-              [107.768954450471483, -6.932287600774011, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.768954450471483, -6.932287600774011, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "8",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "8",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.771007355376469, -6.931897372722002, -0.000023499996701],
               [107.770929579395684, -6.931621145733192, -0.000023499996701],
               [107.771081819858509, -6.931579108959291, -0.000023499996701],
               [107.771160337022167, -6.931855250017983, -0.000023499996701],
-              [107.771007355376469, -6.931897372722002, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.771007355376469, -6.931897372722002, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "9",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "9",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.771380248384801, -6.931400024376065, -0.000023499996701],
               [107.77136910090735, -6.931357366133061, -0.000023499996701],
               [107.771404230296127, -6.93134629358298, -0.000023499996701],
               [107.771416238325102, -6.931389585691353, -0.000023499996701],
-              [107.771380248384801, -6.931400024376065, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.771380248384801, -6.931400024376065, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "10",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "10",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.771252259809572, -6.931437383520109, -0.000023499996701],
@@ -285,50 +285,50 @@
               [107.770895985210757, -6.931535629431687, -0.000023499996701],
               [107.770846774187731, -6.931353965639796, -0.000023499996701],
               [107.771201618943209, -6.931255878916314, -0.000023499996701],
-              [107.771252259809572, -6.931437383520109, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.771252259809572, -6.931437383520109, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "11",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "11",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.771424761038531, -6.932061752188013, -0.000023499996701],
               [107.771142498391185, -6.932139534130092, -0.000023499996701],
               [107.771095905130181, -6.931978312448049, -0.000023499996701],
               [107.771378735053347, -6.931900662549102, -0.000023499996701],
-              [107.771424761038531, -6.932061752188013, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.771424761038531, -6.932061752188013, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "12",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "12",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.7707129265047, -6.931407099982066, -0.000023499996701],
@@ -336,75 +336,75 @@
               [107.770665398581315, -6.931487234542555, -0.000023499996701],
               [107.770570395426248, -6.931430783306308, -0.000023499996701],
               [107.770617037477777, -6.931350662321419, -0.000023499996701],
-              [107.7707129265047, -6.931407099982066, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.7707129265047, -6.931407099982066, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "13",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "13",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.77064868220468, -6.931349936120234, -0.000023499996701],
               [107.770616758713075, -6.93133119228638, -0.000023499996701],
               [107.770646408011729, -6.931281016070376, -0.000023499996701],
               [107.77067800483897, -6.931300149629567, -0.000023499996701],
-              [107.77064868220468, -6.931349936120234, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.77064868220468, -6.931349936120234, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "14",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "14",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.771432936174008, -6.932895902809071, -0.000023499996701],
               [107.77148195042696, -6.932916010092884, -0.000023499996701],
               [107.771461507439611, -6.932965147344399, -0.000023499996701],
               [107.771412107703398, -6.932945710100081, -0.000023499996701],
-              [107.771432936174008, -6.932895902809071, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.771432936174008, -6.932895902809071, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "15",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "15",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.771387534424079, -6.93272349935821, -0.000023499996701],
@@ -416,50 +416,50 @@
               [107.77138726852273, -6.93275225862266, -0.000023499996701],
               [107.771377235110819, -6.932748269175402, -0.000023499996701],
               [107.771383813566842, -6.932732029949189, -0.000023499996701],
-              [107.771387534424079, -6.93272349935821, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.771387534424079, -6.93272349935821, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "16",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "16",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.771177573052, -6.932435517940271, -0.000023499996701],
               [107.771164780496875, -6.932395872619643, -0.000023499996701],
               [107.771204886837239, -6.932383006057062, -0.000023499996701],
               [107.771217907422368, -6.932421617832529, -0.000023499996701],
-              [107.771177573052, -6.932435517940271, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.771177573052, -6.932435517940271, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "17",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "17",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.77066201841842, -6.931356336269064, -0.000023499996701],
@@ -471,75 +471,75 @@
               [107.770688456453556, -6.931360419719546, -0.000023499996701],
               [107.770708725863187, -6.931356723131754, -0.000023499996701],
               [107.770715832025743, -6.931387493396846, -0.000023499996701],
-              [107.77066201841842, -6.931356336269064, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.77066201841842, -6.931356336269064, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "18",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "18",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.770989261384614, -6.931925009898199, -0.000023499996701],
               [107.771063596781914, -6.931904959953286, -0.000023499996701],
               [107.77107722095667, -6.931957187734713, -0.000023499996701],
               [107.771005502484925, -6.931977909519752, -0.000023499996701],
-              [107.770989261384614, -6.931925009898199, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.770989261384614, -6.931925009898199, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "19",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "19",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.771060243207017, -6.931888163760745, -0.000023499996701],
               [107.771063596781914, -6.931904959953286, -0.000023499996701],
               [107.771016431461817, -6.931917599568417, -0.000023499996701],
               [107.771011359507327, -6.931900087226424, -0.000023499996701],
-              [107.771060243207017, -6.931888163760745, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.771060243207017, -6.931888163760745, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "20",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "20",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.768831829241222, -6.930998684708839, -0.000023499996701],
@@ -562,25 +562,25 @@
               [107.768970886315259, -6.931267741474398, -0.000023499996701],
               [107.768919976622584, -6.931212785530642, -0.000023499996701],
               [107.76897826749925, -6.931159830710529, -0.000023499996701],
-              [107.768831829241222, -6.930998684708839, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.768831829241222, -6.930998684708839, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "21",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "21",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.770069437266727, -6.932246202139888, -0.000023499996701],
@@ -606,150 +606,150 @@
               [107.770123799148266, -6.932204636960751, -0.000023499996701],
               [107.770120108115563, -6.932204333144609, -0.000023499996701],
               [107.77011447520016, -6.932205865838097, -0.000023499996701],
-              [107.770069437266727, -6.932246202139888, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.770069437266727, -6.932246202139888, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "22",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "22",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.770230312436752, -6.932205605168734, -0.000023499996701],
               [107.770354677041311, -6.932094048223193, -0.000023499996701],
               [107.7704084156845, -6.932154607561578, -0.000023499996701],
               [107.770283634825034, -6.932264559500881, -0.000023499996701],
-              [107.770230312436752, -6.932205605168734, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.770230312436752, -6.932205605168734, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "23",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "23",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.770466022575931, -6.929873744029684, -0.000023499996701],
               [107.770563786929813, -6.929870615088115, -0.000023499996701],
               [107.770600821021105, -6.930161303749912, -0.000023499996701],
               [107.770511979671653, -6.930170207132805, -0.000023499996701],
-              [107.770466022575931, -6.929873744029684, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.770466022575931, -6.929873744029684, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "24",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "24",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.770640211736605, -6.929959154152018, -0.000023499996701],
               [107.770564729185097, -6.929962268575765, -0.000023499996701],
               [107.770563786929813, -6.929870615088115, -0.000023499996701],
               [107.770641271111856, -6.929882145685223, -0.000023499996701],
-              [107.770640211736605, -6.929959154152018, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.770640211736605, -6.929959154152018, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "25",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "25",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.770505472936378, -6.930266799584635, -0.000023499996701],
               [107.770627203108347, -6.930236732428779, -0.000023499996701],
               [107.770680403512202, -6.930403274679478, -0.000023499996701],
               [107.770561043222344, -6.930444288537975, -0.000023499996701],
-              [107.770505472936378, -6.930266799584635, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.770505472936378, -6.930266799584635, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "26",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "26",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.769588269984482, -6.929113670905891, -0.000023499996701],
               [107.76983432474087, -6.928849261678802, -0.000023499996701],
               [107.7699312140454, -6.9289535372727, -0.000023499996701],
               [107.769665148732813, -6.929197858939139, -0.000023499996701],
-              [107.769588269984482, -6.929113670905891, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.769588269984482, -6.929113670905891, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "27",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "27",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.767836670858756, -6.929113762426114, -0.000023499996701],
@@ -759,125 +759,125 @@
               [107.768116403050399, -6.929477164333691, -0.000023499996701],
               [107.767942855336898, -6.929684270433172, -0.000023499996701],
               [107.767595493017936, -6.929392970283807, -0.000023499996701],
-              [107.767836670858756, -6.929113762426114, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.767836670858756, -6.929113762426114, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "28",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "28",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.767691171684461, -6.929048912814372, -0.000023499996701],
               [107.767753531381388, -6.929097205603822, -0.000023499996701],
               [107.767688869282239, -6.929174287118537, -0.000023499996701],
               [107.76762872564106, -6.92912393809223, -0.000023499996701],
-              [107.767691171684461, -6.929048912814372, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.767691171684461, -6.929048912814372, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "29",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "29",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.768037391206306, -6.929614741146326, -0.000023499996701],
               [107.768104687434928, -6.929530308142246, -0.000023499996701],
               [107.768157837366658, -6.929572195240339, -0.000023499996701],
               [107.768089701410943, -6.929656822660961, -0.000023499996701],
-              [107.768037391206306, -6.929614741146326, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.768037391206306, -6.929614741146326, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "30",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "30",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.768062226687775, -6.930359109328653, -0.000023499996701],
               [107.768015720991187, -6.93041768751798, -0.000023499996701],
               [107.767957840261531, -6.930370768313248, -0.000023499996701],
               [107.768004523318822, -6.930311728064653, -0.000023499996701],
-              [107.768062226687775, -6.930359109328653, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.768062226687775, -6.930359109328653, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "31",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "31",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.768133139425828, -6.931730428655879, -0.000023499996701],
               [107.768201955853428, -6.931791794856442, -0.000023499996701],
               [107.768163122607589, -6.931827820491789, -0.000023499996701],
               [107.768095088907259, -6.931765852969702, -0.000023499996701],
-              [107.768133139425828, -6.931730428655879, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.768133139425828, -6.931730428655879, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "32",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "32",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.767112735810812, -6.927168212748572, -0.000023499996701],
@@ -885,50 +885,50 @@
               [107.7668182652952, -6.926808741767734, -0.000023499996701],
               [107.767044116240456, -6.926769413920963, -0.000023499996701],
               [107.767044830190926, -6.926768693246931, -0.000023499996701],
-              [107.767112735810812, -6.927168212748572, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.767112735810812, -6.927168212748572, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "33",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "33",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.766861360185146, -6.926587959756871, -0.000023499996701],
               [107.766853911470051, -6.926541972015035, -0.000023499996701],
               [107.766917846417414, -6.926531558217448, -0.000023499996701],
               [107.766928009768066, -6.926577080288742, -0.000023499996701],
-              [107.766861360185146, -6.926587959756871, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.766861360185146, -6.926587959756871, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "34",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "34",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.766884820421922, -6.926688120437772, -0.000023499996701],
@@ -953,50 +953,50 @@
               [107.766918966819432, -6.926688740001937, -0.000023499996701],
               [107.766907686625956, -6.926690718420265, -0.000023499996701],
               [107.766896393774118, -6.926690592677859, -0.000023499996701],
-              [107.766884820421922, -6.926688120437772, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.766884820421922, -6.926688120437772, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "35",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "35",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.767061919549334, -6.927210059729714, -0.000023499996701],
               [107.767122502915882, -6.927200100721585, -0.000023499996701],
               [107.767140699547184, -6.927305065577995, -0.000023499996701],
               [107.767081099772113, -6.927314340085001, -0.000023499996701],
-              [107.767061919549334, -6.927210059729714, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.767061919549334, -6.927210059729714, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "36",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "36",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.768057767528376, -6.928349926592573, -0.000023499996701],
@@ -1020,25 +1020,25 @@
               [107.768100556754405, -6.928257206192327, -0.000023499996701],
               [107.768073646498635, -6.928283508587848, -0.000023499996701],
               [107.768094655905912, -6.928316803558062, -0.000023499996701],
-              [107.768057767528376, -6.928349926592573, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.768057767528376, -6.928349926592573, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "37",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "37",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.767910429208712, -6.927835634005934, -0.000023499996701],
@@ -1067,75 +1067,75 @@
               [107.768176705853207, -6.927858811133967, -0.000023499996701],
               [107.768141339675992, -6.927819660295332, -0.000023499996701],
               [107.768013425822645, -6.927935756848929, -0.000023499996701],
-              [107.767910429208712, -6.927835634005934, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.767910429208712, -6.927835634005934, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "38",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "38",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.767733833562659, -6.92801163879187, -0.000023499996701],
               [107.767692384840743, -6.927964994486995, -0.000023499996701],
               [107.767777197509005, -6.927887886803634, -0.000023499996701],
               [107.767818607328181, -6.92793259060779, -0.000023499996701],
-              [107.767733833562659, -6.92801163879187, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.767733833562659, -6.92801163879187, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "39",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "39",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.767741098874353, -6.927388152684782, -0.000023499996701],
               [107.767675837131392, -6.927446217185372, -0.000023499996701],
               [107.767643923113852, -6.927413213325441, -0.000023499996701],
               [107.767710676101714, -6.927352578991037, -0.000023499996701],
-              [107.767741098874353, -6.927388152684782, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.767741098874353, -6.927388152684782, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "40",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "40",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.768091657372111, -6.927400341810775, -0.000023499996701],
@@ -1156,50 +1156,50 @@
               [107.768121399788839, -6.927398903234464, -0.000023499996701],
               [107.768117226502326, -6.927395322445412, -0.000023499996701],
               [107.768100802945895, -6.927410101265046, -0.000023499996701],
-              [107.768091657372111, -6.927400341810775, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.768091657372111, -6.927400341810775, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "41",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "41",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.768170572741397, -6.927346715278379, -0.000023499996701],
               [107.768188606902953, -6.927367428680773, -0.000023499996701],
               [107.768167509646318, -6.927388040728538, -0.000023499996701],
               [107.768146343701488, -6.927368799417188, -0.000023499996701],
-              [107.768170572741397, -6.927346715278379, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.768170572741397, -6.927346715278379, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "42",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "42",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.767684411341619, -6.927285501677941, -0.000023499996701],
@@ -1210,75 +1210,75 @@
               [107.767975032766529, -6.927193814623896, -0.000023499996701],
               [107.76776532969842, -6.927381632300337, -0.000023499996701],
               [107.767712173762803, -6.927323137930874, -0.000023499996701],
-              [107.767684411341619, -6.927285501677941, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.767684411341619, -6.927285501677941, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "43",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "43",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.76765448746022, -6.927731001251607, -0.000023499996701],
               [107.76762063858952, -6.927762055367491, -0.000023499996701],
               [107.767589673784457, -6.927725140680812, -0.000023499996701],
               [107.767625872613863, -6.927696768542655, -0.000023499996701],
-              [107.76765448746022, -6.927731001251607, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.76765448746022, -6.927731001251607, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "44",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "44",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.767825424232328, -6.927121415560021, -0.000023499996701],
               [107.767741574070428, -6.92703774171238, -0.000023499996701],
               [107.767792034644032, -6.926993458641722, -0.000023499996701],
               [107.767873768296212, -6.927078666061545, -0.000023499996701],
-              [107.767825424232328, -6.927121415560021, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.767825424232328, -6.927121415560021, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "45",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "45",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.768994553283022, -6.926663980865958, -0.000023499996701],
@@ -1293,25 +1293,25 @@
               [107.769082299122672, -6.926531742496096, -0.000023499996701],
               [107.769057085661373, -6.926556752794184, -0.000023499996701],
               [107.769081665701577, -6.92658721022691, -0.000023499996701],
-              [107.768994553283022, -6.926663980865958, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.768994553283022, -6.926663980865958, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "46",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "46",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.768781866568617, -6.926853889590892, -0.000023499996701],
@@ -1328,25 +1328,25 @@
               [107.76887488792876, -6.926723772605376, -0.000023499996701],
               [107.768846804179333, -6.926748799166714, -0.000023499996701],
               [107.768871370644248, -6.926776865806365, -0.000023499996701],
-              [107.768781866568617, -6.926853889590892, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.768781866568617, -6.926853889590892, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "47",
-        "Id": "1",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "47",
+        Id: "1",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.76842813331136, -6.927392832750123, -0.000023499996701],
@@ -1358,100 +1358,100 @@
               [107.768695604105872, -6.927483834626458, -0.000023499996701],
               [107.768865382549421, -6.927656537766206, -0.000023499996701],
               [107.76875317218564, -6.927755090515597, -0.000023499996701],
-              [107.76842813331136, -6.927392832750123, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.76842813331136, -6.927392832750123, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "48",
-        "Id": "2",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "48",
+        Id: "2",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.769346997170771, -6.926993322195319, -0.000023499996701],
               [107.769385702347989, -6.926966315319677, -0.000023499996701],
               [107.769430361660341, -6.927028274545636, -0.000023499996701],
               [107.769391821168341, -6.927055651257846, -0.000023499996701],
-              [107.769346997170771, -6.926993322195319, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.769346997170771, -6.926993322195319, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "49",
-        "Id": "3",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "49",
+        Id: "3",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.769219385096633, -6.926677067914685, -0.000023499996701],
               [107.769262420085454, -6.92664519263391, -0.000023499996701],
               [107.769303550332864, -6.926700558174312, -0.000023499996701],
               [107.769262114258495, -6.926735316167196, -0.000023499996701],
-              [107.769219385096633, -6.926677067914685, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.769219385096633, -6.926677067914685, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "50",
-        "Id": "4",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "50",
+        Id: "4",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.769479553591793, -6.927205484244003, -0.000023499996701],
               [107.76953126909163, -6.927169012694918, -0.000023499996701],
               [107.769579095514871, -6.927234559013518, -0.000023499996701],
               [107.769528789809939, -6.927270832538605, -0.000023499996701],
-              [107.769479553591793, -6.927205484244003, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.769479553591793, -6.927205484244003, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "51",
-        "Id": "5",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "51",
+        Id: "5",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.76910022737168, -6.92702844643012, -0.000023499996701],
@@ -1479,7 +1479,7 @@
               [107.768945118858042, -6.927003363747344, -0.000023499996701],
               [107.768995508722483, -6.926998479980354, -0.000023499996701],
               [107.769050109878563, -6.927007205885875, -0.000023499996701],
-              [107.76910022737168, -6.92702844643012, -0.000023499996701]
+              [107.76910022737168, -6.92702844643012, -0.000023499996701],
             ],
             [
               [107.768952592968716, -6.927410078873495, -0.000023499996701],
@@ -1521,7 +1521,7 @@
               [107.768835889173786, -6.927336241499185, -0.000023499996701],
               [107.768867334541355, -6.927371325024914, -0.000023499996701],
               [107.768907409734197, -6.927396219606284, -0.000023499996701],
-              [107.768952592968716, -6.927410078873495, -0.000023499996701]
+              [107.768952592968716, -6.927410078873495, -0.000023499996701],
             ],
             [
               [107.76906209766004, -6.927133834387551, -0.000023499996701],
@@ -1542,25 +1542,25 @@
               [107.769115897105578, -6.927229705258714, -0.000023499996701],
               [107.76911303498197, -6.927199453092697, -0.000023499996701],
               [107.769086478659048, -6.927153082892655, -0.000023499996701],
-              [107.76906209766004, -6.927133834387551, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.76906209766004, -6.927133834387551, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "52",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "52",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.768433860623631, -6.927165378176052, -0.000023499996701],
@@ -1576,25 +1576,25 @@
               [107.768102597918102, -6.926728501595423, -0.000023499996701],
               [107.768445085707569, -6.927107567584238, -0.000023499996701],
               [107.768410154702522, -6.927137210240991, -0.000023499996701],
-              [107.768433860623631, -6.927165378176052, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.768433860623631, -6.927165378176052, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "53",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "53",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.768565516738605, -6.927047596915918, -0.000023499996701],
@@ -1609,25 +1609,25 @@
               [107.768650546323414, -6.926921231646383, -0.000023499996701],
               [107.768621632777268, -6.926947578379921, -0.000023499996701],
               [107.768646562093764, -6.926976479642486, -0.000023499996701],
-              [107.768565516738605, -6.927047596915918, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.768565516738605, -6.927047596915918, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "54",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "54",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.768897481252864, -6.92940326207803, 764.794976500003258],
@@ -1645,25 +1645,25 @@
               [107.768676234822138, -6.929673607157156, 761.751976500003138],
               [107.768648007989995, -6.929629162961191, 764.511976500003357],
               [107.76872268612027, -6.929560833439302, 764.673976500003164],
-              [107.768897481252864, -6.92940326207803, 764.794976500003258]
-            ]
-          ]
-        ]
-      }
+              [107.768897481252864, -6.92940326207803, 764.794976500003258],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "55",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "55",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.769418307962866, -6.928926801349014, 771.24597650000328],
@@ -1674,75 +1674,75 @@
               [107.769546532359712, -6.929106052743141, 771.381976500003248],
               [107.769496331353324, -6.929050550696201, 771.401976500003229],
               [107.769514465145889, -6.929034153243277, 771.175976500003344],
-              [107.769418307962866, -6.928926801349014, 771.24597650000328]
-            ]
-          ]
-        ]
-      }
+              [107.769418307962866, -6.928926801349014, 771.24597650000328],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "56",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "56",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.768804633178519, -6.928200930207399, 776.71797650000326],
               [107.768716989406514, -6.928112058072284, -0.000023499996701],
               [107.768811623489597, -6.928030638809994, 774.932976500003178],
               [107.768889989543212, -6.928118722428002, 774.739976500003195],
-              [107.768804633178519, -6.928200930207399, 776.71797650000326]
-            ]
-          ]
-        ]
-      }
+              [107.768804633178519, -6.928200930207399, 776.71797650000326],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "57",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "57",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.768936104864011, -6.928148253034328, 776.771976500003348],
               [107.76901930120259, -6.928241196908451, 774.887976500003333],
               [107.76891975904465, -6.928331276089987, 776.670976500003235],
               [107.76883614827392, -6.928240250085913, 776.714976500003331],
-              [107.768936104864011, -6.928148253034328, 776.771976500003348]
-            ]
-          ]
-        ]
-      }
+              [107.768936104864011, -6.928148253034328, 776.771976500003348],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "58",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "58",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.768385426539396, -6.928627282141621, 771.597976500003142],
@@ -1751,25 +1751,25 @@
               [107.768427323469538, -6.928564538083301, 771.315976500003217],
               [107.76851607031395, -6.928657377160782, 771.166976500003329],
               [107.768461762072533, -6.928708131021923, 771.167976500003306],
-              [107.768385426539396, -6.928627282141621, 771.597976500003142]
-            ]
-          ]
-        ]
-      }
+              [107.768385426539396, -6.928627282141621, 771.597976500003142],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "59",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "59",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.768512180434527, -6.928509820091381, 771.444976500003349],
@@ -1778,75 +1778,75 @@
               [107.768446411025906, -6.928546518470487, 771.3047765000033],
               [107.768460347093907, -6.928533958634423, 771.282976500003315],
               [107.768472754783559, -6.928546699356271, 771.608976500003337],
-              [107.768512180434527, -6.928509820091381, 771.444976500003349]
-            ]
-          ]
-        ]
-      }
+              [107.768512180434527, -6.928509820091381, 771.444976500003349],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "60",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "60",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.768531971075987, -6.928492419878597, 772.025976500003253],
               [107.76858549656383, -6.928442294452981, 772.500976500003162],
               [107.768661789574665, -6.92852053186433, 772.010976500003153],
               [107.768609338176702, -6.928571879828463, 771.718976500003237],
-              [107.768531971075987, -6.928492419878597, 772.025976500003253]
-            ]
-          ]
-        ]
-      }
+              [107.768531971075987, -6.928492419878597, 772.025976500003253],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "61",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "61",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.769226576523067, -6.929045509692633, 770.319976500003349],
               [107.769254266769252, -6.929038309245721, 770.313976500003264],
               [107.76926204965261, -6.929065713964139, 770.326976500003184],
               [107.769230623153234, -6.92907315041808, -0.000023499996701],
-              [107.769226576523067, -6.929045509692633, 770.319976500003349]
-            ]
-          ]
-        ]
-      }
+              [107.769226576523067, -6.929045509692633, 770.319976500003349],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "62",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "62",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.769318211020419, -6.928946639457227, 772.368976500003328],
@@ -1867,25 +1867,25 @@
               [107.76943538753487, -6.928855197498699, 772.529976500003158],
               [107.76938426182916, -6.928898438155048, 772.42497650000314],
               [107.769379022569467, -6.928891583134501, 772.450976500003208],
-              [107.769318211020419, -6.928946639457227, 772.368976500003328]
-            ]
-          ]
-        ]
-      }
+              [107.769318211020419, -6.928946639457227, 772.368976500003328],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "63",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "63",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.768065695626973, -6.928547860546066, 778.018976500003191],
@@ -1927,25 +1927,25 @@
               [107.767989972583081, -6.928551781140199, 777.98097650000318],
               [107.768015477571083, -6.92852955776095, 777.979976500003204],
               [107.768033318211508, -6.928514211087275, 778.031976500003339],
-              [107.768065695626973, -6.928547860546066, 778.018976500003191]
-            ]
-          ]
-        ]
-      }
+              [107.768065695626973, -6.928547860546066, 778.018976500003191],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "64",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "64",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.768426238671339, -6.929057286837003, 769.145976500003144],
@@ -1962,25 +1962,25 @@
               [107.768738960556206, -6.929396461198314, 764.91197650000322],
               [107.768632345760281, -6.929294382649411, 769.134976500003177],
               [107.768604536102814, -6.929251752350647, 769.140976500003262],
-              [107.768426238671339, -6.929057286837003, 769.145976500003144]
-            ]
-          ]
-        ]
-      }
+              [107.768426238671339, -6.929057286837003, 769.145976500003144],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "65",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "65",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.770172926663463, -6.927732006212265, -0.000023499996701],
@@ -2010,25 +2010,25 @@
               [107.770189214393952, -6.92769854216069, -0.000023499996701],
               [107.770198718347274, -6.927707856688912, -0.000023499996701],
               [107.770188885962554, -6.927716516591684, -0.000023499996701],
-              [107.770172926663463, -6.927732006212265, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.770172926663463, -6.927732006212265, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "66",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "66",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.769515224351423, -6.926689691838432, -0.000023499996701],
@@ -2043,50 +2043,50 @@
               [107.769660148690903, -6.926130280709889, -0.000023499996701],
               [107.769872614585879, -6.926365034936158, -0.000023499996701],
               [107.769874863202872, -6.926366142623574, -0.000023499996701],
-              [107.769515224351423, -6.926689691838432, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.769515224351423, -6.926689691838432, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "67",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "67",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.770701282415303, -6.927243059222551, -0.000023499996701],
               [107.770677768345649, -6.927263382033738, -0.000023499996701],
               [107.770654605226781, -6.927239654014514, -0.000023499996701],
               [107.770679689254393, -6.927218255156932, -0.000023499996701],
-              [107.770701282415303, -6.927243059222551, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.770701282415303, -6.927243059222551, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "68",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "68",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.770329799058075, -6.92738092303198, -0.000023499996701],
@@ -2130,75 +2130,75 @@
               [107.770429303698606, -6.927309204995892, -0.000023499996701],
               [107.770400253591745, -6.927335804119761, -0.000023499996701],
               [107.770390700776716, -6.927325785194654, -0.000023499996701],
-              [107.770329799058075, -6.92738092303198, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.770329799058075, -6.92738092303198, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "69",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "69",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.770624362544737, -6.927860904967019, -0.000023499996701],
               [107.770639498326034, -6.9278236530535, -0.000023499996701],
               [107.770683631977974, -6.927832829113959, -0.000023499996701],
               [107.770672027071967, -6.927881688712495, -0.000023499996701],
-              [107.770624362544737, -6.927860904967019, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.770624362544737, -6.927860904967019, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "70",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "70",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.768548495686602, -6.925875014375297, -0.000023499996701],
               [107.768503165171708, -6.925819904661156, -0.000023499996701],
               [107.768600287240915, -6.92573642920053, -0.000023499996701],
               [107.768643657802457, -6.925790546050816, -0.000023499996701],
-              [107.768548495686602, -6.925875014375297, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.768548495686602, -6.925875014375297, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "71",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "71",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.767836670858756, -6.929113762426114, -0.000023499996701],
@@ -2208,125 +2208,125 @@
               [107.768116403050399, -6.929477164333691, -0.000023499996701],
               [107.767942855336898, -6.929684270433172, -0.000023499996701],
               [107.767595493017936, -6.929392970283807, -0.000023499996701],
-              [107.767836670858756, -6.929113762426114, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.767836670858756, -6.929113762426114, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "72",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "72",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.767691171684461, -6.929048912814372, -0.000023499996701],
               [107.767753531381388, -6.929097205603822, -0.000023499996701],
               [107.767688869282239, -6.929174287118537, -0.000023499996701],
               [107.76762872564106, -6.92912393809223, -0.000023499996701],
-              [107.767691171684461, -6.929048912814372, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.767691171684461, -6.929048912814372, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "73",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "73",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.768037391206306, -6.929614741146326, -0.000023499996701],
               [107.768104687434928, -6.929530308142246, -0.000023499996701],
               [107.768157837366658, -6.929572195240339, -0.000023499996701],
               [107.768089701410943, -6.929656822660961, -0.000023499996701],
-              [107.768037391206306, -6.929614741146326, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.768037391206306, -6.929614741146326, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "74",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "74",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.768062226687775, -6.930359109328653, -0.000023499996701],
               [107.768015720991187, -6.93041768751798, -0.000023499996701],
               [107.767957840261531, -6.930370768313248, -0.000023499996701],
               [107.768004523318822, -6.930311728064653, -0.000023499996701],
-              [107.768062226687775, -6.930359109328653, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.768062226687775, -6.930359109328653, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "75",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "75",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.768133139425828, -6.931730428655879, -0.000023499996701],
               [107.768201955853428, -6.931791794856442, -0.000023499996701],
               [107.768163122607589, -6.931827820491789, -0.000023499996701],
               [107.768095088907259, -6.931765852969702, -0.000023499996701],
-              [107.768133139425828, -6.931730428655879, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.768133139425828, -6.931730428655879, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "76",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "76",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.770352579684882, -6.928230368070022, -0.000023499996701],
@@ -2344,25 +2344,25 @@
               [107.770543952990991, -6.928387393786984, -0.000023499996701],
               [107.770377566952874, -6.928207597501444, -0.000023499996701],
               [107.770373170154784, -6.928210866330769, -0.000023499996701],
-              [107.770352579684882, -6.928230368070022, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.770352579684882, -6.928230368070022, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "77",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "77",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.769264463486735, -6.927446291799655, -0.000023499996701],
@@ -2383,25 +2383,25 @@
               [107.768946578965782, -6.927846518981628, -0.000023499996701],
               [107.768957109942349, -6.927836536205621, -0.000023499996701],
               [107.768901686186155, -6.927774847298746, -0.000023499996701],
-              [107.769264463486735, -6.927446291799655, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.769264463486735, -6.927446291799655, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "78",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "78",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.769487909635956, -6.927783392287778, -0.000023499996701],
@@ -2423,25 +2423,25 @@
               [107.769207670733778, -6.92802963160737, -0.000023499996701],
               [107.76921534862737, -6.928023044237291, -0.000023499996701],
               [107.769219644086519, -6.928028016637882, -0.000023499996701],
-              [107.769487909635956, -6.927783392287778, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.769487909635956, -6.927783392287778, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "79",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "79",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.769713469539752, -6.928580712394523, -0.000023499996701],
@@ -2465,25 +2465,25 @@
               [107.769316500561899, -6.928273393172637, -0.000023499996701],
               [107.769325728522034, -6.928284137317414, -0.000023499996701],
               [107.769388652876671, -6.928227126030013, -0.000023499996701],
-              [107.769713469539752, -6.928580712394523, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.769713469539752, -6.928580712394523, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "80",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "80",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.768966211999924, -6.928124368521743, -0.000023499996701],
@@ -2492,25 +2492,25 @@
               [107.769053438707346, -6.928039836823454, -0.000023499996701],
               [107.769137307374962, -6.928127363391553, -0.000023499996701],
               [107.769047878190833, -6.928213372628249, -0.000023499996701],
-              [107.768966211999924, -6.928124368521743, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.768966211999924, -6.928124368521743, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "81",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "81",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.769022260221561, -6.928002267562628, -0.000023499996701],
@@ -2523,25 +2523,25 @@
               [107.768846697511862, -6.927992072206516, -0.000023499996701],
               [107.768939306430568, -6.927911798585826, -0.000023499996701],
               [107.768940486392367, -6.927910779510849, -0.000023499996701],
-              [107.769022260221561, -6.928002267562628, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.769022260221561, -6.928002267562628, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "82",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "82",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.769777061111213, -6.928772286747372, -0.000023499996701],
@@ -2557,25 +2557,25 @@
               [107.769664748770722, -6.929193433602205, -0.000023499996701],
               [107.769419135926796, -6.928924114859483, -0.000023499996701],
               [107.769688515784921, -6.928677737088536, -0.000023499996701],
-              [107.769777061111213, -6.928772286747372, -0.000023499996701]
-            ]
-          ]
-        ]
-      }
+              [107.769777061111213, -6.928772286747372, -0.000023499996701],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "1",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "1",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.766793891172298, -6.929253523645875, 0.0],
@@ -2617,25 +2617,27 @@
               [107.76738385975348, -6.929059051888284, 0.0],
               [107.767386443970054, -6.929091908264744, 0.0],
               [107.767398343877375, -6.929139866342871, 0.0],
-              [107.766793891172298, -6.929253523645875, 0.0]
-            ]
-          ]
-        ]
-      }
+              [107.766793891172298, -6.929253523645875, 0.0],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "2",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "data:image/jpeg;base64,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",
-        "Foto_2": "https://img-01.stickers.cloud/packs/0ba639f2-873a-447c-8f1d-80f6378523d0/webp/436e532a-8330-4bf3-a8cb-a5679eb0e9ed.webp",
-        "Foto_3": "https://cdn.kibrispdr.org/data/random-pic-0.jpg"
+      type: "Feature",
+      properties: {
+        OBJECTID: "2",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1:
+          "data:image/jpeg;base64,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",
+        Foto_2:
+          "https://img-01.stickers.cloud/packs/0ba639f2-873a-447c-8f1d-80f6378523d0/webp/436e532a-8330-4bf3-a8cb-a5679eb0e9ed.webp",
+        Foto_3: "https://cdn.kibrispdr.org/data/random-pic-0.jpg",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.768728177228951, -6.933299077610545, 0.0],
@@ -2830,25 +2832,25 @@
               [107.768714648222613, -6.933317445367508, 0.0],
               [107.76871387636119, -6.933308126298757, 0.0],
               [107.76871744524486, -6.933304878282182, 0.0],
-              [107.768728177228951, -6.933299077610545, 0.0]
-            ]
-          ]
-        ]
-      }
+              [107.768728177228951, -6.933299077610545, 0.0],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "12",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "12",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.768404819225452, -6.932952958672105, -0.000023499998974],
@@ -3148,7 +3150,7 @@
               [107.768456327923516, -6.932652526018528, -0.000023499998974],
               [107.76842307769148, -6.932747528742989, -0.000023499998974],
               [107.76840507755341, -6.932820666129984, -0.000023499998974],
-              [107.768404819225452, -6.932952958672105, -0.000023499998974]
+              [107.768404819225452, -6.932952958672105, -0.000023499998974],
             ],
             [
               [107.767513416656286, -6.927825758532079, -0.000023499998974],
@@ -3336,7 +3338,7 @@
               [107.767704615716426, -6.926897186037319, -0.000023499998974],
               [107.767633311277365, -6.927236376109255, -0.000023499998974],
               [107.767574067990978, -6.927533435074164, -0.000023499998974],
-              [107.767513416656286, -6.927825758532079, -0.000023499998974]
+              [107.767513416656286, -6.927825758532079, -0.000023499998974],
             ],
             [
               [107.768902447752652, -6.930153500520516, -0.000023499998974],
@@ -3527,7 +3529,7 @@
               [107.768887381476986, -6.930118199089387, -0.000023499998974],
               [107.768894776170441, -6.930130396349962, -0.000023499998974],
               [107.768897953207514, -6.930140868323496, -0.000023499998974],
-              [107.768902447752652, -6.930153500520516, -0.000023499998974]
+              [107.768902447752652, -6.930153500520516, -0.000023499998974],
             ],
             [
               [107.770136052503048, -6.932342629860084, -0.000023499998974],
@@ -3556,7 +3558,7 @@
               [107.770120727828271, -6.932581152287942, -0.000023499998974],
               [107.770152313415906, -6.932388833633513, -0.000023499998974],
               [107.770149506392386, -6.93235820170057, -0.000023499998974],
-              [107.770136052503048, -6.932342629860084, -0.000023499998974]
+              [107.770136052503048, -6.932342629860084, -0.000023499998974],
             ],
             [
               [107.768802943647287, -6.930835325188811, -0.000023499998974],
@@ -3600,25 +3602,25 @@
               [107.76880806164931, -6.930864806039341, -0.000023499998974],
               [107.768812050384341, -6.930855647927411, -0.000023499998974],
               [107.768809276016654, -6.930846664328421, -0.000023499998974],
-              [107.768802943647287, -6.930835325188811, -0.000023499998974]
-            ]
-          ]
-        ]
-      }
+              [107.768802943647287, -6.930835325188811, -0.000023499998974],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "OBJECTID": "1",
-        "Id": "0",
-        "Jenis_Obj": "dummy data",
-        "Foto_1": "https://gdurl.com/f7w8",
-        "Foto_2": "https://gdurl.com/yoY7a",
-        "Foto_3": "https://gdurl.com/T_us"
+      type: "Feature",
+      properties: {
+        OBJECTID: "1",
+        Id: "0",
+        Jenis_Obj: "dummy data",
+        Foto_1: "https://gdurl.com/f7w8",
+        Foto_2: "https://gdurl.com/yoY7a",
+        Foto_3: "https://gdurl.com/T_us",
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [107.766892729978835, -6.929343328453323, 0.0],
@@ -3702,11 +3704,13 @@
               [107.767098117450047, -6.929486768547204, 0.0],
               [107.766927863343369, -6.929439839674145, 0.0],
               [107.76686890528444, -6.929360201407493, 0.0],
-              [107.766892729978835, -6.929343328453323, 0.0]
-            ]
-          ]
-        ]
-      }
-    }
-  ]
-}
+              [107.766892729978835, -6.929343328453323, 0.0],
+            ],
+          ],
+        ],
+      },
+    },
+  ],
+};
+
+export default itbJatinangor;

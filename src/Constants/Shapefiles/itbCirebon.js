@@ -1,32 +1,32 @@
-{
-  "type": "FeatureCollection",
-  "name": "itbCirebon",
-  "crs": {
-    "type": "name",
-    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+const itbCirebon = {
+  type: "FeatureCollection",
+  name: "itbCirebon",
+  crs: {
+    type: "name",
+    properties: { name: "urn:ogc:def:crs:OGC:1.3:CRS84" },
   },
-  "features": [
+  features: [
     {
-      "type": "Feature",
-      "properties": {
-        "NAME": "kampusCirebon",
-        "LAYER": "Unknown Area Type",
-        "PERIMETER": "2.452 km",
-        "ENCLOSED_A": "352864 sq m",
-        "CLOSED": "YES",
-        "BORDER_STY": "Solid",
-        "BORDER_COL": "RGB(0,0,0)",
-        "BORDER_WID": 1,
-        "FILL_STYLE": "No Fill",
-        "LABEL_POS": "12068658.036,-738733.985",
-        "FONT_SIZE": 10,
-        "FONT_COLOR": "RGB(0,0,0)",
-        "FONT_CHARS": 1,
-        "FONT_WEIGH": 400
+      type: "Feature",
+      properties: {
+        NAME: "kampusCirebon",
+        LAYER: "Unknown Area Type",
+        PERIMETER: "2.452 km",
+        ENCLOSED_A: "352864 sq m",
+        CLOSED: "YES",
+        BORDER_STY: "Solid",
+        BORDER_COL: "RGB(0,0,0)",
+        BORDER_WID: 1,
+        FILL_STYLE: "No Fill",
+        LABEL_POS: "12068658.036,-738733.985",
+        FONT_SIZE: 10,
+        FONT_COLOR: "RGB(0,0,0)",
+        FONT_CHARS: 1,
+        FONT_WEIGH: 400,
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [108.414653135942118, -6.666399074600409],
@@ -40,33 +40,33 @@
               [108.414706284785922, -6.667386846714697],
               [108.414658087690142, -6.667127784374318],
               [108.414641569113257, -6.66658688663378],
-              [108.414653135942118, -6.666399074600409]
-            ]
-          ]
-        ]
-      }
+              [108.414653135942118, -6.666399074600409],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NAME": "kampusCirebon",
-        "LAYER": "Unknown Area Type",
-        "PERIMETER": "2.452 km",
-        "ENCLOSED_A": "352864 sq m",
-        "CLOSED": "YES",
-        "BORDER_STY": "Solid",
-        "BORDER_COL": "RGB(0,0,0)",
-        "BORDER_WID": 1,
-        "FILL_STYLE": "No Fill",
-        "LABEL_POS": "12068658.036,-738733.985",
-        "FONT_SIZE": 10,
-        "FONT_COLOR": "RGB(0,0,0)",
-        "FONT_CHARS": 1,
-        "FONT_WEIGH": 400
+      type: "Feature",
+      properties: {
+        NAME: "kampusCirebon",
+        LAYER: "Unknown Area Type",
+        PERIMETER: "2.452 km",
+        ENCLOSED_A: "352864 sq m",
+        CLOSED: "YES",
+        BORDER_STY: "Solid",
+        BORDER_COL: "RGB(0,0,0)",
+        BORDER_WID: 1,
+        FILL_STYLE: "No Fill",
+        LABEL_POS: "12068658.036,-738733.985",
+        FONT_SIZE: 10,
+        FONT_COLOR: "RGB(0,0,0)",
+        FONT_CHARS: 1,
+        FONT_WEIGH: 400,
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [108.41514967669184, -6.666208448334408],
@@ -86,33 +86,33 @@
               [108.414996718516321, -6.665661991386309],
               [108.415062792823889, -6.665856054374985],
               [108.415120607842994, -6.666025343301515],
-              [108.41514967669184, -6.666208448334408]
-            ]
-          ]
-        ]
-      }
+              [108.41514967669184, -6.666208448334408],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NAME": "kampusCirebon",
-        "LAYER": "Unknown Area Type",
-        "PERIMETER": "2.452 km",
-        "ENCLOSED_A": "352864 sq m",
-        "CLOSED": "YES",
-        "BORDER_STY": "Solid",
-        "BORDER_COL": "RGB(0,0,0)",
-        "BORDER_WID": 1,
-        "FILL_STYLE": "No Fill",
-        "LABEL_POS": "12068658.036,-738733.985",
-        "FONT_SIZE": 10,
-        "FONT_COLOR": "RGB(0,0,0)",
-        "FONT_CHARS": 1,
-        "FONT_WEIGH": 400
+      type: "Feature",
+      properties: {
+        NAME: "kampusCirebon",
+        LAYER: "Unknown Area Type",
+        PERIMETER: "2.452 km",
+        ENCLOSED_A: "352864 sq m",
+        CLOSED: "YES",
+        BORDER_STY: "Solid",
+        BORDER_COL: "RGB(0,0,0)",
+        BORDER_WID: 1,
+        FILL_STYLE: "No Fill",
+        LABEL_POS: "12068658.036,-738733.985",
+        FONT_SIZE: 10,
+        FONT_COLOR: "RGB(0,0,0)",
+        FONT_CHARS: 1,
+        FONT_WEIGH: 400,
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [108.41485825751711, -6.664656842093778],
@@ -132,33 +132,33 @@
               [108.414806754882122, -6.664105355661472],
               [108.414802625237897, -6.66433658038286],
               [108.414827403103232, -6.664559546973847],
-              [108.41485825751711, -6.664656842093778]
-            ]
-          ]
-        ]
-      }
+              [108.41485825751711, -6.664656842093778],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NAME": "kampusCirebon",
-        "LAYER": "Unknown Area Type",
-        "PERIMETER": "2.452 km",
-        "ENCLOSED_A": "352864 sq m",
-        "CLOSED": "YES",
-        "BORDER_STY": "Solid",
-        "BORDER_COL": "RGB(0,0,0)",
-        "BORDER_WID": 1,
-        "FILL_STYLE": "No Fill",
-        "LABEL_POS": "12068658.036,-738733.985",
-        "FONT_SIZE": 10,
-        "FONT_COLOR": "RGB(0,0,0)",
-        "FONT_CHARS": 1,
-        "FONT_WEIGH": 400
+      type: "Feature",
+      properties: {
+        NAME: "kampusCirebon",
+        LAYER: "Unknown Area Type",
+        PERIMETER: "2.452 km",
+        ENCLOSED_A: "352864 sq m",
+        CLOSED: "YES",
+        BORDER_STY: "Solid",
+        BORDER_COL: "RGB(0,0,0)",
+        BORDER_WID: 1,
+        FILL_STYLE: "No Fill",
+        LABEL_POS: "12068658.036,-738733.985",
+        FONT_SIZE: 10,
+        FONT_COLOR: "RGB(0,0,0)",
+        FONT_CHARS: 1,
+        FONT_WEIGH: 400,
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [108.414930724882893, -6.665288892311625],
@@ -180,33 +180,33 @@
               [108.415062792823889, -6.665856054374985],
               [108.414996718516321, -6.665661991386309],
               [108.414930644208766, -6.665426638295644],
-              [108.414930724882893, -6.665288892311625]
-            ]
-          ]
-        ]
-      }
+              [108.414930724882893, -6.665288892311625],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NAME": "kampusCirebon",
-        "LAYER": "Unknown Area Type",
-        "PERIMETER": "2.452 km",
-        "ENCLOSED_A": "352864 sq m",
-        "CLOSED": "YES",
-        "BORDER_STY": "Solid",
-        "BORDER_COL": "RGB(0,0,0)",
-        "BORDER_WID": 1,
-        "FILL_STYLE": "No Fill",
-        "LABEL_POS": "12068658.036,-738733.985",
-        "FONT_SIZE": 10,
-        "FONT_COLOR": "RGB(0,0,0)",
-        "FONT_CHARS": 1,
-        "FONT_WEIGH": 400
+      type: "Feature",
+      properties: {
+        NAME: "kampusCirebon",
+        LAYER: "Unknown Area Type",
+        PERIMETER: "2.452 km",
+        ENCLOSED_A: "352864 sq m",
+        CLOSED: "YES",
+        BORDER_STY: "Solid",
+        BORDER_COL: "RGB(0,0,0)",
+        BORDER_WID: 1,
+        FILL_STYLE: "No Fill",
+        LABEL_POS: "12068658.036,-738733.985",
+        FONT_SIZE: 10,
+        FONT_COLOR: "RGB(0,0,0)",
+        FONT_CHARS: 1,
+        FONT_WEIGH: 400,
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [108.415278629798465, -6.667174648602261],
@@ -222,33 +222,33 @@
               [108.418285784662231, -6.666015232636658],
               [108.415469756764367, -6.66746874713202],
               [108.415335349342541, -6.667350749679127],
-              [108.415278629798465, -6.667174648602261]
-            ]
-          ]
-        ]
-      }
+              [108.415278629798465, -6.667174648602261],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NAME": "A",
-        "LAYER": null,
-        "PERIMETER": null,
-        "ENCLOSED_A": null,
-        "CLOSED": null,
-        "BORDER_STY": null,
-        "BORDER_COL": null,
-        "BORDER_WID": null,
-        "FILL_STYLE": null,
-        "LABEL_POS": null,
-        "FONT_SIZE": null,
-        "FONT_COLOR": null,
-        "FONT_CHARS": null,
-        "FONT_WEIGH": null
+      type: "Feature",
+      properties: {
+        NAME: "A",
+        LAYER: null,
+        PERIMETER: null,
+        ENCLOSED_A: null,
+        CLOSED: null,
+        BORDER_STY: null,
+        BORDER_COL: null,
+        BORDER_WID: null,
+        FILL_STYLE: null,
+        LABEL_POS: null,
+        FONT_SIZE: null,
+        FONT_COLOR: null,
+        FONT_CHARS: null,
+        FONT_WEIGH: null,
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [108.414930249740053, -6.663631877860431],
@@ -268,33 +268,33 @@
               [108.414802625237897, -6.66433658038286],
               [108.414806754882122, -6.664105355661472],
               [108.414827403103232, -6.663944324093817],
-              [108.414930249740053, -6.663631877860431]
-            ]
-          ]
-        ]
-      }
+              [108.414930249740053, -6.663631877860431],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NAME": "b",
-        "LAYER": null,
-        "PERIMETER": null,
-        "ENCLOSED_A": null,
-        "CLOSED": null,
-        "BORDER_STY": null,
-        "BORDER_COL": null,
-        "BORDER_WID": null,
-        "FILL_STYLE": null,
-        "LABEL_POS": null,
-        "FONT_SIZE": null,
-        "FONT_COLOR": null,
-        "FONT_CHARS": null,
-        "FONT_WEIGH": null
+      type: "Feature",
+      properties: {
+        NAME: "b",
+        LAYER: null,
+        PERIMETER: null,
+        ENCLOSED_A: null,
+        CLOSED: null,
+        BORDER_STY: null,
+        BORDER_COL: null,
+        BORDER_WID: null,
+        FILL_STYLE: null,
+        LABEL_POS: null,
+        FONT_SIZE: null,
+        FONT_COLOR: null,
+        FONT_CHARS: null,
+        FONT_WEIGH: null,
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [108.415679682206232, -6.664831351843339],
@@ -307,66 +307,66 @@
               [108.416451131396144, -6.665409849206021],
               [108.416378458646363, -6.665331598395465],
               [108.415984348734142, -6.665507662701416],
-              [108.415679682206232, -6.664831351843339]
-            ]
-          ]
-        ]
-      }
+              [108.415679682206232, -6.664831351843339],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NAME": "kampusCirebon",
-        "LAYER": "Unknown Area Type",
-        "PERIMETER": "2.452 km",
-        "ENCLOSED_A": "352864 sq m",
-        "CLOSED": "YES",
-        "BORDER_STY": "Solid",
-        "BORDER_COL": "RGB(0,0,0)",
-        "BORDER_WID": 1,
-        "FILL_STYLE": "No Fill",
-        "LABEL_POS": "12068658.036,-738733.985",
-        "FONT_SIZE": 10,
-        "FONT_COLOR": "RGB(0,0,0)",
-        "FONT_CHARS": 1,
-        "FONT_WEIGH": 400
+      type: "Feature",
+      properties: {
+        NAME: "kampusCirebon",
+        LAYER: "Unknown Area Type",
+        PERIMETER: "2.452 km",
+        ENCLOSED_A: "352864 sq m",
+        CLOSED: "YES",
+        BORDER_STY: "Solid",
+        BORDER_COL: "RGB(0,0,0)",
+        BORDER_WID: 1,
+        FILL_STYLE: "No Fill",
+        LABEL_POS: "12068658.036,-738733.985",
+        FONT_SIZE: 10,
+        FONT_COLOR: "RGB(0,0,0)",
+        FONT_CHARS: 1,
+        FONT_WEIGH: 400,
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [108.411560827792812, -6.666743226250044],
               [108.413111346555127, -6.66603170985268],
               [108.413846874711538, -6.668306408223314],
               [108.412451427918057, -6.669026675971259],
-              [108.411560827792812, -6.666743226250044]
-            ]
-          ]
-        ]
-      }
+              [108.411560827792812, -6.666743226250044],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NAME": "kampusCirebon",
-        "LAYER": "Unknown Area Type",
-        "PERIMETER": "2.452 km",
-        "ENCLOSED_A": "352864 sq m",
-        "CLOSED": "YES",
-        "BORDER_STY": "Solid",
-        "BORDER_COL": "RGB(0,0,0)",
-        "BORDER_WID": 1,
-        "FILL_STYLE": "No Fill",
-        "LABEL_POS": "12068658.036,-738733.985",
-        "FONT_SIZE": 10,
-        "FONT_COLOR": "RGB(0,0,0)",
-        "FONT_CHARS": 1,
-        "FONT_WEIGH": 400
+      type: "Feature",
+      properties: {
+        NAME: "kampusCirebon",
+        LAYER: "Unknown Area Type",
+        PERIMETER: "2.452 km",
+        ENCLOSED_A: "352864 sq m",
+        CLOSED: "YES",
+        BORDER_STY: "Solid",
+        BORDER_COL: "RGB(0,0,0)",
+        BORDER_WID: 1,
+        FILL_STYLE: "No Fill",
+        LABEL_POS: "12068658.036,-738733.985",
+        FONT_SIZE: 10,
+        FONT_COLOR: "RGB(0,0,0)",
+        FONT_CHARS: 1,
+        FONT_WEIGH: 400,
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [108.413111346555127, -6.66603170985268],
@@ -380,33 +380,33 @@
               [108.411434155460114, -6.664708938473836],
               [108.411543861313419, -6.664200380250729],
               [108.412401154169629, -6.663835354877021],
-              [108.413111346555127, -6.66603170985268]
-            ]
-          ]
-        ]
-      }
+              [108.413111346555127, -6.66603170985268],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NAME": "kampusCirebon",
-        "LAYER": "Unknown Area Type",
-        "PERIMETER": "2.452 km",
-        "ENCLOSED_A": "352864 sq m",
-        "CLOSED": "YES",
-        "BORDER_STY": "Solid",
-        "BORDER_COL": "RGB(0,0,0)",
-        "BORDER_WID": 1,
-        "FILL_STYLE": "No Fill",
-        "LABEL_POS": "12068658.036,-738733.985",
-        "FONT_SIZE": 10,
-        "FONT_COLOR": "RGB(0,0,0)",
-        "FONT_CHARS": 1,
-        "FONT_WEIGH": 400
+      type: "Feature",
+      properties: {
+        NAME: "kampusCirebon",
+        LAYER: "Unknown Area Type",
+        PERIMETER: "2.452 km",
+        ENCLOSED_A: "352864 sq m",
+        CLOSED: "YES",
+        BORDER_STY: "Solid",
+        BORDER_COL: "RGB(0,0,0)",
+        BORDER_WID: 1,
+        FILL_STYLE: "No Fill",
+        LABEL_POS: "12068658.036,-738733.985",
+        FONT_SIZE: 10,
+        FONT_COLOR: "RGB(0,0,0)",
+        FONT_CHARS: 1,
+        FONT_WEIGH: 400,
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [108.413111665322461, -6.66603156357369],
@@ -423,33 +423,33 @@
               [108.415335349342541, -6.667350749679127],
               [108.415469756764367, -6.66746874713202],
               [108.413846874711538, -6.668306408223314],
-              [108.413111665322461, -6.66603156357369]
-            ]
-          ]
-        ]
-      }
+              [108.413111665322461, -6.66603156357369],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NAME": "kampusCirebon",
-        "LAYER": "Unknown Area Type",
-        "PERIMETER": "2.452 km",
-        "ENCLOSED_A": "352864 sq m",
-        "CLOSED": "YES",
-        "BORDER_STY": "Solid",
-        "BORDER_COL": "RGB(0,0,0)",
-        "BORDER_WID": 1,
-        "FILL_STYLE": "No Fill",
-        "LABEL_POS": "12068658.036,-738733.985",
-        "FONT_SIZE": 10,
-        "FONT_COLOR": "RGB(0,0,0)",
-        "FONT_CHARS": 1,
-        "FONT_WEIGH": 400
+      type: "Feature",
+      properties: {
+        NAME: "kampusCirebon",
+        LAYER: "Unknown Area Type",
+        PERIMETER: "2.452 km",
+        ENCLOSED_A: "352864 sq m",
+        CLOSED: "YES",
+        BORDER_STY: "Solid",
+        BORDER_COL: "RGB(0,0,0)",
+        BORDER_WID: 1,
+        FILL_STYLE: "No Fill",
+        LABEL_POS: "12068658.036,-738733.985",
+        FONT_SIZE: 10,
+        FONT_COLOR: "RGB(0,0,0)",
+        FONT_CHARS: 1,
+        FONT_WEIGH: 400,
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [108.414499386854743, -6.665394752188191],
@@ -463,33 +463,33 @@
               [108.41426577148907, -6.664840319571953],
               [108.414360753306184, -6.664972447797045],
               [108.414463994411719, -6.665129350017479],
-              [108.414499386854743, -6.665394752188191]
-            ]
-          ]
-        ]
-      }
+              [108.414499386854743, -6.665394752188191],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NAME": "kampusCirebon",
-        "LAYER": "Unknown Area Type",
-        "PERIMETER": "2.452 km",
-        "ENCLOSED_A": "352864 sq m",
-        "CLOSED": "YES",
-        "BORDER_STY": "Solid",
-        "BORDER_COL": "RGB(0,0,0)",
-        "BORDER_WID": 1,
-        "FILL_STYLE": "No Fill",
-        "LABEL_POS": "12068658.036,-738733.985",
-        "FONT_SIZE": 10,
-        "FONT_COLOR": "RGB(0,0,0)",
-        "FONT_CHARS": 1,
-        "FONT_WEIGH": 400
+      type: "Feature",
+      properties: {
+        NAME: "kampusCirebon",
+        LAYER: "Unknown Area Type",
+        PERIMETER: "2.452 km",
+        ENCLOSED_A: "352864 sq m",
+        CLOSED: "YES",
+        BORDER_STY: "Solid",
+        BORDER_COL: "RGB(0,0,0)",
+        BORDER_WID: 1,
+        FILL_STYLE: "No Fill",
+        LABEL_POS: "12068658.036,-738733.985",
+        FONT_SIZE: 10,
+        FONT_COLOR: "RGB(0,0,0)",
+        FONT_CHARS: 1,
+        FONT_WEIGH: 400,
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [108.41672878392464, -6.662925891469956],
@@ -518,33 +518,33 @@
               [108.414901736699221, -6.662879036989116],
               [108.414841022015096, -6.662796374077725],
               [108.416321052562054, -6.66216614201493],
-              [108.41672878392464, -6.662925891469956]
-            ]
-          ]
-        ]
-      }
+              [108.41672878392464, -6.662925891469956],
+            ],
+          ],
+        ],
+      },
     },
     {
-      "type": "Feature",
-      "properties": {
-        "NAME": "kampusCirebon",
-        "LAYER": "Unknown Area Type",
-        "PERIMETER": "2.452 km",
-        "ENCLOSED_A": "352864 sq m",
-        "CLOSED": "YES",
-        "BORDER_STY": "Solid",
-        "BORDER_COL": "RGB(0,0,0)",
-        "BORDER_WID": 1,
-        "FILL_STYLE": "No Fill",
-        "LABEL_POS": "12068658.036,-738733.985",
-        "FONT_SIZE": 10,
-        "FONT_COLOR": "RGB(0,0,0)",
-        "FONT_CHARS": 1,
-        "FONT_WEIGH": 400
+      type: "Feature",
+      properties: {
+        NAME: "kampusCirebon",
+        LAYER: "Unknown Area Type",
+        PERIMETER: "2.452 km",
+        ENCLOSED_A: "352864 sq m",
+        CLOSED: "YES",
+        BORDER_STY: "Solid",
+        BORDER_COL: "RGB(0,0,0)",
+        BORDER_WID: 1,
+        FILL_STYLE: "No Fill",
+        LABEL_POS: "12068658.036,-738733.985",
+        FONT_SIZE: 10,
+        FONT_COLOR: "RGB(0,0,0)",
+        FONT_CHARS: 1,
+        FONT_WEIGH: 400,
       },
-      "geometry": {
-        "type": "MultiPolygon",
-        "coordinates": [
+      geometry: {
+        type: "MultiPolygon",
+        coordinates: [
           [
             [
               [108.418038940905518, -6.665519738166243],
@@ -593,7 +593,7 @@
               [108.416651893954921, -6.662988791991716],
               [108.41672878392464, -6.662925891469956],
               [108.416979287681912, -6.66339266903335],
-              [108.418038940905518, -6.665519738166243]
+              [108.418038940905518, -6.665519738166243],
             ],
             [
               [108.415679682206232, -6.664831351843339],
@@ -606,11 +606,13 @@
               [108.417789987055443, -6.665172302063472],
               [108.417284072912793, -6.664294773961227],
               [108.416973816173368, -6.664169013434042],
-              [108.415679682206232, -6.664831351843339]
-            ]
-          ]
-        ]
-      }
-    }
-  ]
-}
+              [108.415679682206232, -6.664831351843339],
+            ],
+          ],
+        ],
+      },
+    },
+  ],
+};
+
+export default itbCirebon;

@@ -1,8 +1,6 @@
 import {
   MapContainer,
   TileLayer,
-  GeoJSON,
-  ScaleControl,
   useMap,
   useMapEvent,
   Rectangle,
@@ -46,7 +44,7 @@ function MinimapBounds({ parentMap, zoom }) {
   return <Rectangle bounds={bounds} pathOptions={BOUNDS_STYLE} />;
 }
 
-function MinimapControl({ position, zoom }) {
+export default function MinimapControl({ position, zoom }) {
   const parentMap = useMap();
   const mapZoom = zoom || 8;
 
@@ -78,5 +76,3 @@ function MinimapControl({ position, zoom }) {
     </div>
   );
 }
-
-export { MinimapControl };

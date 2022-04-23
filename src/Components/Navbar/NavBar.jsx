@@ -1,14 +1,22 @@
 import React from "react";
-import "./NavBarStyle.css";
+import style from "./NavBarStyle.module.css";
 
 const NavBar = () => {
+  const {
+    navcontainer,
+    navelement,
+    geolokalogocontainer,
+    geolokalogo,
+    linkcontainer,
+  } = style;
+
   return (
-    <div className="nav-container">
-      <div className="nav-element">
-        <div className="geoloka-logo-container">
-          <img src="" className="geoloka-logo"></img>
+    <div className={navcontainer}>
+      <div className={navelement}>
+        <div className={geolokalogocontainer}>
+          <img src="" className={geolokalogo}></img>
         </div>
-        <div className="link-container">
+        <div className={linkcontainer}>
           <a href="/">Home</a>
           <a href="/UHIScreen">UHI Map</a>
           <a href="/RTRWScreen">RDTR Zoning Map</a>

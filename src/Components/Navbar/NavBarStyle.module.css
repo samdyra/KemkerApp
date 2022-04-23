@@ -1,8 +1,8 @@
-.nav-container {
+.navcontainer {
   background: #28385e;
 }
 
-.nav-element {
+.navelement {
   display: flex;
   justify-content: space-between;
   max-width: 1170px;
@@ -11,7 +11,7 @@
   padding: 8px 15px 8px 15px;
 }
 
-.geoloka-logo-container img {
+.geolokalogocontainer img {
   display: flex;
   height: 42px;
   width: 42px;
@@ -19,7 +19,7 @@
   justify-content: center;
 }
 
-.link-container a {
+.linkcontainer a {
   /* border: 3px solid red; */
   padding-left: 29px;
   font-family: montserrat;
