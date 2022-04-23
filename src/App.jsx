@@ -1,5 +1,7 @@
+import { miniMap, Navbar, Modal } from "./Components/";
+
 function App() {
-  return <div className="App">test 2</div>;
+  return <div className="App">KemkerApp</div>;
 }
 
 export default App;

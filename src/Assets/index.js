@@ -1,0 +1,11 @@
+export { default as github } from "./Images/github.png";
+export { default as insta } from "./Images/instagrm.png";
+export { default as logoITB } from "./Images/ITB.png";
+export { default as lightMode } from "./Images/light.png";
+export { default as logoGD19 } from "./Images/logoGD19.png";
+export { default as logoIMG } from "./Images/logoIMG.jpg";
+export { default as logoKemker } from "./Images/logoKemker.png";
+export { default as nightMode } from "./Images/night.png";
+export { default as noImage } from "./Images/no-image.jpg";
+export { default as searchLogo } from "./Images/search.png";
+export { default as twitterLogo } from "./Images/twttr.png";

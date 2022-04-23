@@ -28,3 +28,20 @@ body {
 }
 
 /* Basic Settings End */
+
+/* Setting up fonts */
+@font-face {
+  font-family: montserrat;
+  src: url(./Assets/Fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: caladea;
+  src: url(./Assets/Fonts/Caladea-Regular.ttf);
+}
+@font-face {
+  font-family: opensans;
+  src: url(./Assets/Fonts/OpenSans-Regular.ttf);
+}
+
+/* Setting up fonts End */
