@@ -17,10 +17,10 @@ const NavBar = () => {
           <img src="" className={geolokalogo}></img>
         </div>
         <div className={linkcontainer}>
-          <a href="/">Home</a>
-          <a href="/UHIScreen">UHI Map</a>
-          <a href="/RTRWScreen">RDTR Zoning Map</a>
-          <a href="/NetizenScreen">Netizen Contribution</a>
+          <a href="/">WebGIS</a>
+          <a href="/FloodModelScreen">Flood Model</a>
+          <a href="/ProfileModelScreen">Profile</a>
+          <a href="/AboutScreen">About</a>
         </div>
       </div>
     </div>

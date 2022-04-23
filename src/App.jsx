@@ -1,11 +1,26 @@
-import { Navbar, Modal } from "./Components/";
+import { Navbar } from "./Components/";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { AboutScreen, FloodModel, ProfileMap, WebGIS } from "./Pages";
 
-import NavBar from "./Components/Navbar/NavBar";
 function App() {
   return (
-    <div className="App">
+    <Router>
       <Navbar></Navbar>
-    </div>
+      <Switch>
+        <Route exact path="/">
+          <WebGIS></WebGIS>
+        </Route>
+        <Route exact path="/AboutScreen">
+          <AboutScreen></AboutScreen>
+        </Route>
+        <Route exact path="/FloodModelScreen">
+          <FloodModel></FloodModel>
+        </Route>
+        <Route exact path="/ProfileModelScreen">
+          <ProfileMap></ProfileMap>
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 
