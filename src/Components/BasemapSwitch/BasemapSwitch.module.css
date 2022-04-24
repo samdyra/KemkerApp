@@ -1,0 +1,77 @@
+/* iOS Button */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 3px solid red; */
+  margin: -5px 0;
+}
+
+.container p {
+  font-size: 15px;
+  font-family: sans-serif;
+  padding-right: 15px;
+}
+
+.formswitch {
+  display: inline-block;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  /* border: 3px solid yellow; */
+  display: flex;
+}
+
+.formswitch i {
+  position: relative;
+  display: inline-block;
+  margin-right: 0.5rem;
+  width: 46px;
+  height: 26px;
+  background-color: #e6e6e6;
+  border-radius: 23px;
+  vertical-align: text-bottom;
+  transition: all 0.3s linear;
+}
+.formswitch i::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 42px;
+  height: 22px;
+  background-color: #fff;
+  border-radius: 11px;
+  transform: translate3d(2px, 2px, 0) scale3d(1, 1, 1);
+  transition: all 0.25s linear;
+}
+.formswitch i::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 22px;
+  height: 22px;
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.24);
+  transform: translate3d(2px, 2px, 0);
+  transition: all 0.2s ease-in-out;
+}
+.formswitch:active i::after {
+  width: 28px;
+  transform: translate3d(2px, 2px, 0);
+}
+.formswitch:active input:checked + i::after {
+  transform: translate3d(16px, 2px, 0);
+}
+.formswitch input {
+  display: none;
+}
+.formswitch input:checked + i {
+  background-color: #4bd763;
+}
+.formswitch input:checked + i::before {
+  transform: translate3d(18px, 2px, 0) scale3d(0, 0, 0);
+}
+.formswitch input:checked + i::after {
+  transform: translate3d(22px, 2px, 0);
+}
+/* iOS Button */

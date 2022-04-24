@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./WebGIS.module.css";
 import { MapContainer, TileLayer } from "react-leaflet";
-import { Pembatas, SearchBar } from "../../Components";
+import { Pembatas, SearchBar, BasemapSwitch } from "../../Components";
 
 const WebGIS = () => {
   const {
@@ -17,6 +17,8 @@ const WebGIS = () => {
         <div className={settingContainer}>
           <Pembatas></Pembatas>
           <SearchBar></SearchBar>
+          <Pembatas></Pembatas>
+          <BasemapSwitch></BasemapSwitch>
           <Pembatas></Pembatas>
         </div>
         <div className={wrapper}>
