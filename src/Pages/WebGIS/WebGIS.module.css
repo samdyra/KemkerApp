@@ -6,11 +6,15 @@
 .settingContainer {
   border-bottom: 1px solid rgb(143, 143, 143);
   display: flex;
+}
+
+.settingWrapper {
+  display: flex;
+  justify-content: center;
   align-items: center;
   min-height: 40px;
+  width: calc(100vw - 450px);
   padding: 0 12px;
-  /* width: 100%; */
-  justify-content: center;
 }
 
 .wrapper {

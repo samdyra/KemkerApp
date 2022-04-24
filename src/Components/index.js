@@ -4,3 +4,4 @@ export { default as Navbar } from "./Navbar/NavBar";
 export { default as Pembatas } from "./Pembatas/Pembatas";
 export { default as SearchBar } from "./Searchbar/Searchbar";
 export { default as BasemapSwitch } from "./BasemapSwitch/BasemapSwitch";
+export { default as Dropdown } from "./Dropdown/Dropdown";
