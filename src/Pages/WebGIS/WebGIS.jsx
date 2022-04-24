@@ -1,6 +1,7 @@
 import React from "react";
 import style from "./WebGIS.module.css";
 import { MapContainer, TileLayer } from "react-leaflet";
+import { Pembatas, SearchBar } from "../../Components";
 
 const WebGIS = () => {
   const {
@@ -13,7 +14,11 @@ const WebGIS = () => {
   return (
     <>
       <div className={container}>
-        <div className={settingContainer}></div>
+        <div className={settingContainer}>
+          <Pembatas></Pembatas>
+          <SearchBar></SearchBar>
+          <Pembatas></Pembatas>
+        </div>
         <div className={wrapper}>
           <div className={legendContainer}></div>
           <div className={mapContainer}>
@@ -26,7 +31,7 @@ const WebGIS = () => {
                 zIndex: 0,
               }}
             >
-              <TileLayer url="https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png" />
+              <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
             </MapContainer>
           </div>
         </div>

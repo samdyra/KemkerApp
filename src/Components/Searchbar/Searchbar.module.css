@@ -1,0 +1,29 @@
+.searchcontainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 4px;
+}
+
+.search-container img {
+  justify-content: center;
+}
+
+.topnav input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom: 1px solid #b1b1b1;
+  padding-right: 22px;
+  margin-right: 5px;
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #6f6f6f;
+}
+
+.topnav:focus {
+  outline: none;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+}
