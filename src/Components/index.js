@@ -5,3 +5,4 @@ export { default as Pembatas } from "./Pembatas/Pembatas";
 export { default as SearchBar } from "./Searchbar/Searchbar";
 export { default as BasemapSwitch } from "./BasemapSwitch/BasemapSwitch";
 export { default as Dropdown } from "./Dropdown/Dropdown";
+export { default as ImageSlider } from "./ImageSlider/ImageSlider";

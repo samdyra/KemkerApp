@@ -1,7 +1,13 @@
 import React from "react";
 import style from "./WebGIS.module.css";
 import { MapContainer, TileLayer } from "react-leaflet";
-import { Pembatas, SearchBar, BasemapSwitch, Dropdown } from "../../Components";
+import {
+  Pembatas,
+  SearchBar,
+  BasemapSwitch,
+  Dropdown,
+  ImageSlider,
+} from "../../Components";
 
 const WebGIS = () => {
   const {
@@ -27,7 +33,9 @@ const WebGIS = () => {
           </div>
         </div>
         <div className={wrapper}>
-          <div className={legendContainer}></div>
+          <div className={legendContainer}>
+            <ImageSlider></ImageSlider>
+          </div>
           <div className={mapContainer}>
             <MapContainer
               center={[-6.927348780149033, 107.7695420971685]}
