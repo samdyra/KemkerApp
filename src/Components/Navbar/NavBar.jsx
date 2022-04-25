@@ -10,7 +10,7 @@ const NavBar = () => {
     <div className={navcontainer}>
       <div className={navelement}>
         <div className={kemkerlogocontainer}>
-          <img src={logoKemker}></img>
+          <img src={logoKemker} alt="Logo Kemker"></img>
         </div>
         <div className={linkcontainer}>
           <a href="/">WebGIS</a>
