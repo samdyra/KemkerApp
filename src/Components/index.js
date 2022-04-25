@@ -6,3 +6,4 @@ export { default as SearchBar } from "./Searchbar/Searchbar";
 export { default as BasemapSwitch } from "./BasemapSwitch/BasemapSwitch";
 export { default as Dropdown } from "./Dropdown/Dropdown";
 export { default as ImageSlider } from "./ImageSlider/ImageSlider";
+export { default as Penerbit } from "./Penerbit/Penerbit";

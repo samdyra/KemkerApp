@@ -1,0 +1,33 @@
+/* Penerbit start */
+.penerbitcontainer {
+  display: flex;
+  align-items: center;
+  /* border: 3px solid red; */
+}
+
+.penerbittextcontainer {
+  width: 270px;
+
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+
+.penerbittextcontainer h1 {
+  font-size: 14px;
+  font-family: "Times New Roman", Times, serif;
+  padding-left: 12px;
+  padding-top: 5px;
+}
+
+.penerbitcontainer img {
+  width: 70px;
+  height: 70px;
+}
+
+.penerbitcontainer p {
+  padding-left: 12px;
+  font-size: 13px;
+  margin-top: -2px;
+}
+
+/* Penerbit End */

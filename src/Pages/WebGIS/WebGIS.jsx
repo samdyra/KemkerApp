@@ -7,6 +7,7 @@ import {
   BasemapSwitch,
   Dropdown,
   ImageSlider,
+  Penerbit,
 } from "../../Components";
 
 const WebGIS = () => {
@@ -33,9 +34,7 @@ const WebGIS = () => {
           </div>
         </div>
         <div className={wrapper}>
-          <div className={legendContainer}>
-            <ImageSlider></ImageSlider>
-          </div>
+          <div className={legendContainer}></div>
           <div className={mapContainer}>
             <MapContainer
               center={[-6.927348780149033, 107.7695420971685]}
