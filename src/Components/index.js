@@ -8,3 +8,4 @@ export { default as ImageSlider } from "./ImageSlider/ImageSlider";
 export { default as Penerbit } from "./Penerbit/Penerbit";
 export { default as SecondaryFooter } from "./SecondaryFooter/SecondaryFooter";
 export { default as Minimap } from "./Minimap/miniMap";
+export { default as Legenda } from "./Legenda/Legenda";
