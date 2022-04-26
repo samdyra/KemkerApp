@@ -40,6 +40,7 @@ const WebGIS = () => {
               <Penerbit></Penerbit>
               <Legenda></Legenda>
               <Referensi></Referensi>
+              <SecondaryFooter></SecondaryFooter>
             </div>
           </div>
           <div className={mapContainer}>

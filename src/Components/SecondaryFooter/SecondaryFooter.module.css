@@ -1,98 +1,53 @@
-.UHIFootercontainer {
-  display: flex;
-  flex-direction: column;
-  /* border: 3px solid red; */
+.footercontainer {
+  height: auto;
+  /* border: 2px solid yellow; */
+  width: 300px;
+  margin-left: 20px;
+  margin-top: 35px;
+  margin-bottom: 30px;
 }
 
-.UHIFooterelementcontainer {
+.socinfogdobrakcontainer {
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
-  padding-inline: 50px;
-  padding-top: 25px;
-  align-items: center;
+  /* border: 2px solid yellow; */
 }
 
-.UHIFooteraboutuscontainer {
+.gdobrak {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 4px;
-}
-
-.UHIFooteraboutuscontainer img {
-  width: 60px;
-}
-
-.UHIFooteraboutuscontainer p {
-  margin-top: -3px;
-}
-
-.UHIFooteraboutuscontainer p {
-  font-family: sans-sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 11px;
-  line-height: 118.5%;
-  text-align: center;
-  padding-top: 10px;
-}
-
-.UHIFootercontact {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  text-align: center;
-  margin-top: -15px;
-}
-
-.UHIFootercontact p {
-  font-family: sans-sans-serif;
-  font-size: 12px;
-  font-weight: 600;
-}
-
-.UHIFootercontactlogo {
-  display: flex;
-  flex-direction: column;
-  width: 60px;
-  height: 50px;
+  height: 65px;
+  width: 140px;
   justify-content: space-between;
 }
 
-.UHIFooterfblinkedin {
-  justify-content: space-around;
+.soccontainer {
+  align-self: center;
+}
+
+.soccontainer p {
+  font-size: 13px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+.socicon {
   display: flex;
-  flex-direction: row;
+  padding-top: 5px;
+  margin-top: 5px;
+  margin-bottom: 13px;
+  /* margin-right: ; */
+  /* border: 2px solid yellow; */
+}
+.socicon img {
+  height: 15px;
+  width: 15px;
+  margin-right: 10px;
+  /* border: 2px solid yellow; */
 }
 
-.UHIFooterfblinkedin img {
-  width: 22px;
-  height: 22px;
-}
-
-.UHIFooterigwa {
-  justify-content: space-around;
-  display: flex;
-  flex-direction: row;
-}
-
-.UHIFooterigwa img {
-  width: 22px;
-  height: 22px;
-}
-
-.UHIFooterline {
-  margin-inline: 30px;
-}
-
-.UHIFooterline img {
-  width: 100%;
-  z-index: 10;
-}
-
-.UHIFootercopyright {
+.copyright {
+  padding-top: 10px;
   text-align: center;
-  font-family: opensans;
-  font-size: 12px;
+  font-size: 13px;
+  font-family: sans-serif;
 }

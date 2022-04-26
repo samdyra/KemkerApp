@@ -1,46 +1,27 @@
 import React from "react";
 import style from "./SecondaryFooter.module.css";
-import { twitterLogo, insta, github, logoKemker, footerLine } from "../../Assets";
+import { twitterLogo, insta, github, logoKemker, logoGD19 } from "../../Assets";
 
 const SecondaryFooter = () => {
-  const {
-    UHIFootercontainer,
-    UHIFooterelementcontainer,
-    UHIFooteraboutuscontainer,
-    UHIFooterlogo,
-    UHIFootercontact,
-    UHIFootercontactlogo,
-    UHIFooterfblinkedin,
-    UHIFooterigwa,
-    UHIFooterline,
-    UHIFootercopyright,
-  } = style;
+  const { footercontainer, socinfogdobrakcontainer, gdobrak, socicon, soccontainer, copyright } = style;
   return (
-    <div className={UHIFootercontainer}>
-      <div className={UHIFooterelementcontainer}>
-        <div className={UHIFooteraboutuscontainer}>
-          <img className={UHIFooterlogo} src={logoKemker}></img>
-          <p>ABOUT US</p>
+    <div className={footercontainer}>
+      <div className={socinfogdobrakcontainer}>
+        <div className={gdobrak}>
+          <img src={logoKemker}></img>
+          <img src={logoGD19}></img>
         </div>
-        <div className={UHIFootercontact}>
-          <p>CONTACT</p>
-          <div className={UHIFootercontactlogo}>
-            <div className={UHIFooterfblinkedin}>
-              <img src={github}></img>
-              <img src={github}></img>
-            </div>
-            <div className={UHIFooterigwa}>
-              <img src={insta}></img>
-              <img src={insta}></img>
-            </div>
+        <div className={soccontainer}>
+          <p>Reach us!</p>
+          <div className={socicon}>
+            <img src={twitterLogo}></img>
+            <img src={insta}></img>
+            <img src={github}></img>
           </div>
         </div>
       </div>
-      <div className={UHIFooterline}>
-        <img src={footerLine}></img>
-      </div>
-      <div className={UHIFootercopyright}>
-        <p>Copyright © 2022 Kemah Kerja. All rights reserved.</p>
+      <div className={copyright}>
+        <div>Copyright © 2022 Tim Kemah Kerja 2022. All rights reserved.</div>
       </div>
     </div>
   );
