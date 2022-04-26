@@ -8,6 +8,7 @@ import {
   Dropdown,
   ImageSlider,
   Penerbit,
+  SecondaryFooter,
 } from "../../Components";
 
 const WebGIS = () => {
@@ -34,7 +35,9 @@ const WebGIS = () => {
           </div>
         </div>
         <div className={wrapper}>
-          <div className={legendContainer}></div>
+          <div className={legendContainer}>
+            <SecondaryFooter></SecondaryFooter>
+          </div>
           <div className={mapContainer}>
             <MapContainer
               center={[-6.927348780149033, 107.7695420971685]}

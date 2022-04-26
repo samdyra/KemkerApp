@@ -1,0 +1,52 @@
+/* Footer Start */
+.footercontainer {
+  height: auto;
+  align-items: center;
+  width: 275px;
+}
+
+.socinfogdobrakcontainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.gdobrak {
+  display: flex;
+  height: 65px;
+  width: 150px;
+  justify-content: space-around;
+}
+
+.gdobrak img {
+  display: flex;
+}
+
+.soccontainer {
+  justify-content: flex-end;
+  align-self: center;
+}
+
+.soccontainer p {
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+.socicon {
+  display: flex;
+  padding-top: 5px;
+  margin-top: 5px;
+}
+
+.socicon img {
+  height: 15px;
+  width: 15px;
+  margin-right: 10px;
+}
+
+.copyright {
+  font-size: 12px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+/* Footer End */

@@ -3,7 +3,7 @@ export { default as insta } from "./Images/instgrm.png";
 export { default as logoITB } from "./Images/ITB.png";
 export { default as lightMode } from "./Images/light.png";
 export { default as logoGD19 } from "./Images/logoGD19.png";
-export { default as logoIMG } from "./Images/logoIMG.jpg";
+export { default as logoIMG } from "./Images/logoIMG.png";
 export { default as logoKemker } from "./Images/logoKemker.png";
 export { default as nightMode } from "./Images/night.png";
 export { default as noImage } from "./Images/no-image.jpg";
