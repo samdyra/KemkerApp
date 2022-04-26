@@ -4,7 +4,7 @@
 }
 
 .settingContainer {
-  border-bottom: 1px solid rgb(143, 143, 143);
+  border-bottom: 2px solid rgb(143, 143, 143);
   display: flex;
 }
 
@@ -18,7 +18,7 @@
 }
 
 .wrapper {
-  height: calc(100vh - 99px);
+  height: calc(100vh - 100px);
   display: flex;
   flex-direction: row-reverse;
 }
@@ -29,6 +29,11 @@
   z-index: 3;
   position: relative;
   overflow-y: scroll;
+}
+
+.legendStyle {
+  margin-left: 18px;
+  margin-top: 18px;
 }
 
 .mapContainer {

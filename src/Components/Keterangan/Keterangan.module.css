@@ -1,5 +1,6 @@
 .referencecontainer {
   height: auto;
+  margin-bottom: 15px;
 }
 
 .referencetitle h1 {
@@ -18,7 +19,7 @@
   align-items: flex-end;
   font-size: 14px;
   font-family: sans-serif;
-  margin-right: 71px;
+  margin-right: 38px;
 }
 
 .reference {

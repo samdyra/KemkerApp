@@ -1,6 +1,7 @@
 .UHIchloropethcontainer {
   display: flex;
   flex-direction: column;
+  margin-bottom: 25px;
 }
 
 .UHIChloropethtitle h1 {
@@ -14,18 +15,17 @@
 
 .UHIchloropethlegend:last-child {
   display: flex;
-  /* border: 3px solid red; */
 }
 
 .UHIchloropethcontent {
   display: flex;
-  width: 38%;
+  width: 42%;
   justify-content: space-between;
 }
 
 .UHIchloropethcontent2 {
   display: flex;
-  width: 38%;
+  width: 42%;
   justify-content: space-between;
   padding-left: 20px;
 }

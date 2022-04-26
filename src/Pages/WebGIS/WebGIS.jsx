@@ -16,7 +16,7 @@ import {
   Keterangan,
 } from "../../Components";
 const WebGIS = () => {
-  const { container, settingContainer, legendContainer, mapContainer, wrapper, settingWrapper } = style;
+  const { container, settingContainer, legendContainer, mapContainer, wrapper, settingWrapper, legendStyle } = style;
   return (
     <>
       <div className={container}>
@@ -33,12 +33,14 @@ const WebGIS = () => {
         </div>
         <div className={wrapper}>
           <div className={legendContainer}>
-            <Maptitle></Maptitle>
-            <ImageSlider></ImageSlider>
-            <Keterangan></Keterangan>
-            <Penerbit></Penerbit>
-            <Legenda></Legenda>
-            <Referensi></Referensi>
+            <div className={legendStyle}>
+              <Maptitle></Maptitle>
+              <ImageSlider></ImageSlider>
+              <Keterangan></Keterangan>
+              <Penerbit></Penerbit>
+              <Legenda></Legenda>
+              <Referensi></Referensi>
+            </div>
           </div>
           <div className={mapContainer}>
             <MapContainer
