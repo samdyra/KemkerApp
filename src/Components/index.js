@@ -1,4 +1,3 @@
-export { default as miniMap } from "./Minimap/miniMap";
 export { default as Modal } from "./Modal/Modal";
 export { default as Navbar } from "./Navbar/NavBar";
 export { default as Pembatas } from "./Pembatas/Pembatas";
@@ -8,3 +7,4 @@ export { default as Dropdown } from "./Dropdown/Dropdown";
 export { default as ImageSlider } from "./ImageSlider/ImageSlider";
 export { default as Penerbit } from "./Penerbit/Penerbit";
 export { default as SecondaryFooter } from "./SecondaryFooter/SecondaryFooter";
+export { default as Minimap } from "./Minimap/miniMap";

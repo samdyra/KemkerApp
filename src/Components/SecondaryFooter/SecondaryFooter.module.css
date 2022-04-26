@@ -1,52 +1,98 @@
-/* Footer Start */
-.footercontainer {
-  height: auto;
+.UHIFootercontainer {
+  display: flex;
+  flex-direction: column;
+  /* border: 3px solid red; */
+}
+
+.UHIFooterelementcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-inline: 50px;
+  padding-top: 25px;
   align-items: center;
-  width: 275px;
 }
 
-.socinfogdobrakcontainer {
+.UHIFooteraboutuscontainer {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4px;
 }
 
-.gdobrak {
-  display: flex;
-  height: 65px;
-  width: 150px;
-  justify-content: space-around;
+.UHIFooteraboutuscontainer img {
+  width: 60px;
 }
 
-.gdobrak img {
-  display: flex;
+.UHIFooteraboutuscontainer p {
+  margin-top: -3px;
 }
 
-.soccontainer {
-  justify-content: flex-end;
-  align-self: center;
-}
-
-.soccontainer p {
-  font-size: 12px;
+.UHIFooteraboutuscontainer p {
   font-family: sans-serif;
-}
-
-.socicon {
-  display: flex;
-  padding-top: 5px;
-  margin-top: 5px;
-}
-
-.socicon img {
-  height: 15px;
-  width: 15px;
-  margin-right: 10px;
-}
-
-.copyright {
+  font-style: normal;
+  font-weight: 600;
   font-size: 12px;
+  line-height: 118.5%;
   text-align: center;
-  font-family: sans-serif;
+  padding-top: 10px;
 }
 
-/* Footer End */
+.UHIFootercontact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: -15px;
+}
+
+.UHIFootercontact p {
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.UHIFootercontactlogo {
+  display: flex;
+  flex-direction: column;
+  width: 60px;
+  height: 50px;
+  justify-content: space-between;
+}
+
+.UHIFooterfblinkedin {
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+}
+
+.UHIFooterfblinkedin img {
+  width: 22px;
+  height: 22px;
+}
+
+.UHIFooterigwa {
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+}
+
+.UHIFooterigwa img {
+  width: 22px;
+  height: 22px;
+}
+
+.UHIFooterline {
+  margin-inline: 30px;
+}
+
+.UHIFooterline img {
+  width: 100%;
+  z-index: 10;
+}
+
+.UHIFootercopyright {
+  text-align: center;
+  font-family: opensans;
+  font-size: 12px;
+}

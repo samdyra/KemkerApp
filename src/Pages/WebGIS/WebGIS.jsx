@@ -1,25 +1,9 @@
 import React from "react";
 import style from "./WebGIS.module.css";
 import { MapContainer, TileLayer } from "react-leaflet";
-import {
-  Pembatas,
-  SearchBar,
-  BasemapSwitch,
-  Dropdown,
-  ImageSlider,
-  Penerbit,
-  SecondaryFooter,
-} from "../../Components";
-
+import { Pembatas, SearchBar, BasemapSwitch, Dropdown, ImageSlider, Penerbit, SecondaryFooter, Minimap } from "../../Components";
 const WebGIS = () => {
-  const {
-    container,
-    settingContainer,
-    legendContainer,
-    mapContainer,
-    wrapper,
-    settingWrapper,
-  } = style;
+  const { container, settingContainer, legendContainer, mapContainer, wrapper, settingWrapper } = style;
   return (
     <>
       <div className={container}>
@@ -35,9 +19,7 @@ const WebGIS = () => {
           </div>
         </div>
         <div className={wrapper}>
-          <div className={legendContainer}>
-            <SecondaryFooter></SecondaryFooter>
-          </div>
+          <div className={legendContainer}></div>
           <div className={mapContainer}>
             <MapContainer
               center={[-6.927348780149033, 107.7695420971685]}
@@ -49,6 +31,7 @@ const WebGIS = () => {
               }}
             >
               <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+              <Minimap position="topleft"></Minimap>
             </MapContainer>
           </div>
         </div>
