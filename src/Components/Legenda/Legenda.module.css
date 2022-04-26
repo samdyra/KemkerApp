@@ -4,7 +4,7 @@
 }
 
 .UHIChloropethtitle h1 {
-  font-family: serif;
+  font-family: sans-serif;
   font-size: 16px;
 }
 
@@ -33,14 +33,14 @@
 .chloropethcontainer {
   display: flex;
   flex-direction: column;
-  font-family: serif;
+  font-family: sans-serif;
   font-size: 14px;
 }
 
 .chloropethcontainer2 {
   display: flex;
   flex-direction: column;
-  font-family: serif;
+  font-family: sans-serif;
   font-size: 14px;
 }
 

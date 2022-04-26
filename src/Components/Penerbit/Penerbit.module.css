@@ -11,7 +11,7 @@
 
 .penerbittextcontainer h1 {
   font-size: 14px;
-  font-family: serif;
+  font-family: sans-serif;
   padding-left: 12px;
   padding-top: 5px;
 }
@@ -25,7 +25,7 @@
   padding-left: 12px;
   font-size: 13px;
   margin-top: -2px;
-  font-family: serif;
+  font-family: sans-serif;
 }
 
 /* Penerbit End */

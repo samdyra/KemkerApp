@@ -10,3 +10,5 @@ export { default as SecondaryFooter } from "./SecondaryFooter/SecondaryFooter";
 export { default as Minimap } from "./Minimap/miniMap";
 export { default as Legenda } from "./Legenda/Legenda";
 export { default as Referensi } from "./Referensi/Referensi";
+export { default as Maptitle } from "./MapTitle/MapTitle";
+export { default as Keterangan } from "./Keterangan/Keterangan";

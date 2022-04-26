@@ -21,7 +21,7 @@ const Legenda = () => {
   return (
     <div className={UHIchloropethcontainer}>
       <div className={UHIChloropethtitle}>
-        <h1>KETERANGAN</h1>
+        <h1>LEGENDA</h1>
       </div>
       <div className={UHIchloropethlegend}>
         <div className={UHIchloropethcontent}>
