@@ -9,3 +9,4 @@ export { default as Penerbit } from "./Penerbit/Penerbit";
 export { default as SecondaryFooter } from "./SecondaryFooter/SecondaryFooter";
 export { default as Minimap } from "./Minimap/miniMap";
 export { default as Legenda } from "./Legenda/Legenda";
+export { default as Referensi } from "./Referensi/Referensi";

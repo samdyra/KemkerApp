@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./WebGIS.module.css";
 import { MapContainer, TileLayer } from "react-leaflet";
-import { Pembatas, SearchBar, BasemapSwitch, Dropdown, ImageSlider, Penerbit, SecondaryFooter, Minimap, Legenda } from "../../Components";
+import { Pembatas, SearchBar, BasemapSwitch, Dropdown, ImageSlider, Penerbit, SecondaryFooter, Minimap, Legenda, Referensi } from "../../Components";
 const WebGIS = () => {
   const { container, settingContainer, legendContainer, mapContainer, wrapper, settingWrapper } = style;
   return (
@@ -23,6 +23,7 @@ const WebGIS = () => {
             <ImageSlider></ImageSlider>
             <Penerbit></Penerbit>
             <Legenda></Legenda>
+            <Referensi></Referensi>
           </div>
           <div className={mapContainer}>
             <MapContainer
