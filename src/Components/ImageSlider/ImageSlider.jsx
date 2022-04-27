@@ -1,7 +1,6 @@
 import React from "react";
-import { noImage } from "../../Assets";
 import "./ImageSlider.css";
-const ImageSlider = () => {
+const ImageSlider = ({ firstImage, secondImage, thirdImage }) => {
   return (
     <div className="imageContainer">
       <div className="slider">
@@ -10,13 +9,13 @@ const ImageSlider = () => {
           <input type="radio" name="radio-btn" id="radio2"></input>
           <input type="radio" name="radio-btn" id="radio3"></input>
           <div className="slide first">
-            <img src={noImage}></img>
+            <img src={firstImage}></img>
           </div>
           <div className="slide">
-            <img src={noImage}></img>
+            <img src={secondImage}></img>
           </div>
           <div className="slide">
-            <img src={noImage}></img>
+            <img src={thirdImage}></img>
           </div>
         </div>
         <div className="navigation-manual">

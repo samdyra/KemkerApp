@@ -18,7 +18,10 @@
         "Kecamatan": "Kejaksan",
         "Kota": "Kota Cirebon",
         "Provinsi": "Jawa Barat",
-        "Luas": 156
+        "Luas": 156,
+        "Foto_1": "https://gdurl.com/f7w8",
+        "Foto_2": "https://gdurl.com/yoY7a",
+        "Foto_3": "https://gdurl.com/T_us"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -110,7 +113,10 @@
         "Kecamatan": "Kejaksan",
         "Kota": "Kota Cirebon",
         "Provinsi": "Jawa Barat",
-        "Luas": 127
+        "Luas": 127,
+        "Foto_1": "https://gdurl.com/f7w8",
+        "Foto_2": "https://gdurl.com/yoY7a",
+        "Foto_3": "https://gdurl.com/T_us"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -216,7 +222,10 @@
         "Kecamatan": "Kejaksan",
         "Kota": "Kota Cirebon",
         "Provinsi": "Jawa Barat",
-        "Luas": 74
+        "Luas": 74,
+        "Foto_1": "https://gdurl.com/f7w8",
+        "Foto_2": "https://gdurl.com/yoY7a",
+        "Foto_3": "https://gdurl.com/T_us"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -299,7 +308,10 @@
         "Kecamatan": "Lemah Wungkuk",
         "Kota": "Kota Cirebon",
         "Provinsi": "Jawa Barat",
-        "Luas": 122
+        "Luas": 122,
+        "Foto_1": "https://gdurl.com/f7w8",
+        "Foto_2": "https://gdurl.com/yoY7a",
+        "Foto_3": "https://gdurl.com/T_us"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -454,7 +466,10 @@
         "Kecamatan": "Kejaksan",
         "Kota": "Kota Cirebon",
         "Provinsi": "Jawa Barat",
-        "Luas": 66
+        "Luas": 66,
+        "Foto_1": "https://gdurl.com/f7w8",
+        "Foto_2": "https://gdurl.com/yoY7a",
+        "Foto_3": "https://gdurl.com/T_us"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -567,7 +582,10 @@
         "Kecamatan": "Kesambi",
         "Kota": "Kota Cirebon",
         "Provinsi": "Jawa Barat",
-        "Luas": 135
+        "Luas": 135,
+        "Foto_1": "https://gdurl.com/f7w8",
+        "Foto_2": "https://gdurl.com/yoY7a",
+        "Foto_3": "https://gdurl.com/T_us"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -705,7 +723,10 @@
         "Kecamatan": "Pekalipan",
         "Kota": "Kota Cirebon",
         "Provinsi": "Jawa Barat",
-        "Luas": 49
+        "Luas": 49,
+        "Foto_1": "https://gdurl.com/f7w8",
+        "Foto_2": "https://gdurl.com/yoY7a",
+        "Foto_3": "https://gdurl.com/T_us"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -783,7 +804,10 @@
         "Kecamatan": "Lemah Wungkuk",
         "Kota": "Kota Cirebon",
         "Provinsi": "Jawa Barat",
-        "Luas": 61
+        "Luas": 61,
+        "Foto_1": "https://gdurl.com/f7w8",
+        "Foto_2": "https://gdurl.com/yoY7a",
+        "Foto_3": "https://gdurl.com/T_us"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -875,7 +899,10 @@
         "Kecamatan": "Pekalipan",
         "Kota": "Kota Cirebon",
         "Provinsi": "Jawa Barat",
-        "Luas": 43
+        "Luas": 43,
+        "Foto_1": "https://gdurl.com/f7w8",
+        "Foto_2": "https://gdurl.com/yoY7a",
+        "Foto_3": "https://gdurl.com/T_us"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -952,7 +979,10 @@
         "Kecamatan": "Kesambi",
         "Kota": "Kota Cirebon",
         "Provinsi": "Jawa Barat",
-        "Luas": 94
+        "Luas": 94,
+        "Foto_1": "https://gdurl.com/f7w8",
+        "Foto_2": "https://gdurl.com/yoY7a",
+        "Foto_3": "https://gdurl.com/T_us"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1056,7 +1086,10 @@
         "Kecamatan": "Lemah Wungkuk",
         "Kota": "Kota Cirebon",
         "Provinsi": "Jawa Barat",
-        "Luas": 63
+        "Luas": 63,
+        "Foto_1": "https://gdurl.com/f7w8",
+        "Foto_2": "https://gdurl.com/yoY7a",
+        "Foto_3": "https://gdurl.com/T_us"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1147,7 +1180,10 @@
         "Kecamatan": "Pekalipan",
         "Kota": "Kota Cirebon",
         "Provinsi": "Jawa Barat",
-        "Luas": 31
+        "Luas": 31,
+        "Foto_1": "https://gdurl.com/f7w8",
+        "Foto_2": "https://gdurl.com/yoY7a",
+        "Foto_3": "https://gdurl.com/T_us"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1240,7 +1276,10 @@
         "Kecamatan": "Kesambi",
         "Kota": "Kota Cirebon",
         "Provinsi": "Jawa Barat",
-        "Luas": 201
+        "Luas": 201,
+        "Foto_1": "https://gdurl.com/f7w8",
+        "Foto_2": "https://gdurl.com/yoY7a",
+        "Foto_3": "https://gdurl.com/T_us"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1417,7 +1456,10 @@
         "Kecamatan": "Pekalipan",
         "Kota": "Kota Cirebon",
         "Provinsi": "Jawa Barat",
-        "Luas": 35
+        "Luas": 35,
+        "Foto_1": "https://gdurl.com/f7w8",
+        "Foto_2": "https://gdurl.com/yoY7a",
+        "Foto_3": "https://gdurl.com/T_us"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1496,7 +1538,10 @@
         "Kecamatan": "Kesambi",
         "Kota": "Kota Cirebon",
         "Provinsi": "Jawa Barat",
-        "Luas": 93
+        "Luas": 93,
+        "Foto_1": "https://gdurl.com/f7w8",
+        "Foto_2": "https://gdurl.com/yoY7a",
+        "Foto_3": "https://gdurl.com/T_us"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1631,7 +1676,10 @@
         "Kecamatan": "Lemah Wungkuk",
         "Kota": "Kota Cirebon",
         "Provinsi": "Jawa Barat",
-        "Luas": 391
+        "Luas": 391,
+        "Foto_1": "https://gdurl.com/f7w8",
+        "Foto_2": "https://gdurl.com/yoY7a",
+        "Foto_3": "https://gdurl.com/T_us"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -1814,7 +1862,10 @@
         "Kecamatan": "Kesambi",
         "Kota": "Kota Cirebon",
         "Provinsi": "Jawa Barat",
-        "Luas": 328
+        "Luas": 328,
+        "Foto_1": "https://gdurl.com/f7w8",
+        "Foto_2": "https://gdurl.com/yoY7a",
+        "Foto_3": "https://gdurl.com/T_us"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2052,7 +2103,10 @@
         "Kecamatan": "Harjamukti",
         "Kota": "Kota Cirebon",
         "Provinsi": "Jawa Barat",
-        "Luas": 187
+        "Luas": 187,
+        "Foto_1": "https://gdurl.com/f7w8",
+        "Foto_2": "https://gdurl.com/yoY7a",
+        "Foto_3": "https://gdurl.com/T_us"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2231,7 +2285,10 @@
         "Kecamatan": "Harjamukti",
         "Kota": "Kota Cirebon",
         "Provinsi": "Jawa Barat",
-        "Luas": 229
+        "Luas": 229,
+        "Foto_1": "https://gdurl.com/f7w8",
+        "Foto_2": "https://gdurl.com/yoY7a",
+        "Foto_3": "https://gdurl.com/T_us"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2448,7 +2505,10 @@
         "Kecamatan": "Harjamukti",
         "Kota": "Kota Cirebon",
         "Provinsi": "Jawa Barat",
-        "Luas": 245
+        "Luas": 245,
+        "Foto_1": "https://gdurl.com/f7w8",
+        "Foto_2": "https://gdurl.com/yoY7a",
+        "Foto_3": "https://gdurl.com/T_us"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -2665,7 +2725,10 @@
         "Kecamatan": "Harjamukti",
         "Kota": "Kota Cirebon",
         "Provinsi": "Jawa Barat",
-        "Luas": 432
+        "Luas": 432,
+        "Foto_1": "https://gdurl.com/f7w8",
+        "Foto_2": "https://gdurl.com/yoY7a",
+        "Foto_3": "https://gdurl.com/T_us"
       },
       "geometry": {
         "type": "MultiPolygon",
@@ -3000,7 +3063,10 @@
         "Kecamatan": "Harjamukti",
         "Kota": "Kota Cirebon",
         "Provinsi": "Jawa Barat",
-        "Luas": 679
+        "Luas": 679,
+        "Foto_1": "https://gdurl.com/f7w8",
+        "Foto_2": "https://gdurl.com/yoY7a",
+        "Foto_3": "https://gdurl.com/T_us"
       },
       "geometry": {
         "type": "MultiPolygon",
