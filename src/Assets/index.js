@@ -10,3 +10,4 @@ export { default as noImage } from "./Images/no-image.jpg";
 export { default as searchLogo } from "./Images/search.png";
 export { default as twitterLogo } from "./Images/twttr.png";
 export { default as footerLine } from "./Images/footerLine.png";
+export { default as helpSymbol } from "./Images/helpSymbol.png";

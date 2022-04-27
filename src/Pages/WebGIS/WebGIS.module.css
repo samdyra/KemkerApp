@@ -3,6 +3,14 @@
   flex-direction: column;
 }
 
+.help {
+  height: 19px;
+}
+
+.help:hover {
+  cursor: pointer;
+}
+
 .settingContainer {
   border-bottom: 2px solid rgb(143, 143, 143);
   display: flex;

@@ -12,7 +12,7 @@ export default function Modal({ toggleModal, desc, title }) {
             <h2>{title}</h2>
             <p>{desc}</p>
             <button className={closemodal} onClick={toggleModal}>
-              CLOSE
+              X
             </button>
           </div>
         </div>
