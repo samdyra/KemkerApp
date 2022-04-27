@@ -1,16 +1,3 @@
-const baseMaps = [
-  {
-    name: "voyager",
-    attribution:
-      '<a href="https://carto.com/" target="_blank">&copy; CARTO</a> <a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>',
-    url: "https://api.maptiler.com/maps/voyager/{z}/{x}/{y}.png?key=Hw8VtKVQyLnAHQmKSEPI",
-  },
-  {
-    name: "normal",
-    attribution:
-      '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-    url: "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
-  },
-];
-
-export default baseMaps;
+const light = "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
+const dark = "https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png";
+export { light, dark };

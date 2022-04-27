@@ -1,10 +1,11 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import style from "./WebGIS.module.css";
 import { MapContainer, TileLayer, GeoJSON } from "react-leaflet";
 import data from "../../Constants/Shapefiles/cirebonDatabase.json";
 import { Pembatas, SearchBar, BasemapSwitch, Dropdown, ImageSlider, Penerbit } from "../../Components";
 import { SecondaryFooter, Minimap, Legenda, Referensi, Maptitle, Keterangan } from "../../Components";
 import { highlightFeature, resetHighlightFeature, polygonStyling } from "../../Helpers";
+import { light, dark } from "../../Constants";
 
 const WebGIS = () => {
   const { container, settingContainer, legendContainer, mapContainer, wrapper, settingWrapper, legendStyle } = style;
@@ -17,6 +18,17 @@ const WebGIS = () => {
   const [firstImage, setFirstImage] = useState("https://gdurl.com/ra7En");
   const [secondImage, setSecondImage] = useState("https://gdurl.com/ra7En");
   const [thirdImage, setThridImage] = useState("https://gdurl.com/ra7En");
+  const [colorMode, setColorMode] = useState("light");
+  const ref = useRef(null);
+  const onClick = () => {
+    setColorMode((colorMode) => (colorMode === "light" ? "dark" : "light"));
+  };
+
+  useEffect(() => {
+    if (ref.current) {
+      ref.current.setUrl(colorMode === "light" ? light : dark);
+    }
+  }, [colorMode]);
 
   const onEachPolygons = (feature, layer) => {
     const uhiValue = feature.properties.UHI;
@@ -57,7 +69,7 @@ const WebGIS = () => {
             <Pembatas></Pembatas>
             <SearchBar></SearchBar>
             <Pembatas></Pembatas>
-            <BasemapSwitch></BasemapSwitch>
+            <BasemapSwitch onClick={onClick}></BasemapSwitch>
             <Pembatas></Pembatas>
             <Dropdown></Dropdown>
             <Pembatas></Pembatas>
@@ -84,7 +96,7 @@ const WebGIS = () => {
           </div>
           <div className={mapContainer}>
             <MapContainer center={[-6.733252, 108.552161]} zoom={13} style={{ height: "100%", position: "relative", zIndex: 0 }}>
-              <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+              <TileLayer ref={ref} url={colorMode === "light" ? light : dark} />
               <GeoJSON data={data} onEachFeature={onEachPolygons} style={polygonStyling}></GeoJSON>
               <Minimap position="topleft"></Minimap>
             </MapContainer>
