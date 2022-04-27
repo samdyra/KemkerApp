@@ -40,7 +40,7 @@ function MinimapBounds({ parentMap, zoom }) {
 
 function MinimapControl({ position, zoom }) {
   const parentMap = useMap();
-  const mapZoom = zoom || 11;
+  const mapZoom = zoom || 8;
 
   // Memoize the minimap so it's not affected by position changes
   const minimap = useMemo(

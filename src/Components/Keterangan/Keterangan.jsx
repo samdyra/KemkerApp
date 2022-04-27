@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./Keterangan.module.css";
 
-const Keterangan = () => {
+const Keterangan = ({ id, nameObj, area, coorX, coorY, contour }) => {
   const { referencecontainer, referencetitle, referencewrapper, reference, titikdua, referencedata } = style;
   return (
     <div className={referencecontainer}>
@@ -26,12 +26,12 @@ const Keterangan = () => {
           <div>:</div>
         </div>
         <div className={referencedata}>
-          <div>67</div>
-          <div>Bangunan A</div>
-          <div>67 Ha</div>
-          <div>-6.927348</div>
-          <div>107.7695</div>
-          <div>12,5 Meter</div>
+          <div>{id}</div>
+          <div>{nameObj}</div>
+          <div>{area}</div>
+          <div>{coorX}</div>
+          <div>{coorY}</div>
+          <div>{contour}</div>
         </div>
       </div>
     </div>
