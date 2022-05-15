@@ -42,6 +42,7 @@
   flex-direction: column;
   font-family: sans-serif;
   font-size: 14px;
+  justify-content: space-between;
 }
 
 .chlorosymbols {
@@ -59,30 +60,139 @@
 .chlo1 {
   width: 26px;
   height: 14px;
-  background: rgb(181, 237, 240);
+  background: rgb(255, 188, 1);
 }
 
 .chlo2 {
   width: 26px;
   height: 14px;
-  background: rgb(116, 180, 232);
+  background: rgb(84, 176, 74);
 }
 
 .chlo3 {
   width: 26px;
   height: 14px;
-  background: rgb(31, 131, 224);
+  background: rgb(190, 178, 151);
 }
 
 .chlo4 {
   width: 26px;
   height: 14px;
-  background: rgb(29, 68, 184);
+  background: rgb(231, 113, 72);
 }
 
 .chlo5 {
   width: 26px;
   height: 14px;
-  background: rgb(9, 9, 145);
+  background: rgb(145, 82, 45);
 }
+
+.chlo6 {
+  width: 26px;
+  height: 14px;
+  background: rgb(90, 88, 88);
+}
+
+.chlo7 {
+  width: 26px;
+  height: 14px;
+  background: rgb(204, 204, 204);
+}
+
+.chlo8 {
+  width: 26px;
+  height: 14px;
+  background: rgb(190, 207, 80);
+}
+
+.chlo9 {
+  width: 26px;
+  height: 14px;
+  background: rgb(183, 72, 75);
+}
+
+.chlo10 {
+  width: 26px;
+  height: 14px;
+  background: rgb(247, 247, 247);
+}
+
+.chlo11 {
+  width: 26px;
+  height: 14px;
+  background: rgb(243, 166, 178);
+}
+
+.chlo12 {
+  width: 26px;
+  height: 14px;
+  background: rgb(255, 158, 23);
+}
+
+.chlo13 {
+  width: 26px;
+  height: 14px;
+  background: rgb(0, 0, 255);
+}
+
+.chlo14 {
+  width: 26px;
+  height: 14px;
+  background: rgb(250, 212, 179);
+}
+
+.chlo15 {
+  width: 26px;
+  height: 14px;
+  background: rgb(152, 125, 183);
+}
+
+.chlo16 {
+  width: 26px;
+  height: 14px;
+  background: rgb(163, 205, 185);
+}
+
+.chlo17 {
+  width: 26px;
+  height: 14px;
+  background: rgb(163, 205, 185);
+}
+
+.chlo18 {
+  width: 26px;
+  height: 14px;
+  background: rgb(163, 205, 185);
+}
+
+.chlo19 {
+  width: 26px;
+  height: 14px;
+  background: rgb(255, 255, 255);
+}
+
+.chlo20 {
+  width: 26px;
+  height: 14px;
+  background: rgb(255, 255, 153);
+}
+
+.chlo21 {
+  width: 26px;
+  height: 14px;
+  background: rgb(204, 255, 255);
+}
+
+.chlo22 {
+  width: 26px;
+  height: 14px;
+  background: rgb(255, 127, 0);
+}
+
+.chlo23 {
+  width: 26px;
+  height: 14px;
+  background: rgb(255, 127, 0);
+}
+
 /* Legend chloropeth End */
