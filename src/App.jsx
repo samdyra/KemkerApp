@@ -5,6 +5,7 @@ import Login from "./auth/login";
 import Kamerads from "./Pages/admin/kamerads";
 import Gallery from "./Pages/admin/Gallery";
 import Message from "./Pages/admin/Messages";
+import Stories from "./Pages/admin/Stories";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/admin/kelompok" element={<Kamerads />}></Route>
         <Route path="/admin/gallery" element={<Gallery />}></Route>
         <Route path="/admin/kesanpesan" element={<Message />}></Route>
+        <Route path="/admin/story" element={<Stories />}></Route>
       </Routes>
     </Router>
   );

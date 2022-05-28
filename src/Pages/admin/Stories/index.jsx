@@ -1,25 +1,25 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import { query, collection, onSnapshot, orderBy } from "firebase/firestore";
+import { query, collection, onSnapshot } from "firebase/firestore";
 import { auth, db } from "../../../firebase/firebaseConfig";
 import { Spinner } from "react-bootstrap";
-import AddKamerad from "./AddKamerad";
 import "./index.css";
-import DeleteKamerad from "./DeleteKamerad";
 import { useAuthState } from "react-firebase-hooks/auth";
+import DeleteStory from "./DeleteStory";
+import AddStory from "./AddStory";
 
-const Kamerads = () => {
-  const [kamerad, setKamerad] = useState([]);
+const Stories = () => {
+  const [story, setStory] = useState([]);
   const [user] = useAuthState(auth);
   useEffect(() => {
-    const kameradRef = collection(db, "kamerad");
-    const q = query(kameradRef, orderBy("NIM"));
+    const storyRef = collection(db, "story");
+    const q = query(storyRef);
     onSnapshot(q, (snapshot) => {
-      const kamerads = snapshot.docs.map((doc) => ({
+      const story = snapshot.docs.map((doc) => ({
         id: doc.id,
         ...doc.data(),
       }));
-      setKamerad(kamerads);
+      setStory(story);
     });
   }, []);
 
@@ -33,20 +33,19 @@ const Kamerads = () => {
       </div>
       <div className="testContainer">
         <div className="adminContainer">
-          {kamerad.length === 0 ? (
+          {story.length === 0 ? (
             <Spinner animation="border" role="status">
               <span className="visually-hidden">Loading...</span>
             </Spinner>
           ) : (
-            kamerad.map(({ id, NIM, Nama, image, kelompok }) => (
+            story.map(({ id, nama, judul, cerita }) => (
               <div className="kameradContainer">
                 <div key={id} className="kamerad-container-id">
-                  <img src={image} style={{ width: 135, height: 135 }}></img>
                   <div className="kamerad-id">
-                    <h4>{NIM}</h4>
-                    <h6>{Nama}</h6>
-                    <p>{`Kelompok: ${kelompok}`}</p>
-                    {user && <DeleteKamerad id={id} image={image} />}
+                    <h4>{judul}</h4>
+                    <h6>{nama}</h6>
+                    <p>{cerita}</p>
+                    {user && <DeleteStory id={id} />}
                   </div>
                 </div>
               </div>
@@ -54,11 +53,11 @@ const Kamerads = () => {
           )}
         </div>
         <div>
-          <AddKamerad></AddKamerad>
+          <AddStory></AddStory>
         </div>
       </div>
     </div>
   );
 };
 
-export default Kamerads;
+export default Stories;

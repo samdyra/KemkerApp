@@ -29,6 +29,7 @@ const Messages = () => {
         <a href="/admin/kelompok">Kamerad</a>
         <a href="/admin/Gallery">Gallery</a>
         <a href="/admin/kesanpesan">Kesan Pesan</a>
+        <a href="/admin/story">Cerita</a>
       </div>
       <div className="testContainer">
         <div className="adminContainer">
