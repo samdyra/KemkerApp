@@ -42,9 +42,9 @@ const Stories = () => {
               <div className="kameradContainer">
                 <div key={id} className="kamerad-container-id">
                   <div className="kamerad-id">
-                    <h4>{judul}</h4>
-                    <h6>{nama}</h6>
-                    <p>{cerita}</p>
+                    <h4>{`Judul: ${judul}`}</h4>
+                    <h6>{`By: ${nama}`}</h6>
+                    <p>{`${cerita}`}</p>
                     {user && <DeleteStory id={id} />}
                   </div>
                 </div>

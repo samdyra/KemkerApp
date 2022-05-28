@@ -1,0 +1,63 @@
+.testContainerIMG {
+  display: flex;
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-inline: 20px;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.adminContainerIMG {
+  display: flex;
+  /* flex-direction: column; */
+  /* position: absolute; */
+  width: 850px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.kameradContainerIMG {
+  display: flex;
+  /* flex-direction: column; */
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.kamerad-container-idIMG {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 3px solid black;
+  border-radius: 20px;
+}
+
+.kamerad-container-idIMG img {
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.kamerad-idIMG {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.admin-navbar a {
+  padding-right: 40px;
+  text-decoration: none;
+  color: rgb(9, 9, 115);
+  text-align: center;
+}
+
+.admin-navbar a:hover {
+  color: blue;
+}
+
+.admin-navbar {
+  width: 1280px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-block: 20px;
+}

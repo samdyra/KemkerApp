@@ -20,7 +20,7 @@ export default function Login() {
   return (
     <>
       <h3 style={{ display: "flex", justifyContent: "center", marginTop: "30px" }}>Portal admin khusus kamerad 19</h3>
-      <p style={{ display: "flex", justifyContent: "center" }}>Bagi yang mau kasih kesan pesan, edit foto, masukin foto di gallery, silahkan masuk</p>
+      <p style={{ display: "flex", justifyContent: "center" }}>Bagi yang mau kasih kesan pesan, cerita, edit foto, masukin foto di gallery, silahkan masuk</p>
 
       <p style={{ display: "flex", justifyContent: "center" }}>*yang emailnya belum terdaftar boleh pc sam</p>
       <div className="border p-3 bg-light mx-auto" style={{ maxWidth: 400, marginTop: 60 }}>

@@ -43,7 +43,7 @@ const Messages = () => {
                 <div key={id} className="kamerad-container-id">
                   <div className="kamerad-id">
                     <h4>{message}</h4>
-                    <h6>{nama}</h6>
+                    <h6>{`by ${nama}`}</h6>
                     {user && <DeleteMessage id={id} />}
                   </div>
                 </div>
