@@ -1,7 +1,6 @@
 import React from "react";
-
 const AboutScreen = () => {
-  return <div>Belajar GIT</div>;
+  return <div>hi</div>;
 };
 
 export default AboutScreen;

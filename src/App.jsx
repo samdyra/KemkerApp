@@ -1,25 +1,21 @@
 import { Navbar } from "./Components/";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { AboutScreen, FloodModel, ProfileMap, WebGIS } from "./Pages";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Login from "./auth/login";
+import Teams from "./Pages/admin/Teams";
 
 function App() {
   return (
     <Router>
-      <Navbar></Navbar>
-      <Switch>
-        <Route exact path="/">
-          <WebGIS></WebGIS>
-        </Route>
-        <Route exact path="/AboutScreen">
-          <AboutScreen></AboutScreen>
-        </Route>
-        <Route exact path="/FloodModelScreen">
-          <FloodModel></FloodModel>
-        </Route>
-        <Route exact path="/ProfileModelScreen">
-          <ProfileMap></ProfileMap>
-        </Route>
-      </Switch>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<WebGIS />}></Route>
+        <Route path="/FloodModelScreen" element={<FloodModel />}></Route>
+        <Route path="/ProfileModelScreen" element={<ProfileMap />}></Route>
+        <Route path="/AboutScreen" element={<AboutScreen />}></Route>
+        <Route path="/LoginScreen" element={<Login />}></Route>
+        <Route path="/admin/kelompok" element={<Teams />}></Route>
+      </Routes>
     </Router>
   );
 }

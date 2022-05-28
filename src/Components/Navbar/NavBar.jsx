@@ -3,8 +3,7 @@ import style from "./NavBarStyle.module.css";
 import { logoKemker } from "../../Assets";
 
 const NavBar = () => {
-  const { navcontainer, navelement, kemkerlogocontainer, linkcontainer } =
-    style;
+  const { navcontainer, navelement, kemkerlogocontainer, linkcontainer } = style;
 
   return (
     <div className={navcontainer}>
@@ -17,6 +16,7 @@ const NavBar = () => {
           <a href="/FloodModelScreen">Flood Model</a>
           <a href="/ProfileModelScreen">Profile</a>
           <a href="/AboutScreen">About</a>
+          <a href="/loginScreen">Login</a>
         </div>
       </div>
     </div>
