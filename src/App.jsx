@@ -16,6 +16,8 @@ function App() {
         <Route path="/AboutScreen" element={<AboutScreen />}></Route>
         <Route path="/LoginScreen" element={<Login />}></Route>
         <Route path="/admin/kelompok" element={<Kamerads />}></Route>
+        {/* <Route path="/admin/gallery" element={<Kamerads />}></Route> */}
+        {/* <Route path="/admin/kesanpesan" element={<Kamerads />}></Route> */}
       </Routes>
     </Router>
   );
