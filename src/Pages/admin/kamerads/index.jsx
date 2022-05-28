@@ -26,9 +26,9 @@ const Kamerads = () => {
   return (
     <div>
       <div className="admin-navbar">
-        <a href="/">Kamerad</a>
-        <a href="/">Gallery</a>
-        <a href="/">Kesan Pesan</a>
+        <a href="/admin/kelompok">Kamerad</a>
+        <a href="/admin/Gallery">Gallery</a>
+        <a href="/admin/kesanpesan">Kesan Pesan</a>
       </div>
       <div className="testContainer">
         <div className="adminContainer">

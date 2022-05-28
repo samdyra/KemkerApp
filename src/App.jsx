@@ -3,7 +3,8 @@ import { AboutScreen, FloodModel, ProfileMap, WebGIS } from "./Pages";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Login from "./auth/login";
 import Kamerads from "./Pages/admin/kamerads";
-import AddKamerad from "./Pages/admin/kamerads/AddKamerad";
+import Gallery from "./Pages/admin/Gallery";
+import Message from "./Pages/admin/Messages";
 
 function App() {
   return (
@@ -16,8 +17,8 @@ function App() {
         <Route path="/AboutScreen" element={<AboutScreen />}></Route>
         <Route path="/LoginScreen" element={<Login />}></Route>
         <Route path="/admin/kelompok" element={<Kamerads />}></Route>
-        {/* <Route path="/admin/gallery" element={<Kamerads />}></Route> */}
-        {/* <Route path="/admin/kesanpesan" element={<Kamerads />}></Route> */}
+        <Route path="/admin/gallery" element={<Gallery />}></Route>
+        <Route path="/admin/kesanpesan" element={<Message />}></Route>
       </Routes>
     </Router>
   );
