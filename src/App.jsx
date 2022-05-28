@@ -2,7 +2,8 @@ import { Navbar } from "./Components/";
 import { AboutScreen, FloodModel, ProfileMap, WebGIS } from "./Pages";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Login from "./auth/login";
-import Teams from "./Pages/admin/Teams";
+import Kamerads from "./Pages/admin/kamerads";
+import AddKamerad from "./Pages/admin/kamerads/AddKamerad";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
         <Route path="/ProfileModelScreen" element={<ProfileMap />}></Route>
         <Route path="/AboutScreen" element={<AboutScreen />}></Route>
         <Route path="/LoginScreen" element={<Login />}></Route>
-        <Route path="/admin/kelompok" element={<Teams />}></Route>
+        <Route path="/admin/kelompok" element={<Kamerads />}></Route>
       </Routes>
     </Router>
   );

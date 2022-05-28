@@ -12,9 +12,9 @@ export default function Login() {
   const handleLogin = async () => {
     try {
       await signInWithEmailAndPassword(auth, email, password);
-      navigate("/Teams");
+      navigate("/admin/kelompok");
     } catch (error) {
-      alert(error.code);
+      toast(error.code, { type: "error" });
     }
   };
   return (
