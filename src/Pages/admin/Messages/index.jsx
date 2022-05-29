@@ -2,7 +2,6 @@ import React from "react";
 import { useState, useEffect } from "react";
 import { query, collection, onSnapshot, orderBy } from "firebase/firestore";
 import { auth, db } from "../../../firebase/firebaseConfig";
-import { Spinner } from "react-bootstrap";
 import "./index.css";
 import { useAuthState } from "react-firebase-hooks/auth";
 import AddMessage from "./addMessage";
@@ -34,16 +33,14 @@ const Messages = () => {
       <div className="testContainer">
         <div className="adminContainer">
           {message.length === 0 ? (
-            <Spinner animation="border" role="status">
-              <span className="visually-hidden">Loading...</span>
-            </Spinner>
+            <span className="visually-hidden">Loading...</span>
           ) : (
             message.map(({ id, nama, message }) => (
               <div className="kameradContainer">
                 <div key={id} className="kamerad-container-id">
-                  <div className="kamerad-id">
-                    <h4>{message}</h4>
-                    <h6>{`by ${nama}`}</h6>
+                  <div className="kamerad-ids">
+                    <p>{message}</p>
+                    <div>{`by ${nama}`}</div>
                     {user && <DeleteMessage id={id} />}
                   </div>
                 </div>

@@ -18,7 +18,7 @@ export default function DeleteImage({ id, image }) {
     }
   };
   return (
-    <div>
+    <div className="deleteButton">
       <button onClick={handleDelete}>Delete</button>
     </div>
   );

@@ -73,7 +73,7 @@ export default function AddKamerad() {
   };
 
   return (
-    <div className="border p-3 mt-3 bg-light" style={{ width: "300px" }}>
+    <div>
       {!user ? (
         <>
           <h2>
@@ -81,25 +81,24 @@ export default function AddKamerad() {
           </h2>
         </>
       ) : (
-        <div>
-          <h2>Create kamerad</h2>
-          <div className="form-group">
+        <div className="formadmincontainer">
+          <dic className="formtitle">Create kamerad</dic>
+          <div className="formadmin">
             <label htmlFor="">NIM</label>
-            <input type="text" name="NIM" className="form-control" value={formData.NIM} onChange={(e) => handleChange(e)} />
+            <input type="text" name="NIM" className="formik" value={formData.NIM} onChange={(e) => handleChange(e)} />
           </div>
-
-          {/* description */}
-          <label htmlFor="">Nama</label>
-          <textarea name="Nama" className="form-control" value={formData.Nama} onChange={(e) => handleChange(e)} />
-
-          {/* description */}
-          <label htmlFor="">kelompok</label>
-          <textarea name="kelompok" className="form-control" value={formData.kelompok} onChange={(e) => handleChange(e)} />
-
-          {/* image */}
-          <label htmlFor="">Image</label>
-          <input type="file" name="image" accept="image/*" className="form-control" onChange={(e) => handleImageChange(e)} />
-
+          <div className="formadmin">
+            <label htmlFor="">Nama</label>
+            <textarea name="Nama" className="form-control" value={formData.Nama} onChange={(e) => handleChange(e)} />
+          </div>
+          <div className="formadmin">
+            <label htmlFor="">kelompok</label>
+            <textarea name="kelompok" className="form-control" value={formData.kelompok} onChange={(e) => handleChange(e)} />
+          </div>
+          <div className="formadmin">
+            <label htmlFor="">Image</label>
+            <input type="file" name="image" accept="image/*" className="form-control" onChange={(e) => handleImageChange(e)} />
+          </div>
           {progress === 0 ? null : (
             <div className="progress">
               <div className="progress-bar progress-bar-striped mt-2" style={{ width: `${progress}%` }}>
@@ -107,7 +106,7 @@ export default function AddKamerad() {
               </div>
             </div>
           )}
-          <button className="form-control btn-primary mt-2" onClick={handlePublish}>
+          <button className="formbutton" onClick={handlePublish}>
             Publish
           </button>
         </div>

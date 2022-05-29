@@ -4,6 +4,7 @@ import { auth, db } from "../../../firebase/firebaseConfig";
 import { toast } from "react-toastify";
 import { collection, addDoc } from "firebase/firestore";
 import { Link } from "react-router-dom";
+import "../Stories/index.css";
 
 const AddMessage = () => {
   const [formData, setFormData] = useState({
@@ -17,6 +18,11 @@ const AddMessage = () => {
   };
 
   const handlePublish = (e) => {
+    if (!formData.message || !formData.nama) {
+      toast("Please fill all the fields");
+      return;
+    }
+
     const messageRef = collection(db, "message");
     addDoc(messageRef, {
       message: formData.message,
@@ -39,18 +45,19 @@ const AddMessage = () => {
           </h2>
         </>
       ) : (
-        <div>
-          <h2>Nama</h2>
-          <div className="form-group">
+        <div className="formadmincontainer">
+          <div className="formtitle">Kesan Pesan</div>
+          <div className="formadmin">
             <label htmlFor="">Nama</label>
-            <input type="text" name="nama" className="form-control" value={formData.nama} onChange={(e) => handleChange(e)} />
+            <input type="text" name="nama" className="formik" value={formData.nama} onChange={(e) => handleChange(e)} />
           </div>
 
-          {/* description */}
-          <label htmlFor="">kesan pesan</label>
-          <textarea name="message" className="form-control" value={formData.message} onChange={(e) => handleChange(e)} />
+          <div className="formadmin">
+            <label htmlFor="">kesan pesan</label>
+            <textarea name="message" className="formik" value={formData.message} onChange={(e) => handleChange(e)} />
+          </div>
 
-          <button className="form-control btn-primary mt-2" onClick={handlePublish}>
+          <button className="formbutton" onClick={handlePublish}>
             Publish
           </button>
         </div>

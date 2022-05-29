@@ -2,7 +2,6 @@ import React from "react";
 import { useState, useEffect } from "react";
 import { query, collection, onSnapshot, orderBy } from "firebase/firestore";
 import { auth, db } from "../../../firebase/firebaseConfig";
-import { Spinner } from "react-bootstrap";
 import "./index.css";
 import { useAuthState } from "react-firebase-hooks/auth";
 import AddImage from "./AddImage";
@@ -34,17 +33,15 @@ const Gallery = () => {
       <div className="testContainerIMG">
         <div className="adminContainerIMG">
           {image.length === 0 ? (
-            <Spinner animation="border" role="status">
-              <span className="visually-hidden">Loading...</span>
-            </Spinner>
+            <span className="visually-hidden">Loading...</span>
           ) : (
             image.map(({ id, image, name }) => (
               <div className="kameradContainerIMG">
                 <div key={id} className="kamerad-container-idIMG">
                   <img src={image} style={{ width: 200, height: 200 }}></img>
                   <div className="kamerad-idIMG">
-                    <h6>{name}</h6>
-                    {user && <DeleteImage id={id} image={image} />}
+                    <p>{name}</p>
+                    <div className="deletegallery">{user && <DeleteImage id={id} image={image} />}</div>
                   </div>
                 </div>
               </div>

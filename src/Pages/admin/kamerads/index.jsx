@@ -2,7 +2,6 @@ import React from "react";
 import { useState, useEffect } from "react";
 import { query, collection, onSnapshot, orderBy } from "firebase/firestore";
 import { auth, db } from "../../../firebase/firebaseConfig";
-import { Spinner } from "react-bootstrap";
 import AddKamerad from "./AddKamerad";
 import "./index.css";
 import DeleteKamerad from "./DeleteKamerad";
@@ -34,18 +33,16 @@ const Kamerads = () => {
       <div className="testContainer">
         <div className="adminContainer">
           {kamerad.length === 0 ? (
-            <Spinner animation="border" role="status">
-              <span className="visually-hidden">Loading...</span>
-            </Spinner>
+            <span className="visually-hidden">Loading...</span>
           ) : (
             kamerad.map(({ id, NIM, Nama, image, kelompok }) => (
-              <div className="kameradContainer">
+              <div className="kameradContainerz">
                 <div key={id} className="kamerad-container-id">
                   <img src={image} style={{ width: 135, height: 135 }}></img>
-                  <div className="kamerad-id">
-                    <h4>{NIM}</h4>
-                    <h6>{Nama}</h6>
-                    <p>{`Kelompok: ${kelompok}`}</p>
+                  <div className="kamerad-idz">
+                    <div>{NIM}</div>
+                    <div>{Nama}</div>
+                    <div>{`Kelompok: ${kelompok}`}</div>
                     {user && <DeleteKamerad id={id} image={image} />}
                   </div>
                 </div>

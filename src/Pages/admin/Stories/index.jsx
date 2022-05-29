@@ -2,7 +2,6 @@ import React from "react";
 import { useState, useEffect } from "react";
 import { query, collection, onSnapshot } from "firebase/firestore";
 import { auth, db } from "../../../firebase/firebaseConfig";
-import { Spinner } from "react-bootstrap";
 import "./index.css";
 import { useAuthState } from "react-firebase-hooks/auth";
 import DeleteStory from "./DeleteStory";
@@ -34,17 +33,15 @@ const Stories = () => {
       <div className="testContainer">
         <div className="adminContainer">
           {story.length === 0 ? (
-            <Spinner animation="border" role="status">
-              <span className="visually-hidden">Loading...</span>
-            </Spinner>
+            <span className="visually-hidden">Loading...</span>
           ) : (
             story.map(({ id, nama, judul, cerita }) => (
               <div className="kameradContainer">
                 <div key={id} className="kamerad-container-id">
-                  <div className="kamerad-id">
-                    <h4>{`Judul: ${judul}`}</h4>
-                    <h6>{`By: ${nama}`}</h6>
-                    <p>{`${cerita}`}</p>
+                  <div className="kamerad-idx">
+                    <div className="kmrdjdl">{`Judul: ${judul}`}</div>
+                    <div className="kmrdnm">{`By: ${nama}`}</div>
+                    <div className="kmrdcrt">{`${cerita}`}</div>
                     {user && <DeleteStory id={id} />}
                   </div>
                 </div>

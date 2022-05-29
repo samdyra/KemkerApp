@@ -75,16 +75,17 @@ export default function AddImage() {
           </h2>
         </>
       ) : (
-        <div>
-          <h2>Add Image</h2>
-          <div className="form-group">
+        <div className="formadmincontainer">
+          <div className="formtitle">Add Image</div>
+          <div className="formadmin">
             <label htmlFor="">Nama</label>
-            <input type="text" name="name" className="form-control" value={formData.name} onChange={(e) => handleChange(e)} />
+            <input type="text" name="name" className="formol" value={formData.name} onChange={(e) => handleChange(e)} />
           </div>
 
-          {/* image */}
-          <label htmlFor="">Image</label>
-          <input type="file" name="image" accept="image/*" className="form-control" onChange={(e) => handleImageChange(e)} />
+          <div className="formadmin">
+            <label htmlFor="">Image</label>
+            <input type="file" name="image" accept="image/*" className="formik" onChange={(e) => handleImageChange(e)} />
+          </div>
 
           {progress === 0 ? null : (
             <div className="progress">
@@ -93,7 +94,7 @@ export default function AddImage() {
               </div>
             </div>
           )}
-          <button className="form-control btn-primary mt-2" onClick={handlePublish}>
+          <button className="formbutton" onClick={handlePublish}>
             Publish
           </button>
         </div>

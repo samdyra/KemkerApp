@@ -15,7 +15,7 @@ export default function DeleteStory({ id }) {
     }
   };
   return (
-    <div>
+    <div className="deleteButton">
       <button onClick={handleDelete}>Delete</button>
     </div>
   );

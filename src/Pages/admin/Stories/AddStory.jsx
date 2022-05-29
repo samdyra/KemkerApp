@@ -18,6 +18,11 @@ const AddStory = () => {
   };
 
   const handlePublish = (e) => {
+    if (!formData.judul || !formData.nama || !formData.cerita) {
+      toast("Please fill all the fields");
+      return;
+    }
+
     const storyRef = collection(db, "story");
     addDoc(storyRef, {
       judul: formData.judul,
@@ -41,21 +46,23 @@ const AddStory = () => {
           </h2>
         </>
       ) : (
-        <div>
-          <h2>Nama</h2>
-          <div className="form-group">
+        <div className="formadmincontainer">
+          <div className="formtitle">Form Cerita</div>
+          <div className="formadmin">
             <label htmlFor="">Nama</label>
-            <input type="text" name="nama" className="form-control" value={formData.nama} onChange={(e) => handleChange(e)} />
+            <input type="text" name="nama" className="formik" value={formData.nama} onChange={(e) => handleChange(e)} />
           </div>
 
-          {/* description */}
-          <label htmlFor="">Judul</label>
-          <textarea name="judul" className="form-control" value={formData.judul} onChange={(e) => handleChange(e)} />
+          <div className="formadmin">
+            <label htmlFor="">Judul</label>
+            <input name="judul" className="formik" value={formData.judul} onChange={(e) => handleChange(e)} />
+          </div>
 
-          <label htmlFor="">Cerita</label>
-          <textarea name="cerita" className="form-control" value={formData.cerita} onChange={(e) => handleChange(e)} />
-
-          <button className="form-control btn-primary mt-2" onClick={handlePublish}>
+          <div className="formadmin">
+            <label htmlFor="">Cerita</label>
+            <textarea name="cerita" className="formik" value={formData.cerita} onChange={(e) => handleChange(e)} rows="7" />
+          </div>
+          <button className="formbutton" onClick={handlePublish}>
             Publish
           </button>
         </div>

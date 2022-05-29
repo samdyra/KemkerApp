@@ -48,4 +48,9 @@ input:focus {
   src: url(./Assets/Fonts/OpenSans-Regular.ttf);
 }
 
+@font-face {
+  font-family: poppins;
+  src: url(./Assets/Fonts/Poppins-Regular.ttf);
+}
+
 /* Setting up fonts End */
