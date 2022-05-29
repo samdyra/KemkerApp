@@ -4,7 +4,7 @@ import { query, collection, onSnapshot, orderBy } from "firebase/firestore";
 import { auth, db } from "../../../firebase/firebaseConfig";
 import "./index.css";
 import { useAuthState } from "react-firebase-hooks/auth";
-import AddMessage from "./addMessage";
+import AddMessage from "./AddMessage";
 import DeleteMessage from "./DeleteMessage";
 import NavBarDefault from "../../../ComponentsV2/NavbarDefault";
 
