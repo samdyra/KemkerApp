@@ -1,4 +1,3 @@
-import { Navbar } from "./Components/";
 import { AboutScreen, FloodModel, ProfileMap, WebGIS } from "./Pages";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Login from "./auth/login";
@@ -10,12 +9,11 @@ import Stories from "./Pages/admin/Stories";
 function App() {
   return (
     <Router>
-      <Navbar />
       <Routes>
-        <Route path="/" element={<WebGIS />}></Route>
+        <Route path="/" element={<AboutScreen />}></Route>
         <Route path="/FloodModelScreen" element={<FloodModel />}></Route>
         <Route path="/ProfileModelScreen" element={<ProfileMap />}></Route>
-        <Route path="/AboutScreen" element={<AboutScreen />}></Route>
+        <Route path="/WebGIS" element={<WebGIS />}></Route>
         <Route path="/LoginScreen" element={<Login />}></Route>
         <Route path="/admin/kelompok" element={<Kamerads />}></Route>
         <Route path="/admin/gallery" element={<Gallery />}></Route>
