@@ -25,7 +25,7 @@ export default function Login() {
       <NavBarDefault></NavBarDefault>
       <h3 style={{ display: "flex", justifyContent: "center", marginTop: "30px", fontFamily: "poppins" }}>Portal admin khusus kamerad 19</h3>
       <p style={{ display: "flex", justifyContent: "center", fontFamily: "poppins" }}>
-        Bagi yang mau kasih kesan pesan, cerita, edit foto, masukin foto di gallery, silahkan masuk
+        Bagi yang mau kasih kesan pesan, cerita, edit foto, masukin foto di gallery, silahkan masuk..
       </p>
 
       <p style={{ display: "flex", justifyContent: "center", fontFamily: "poppins" }}>*yang emailnya belum terdaftar boleh pc sam</p>
