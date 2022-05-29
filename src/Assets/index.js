@@ -12,4 +12,3 @@ export { default as twitterLogo } from "./Images/twttr.png";
 export { default as footerLine } from "./Images/footerLine.png";
 export { default as helpSymbol } from "./Images/helpSymbol.png";
 export { default as hiasan } from "./Images/hiasanGVT.png";
-export { default as fotoIMG } from "./Images/fotoIMG.jpg";

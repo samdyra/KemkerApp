@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../../ComponentsV2/Navbar";
 import style from "./FloodModel.module.css";
-import { fotoIMG } from "../../Assets";
+import fotoIMG from "../../Assets/Images/fotoIMG.jpg";
 
 const FloodModel = () => {
   const { headerWrapper, headerText, latarContainer, latarTitle, latarContent, hiasanStyle, bc } = style;
