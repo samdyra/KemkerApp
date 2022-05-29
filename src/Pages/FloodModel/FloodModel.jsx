@@ -7,8 +7,8 @@ const FloodModel = () => {
   const { headerWrapper, headerText, latarContainer, latarTitle, latarContent, hiasanStyle, bc } = style;
   return (
     <div className={bc}>
+      <Navbar></Navbar>
       <div className={headerWrapper}>
-        <Navbar></Navbar>
         <div className={headerText}>Flood Model</div>
       </div>
       <div className={latarContainer}>

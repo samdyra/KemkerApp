@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 // import style from "bootstrap/dist/css/bootstrap.min.css";
 import "./login.css";
-import { Navbar } from "../Components";
+import NavBarDefault from "../ComponentsV2/NavbarDefault";
 
 export default function Login() {
   let navigate = useNavigate();
@@ -22,7 +22,7 @@ export default function Login() {
   };
   return (
     <>
-      <Navbar></Navbar>
+      <NavBarDefault></NavBarDefault>
       <h3 style={{ display: "flex", justifyContent: "center", marginTop: "30px", fontFamily: "poppins" }}>Portal admin khusus kamerad 19</h3>
       <p style={{ display: "flex", justifyContent: "center", fontFamily: "poppins" }}>
         Bagi yang mau kasih kesan pesan, cerita, edit foto, masukin foto di gallery, silahkan masuk

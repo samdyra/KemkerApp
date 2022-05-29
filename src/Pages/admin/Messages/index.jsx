@@ -6,6 +6,7 @@ import "./index.css";
 import { useAuthState } from "react-firebase-hooks/auth";
 import AddMessage from "./addMessage";
 import DeleteMessage from "./DeleteMessage";
+import NavBarDefault from "../../../ComponentsV2/NavbarDefault";
 
 const Messages = () => {
   const [message, setMessage] = useState([]);
@@ -24,6 +25,7 @@ const Messages = () => {
 
   return (
     <div>
+      <NavBarDefault></NavBarDefault>
       <div className="admin-navbar">
         <a href="/admin/kelompok">Kamerad</a>
         <a href="/admin/Gallery">Gallery</a>

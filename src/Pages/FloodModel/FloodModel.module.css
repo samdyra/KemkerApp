@@ -1,20 +1,22 @@
 .bc {
   background-color: rgba(254, 249, 243, 1);
-}
-
-.headerWrapper {
-  height: 105vh;
   background-image: url("../../Assets/Images/hiasanGVT.png");
   background-repeat: no-repeat;
   background-position-x: right;
-  /* background-size: cover; */
+}
+
+.headerWrapper {
+  height: calc(100vh - 61px);
+  max-width: 1280px;
+  display: flex;
+  margin: 0 auto;
 }
 
 .headerText {
   width: 302px;
   height: 208px;
-  left: 81px;
-  top: 360px;
+  margin-left: 101px;
+  margin-top: 300px;
   justify-content: center;
   position: absolute;
   font-family: poppins;

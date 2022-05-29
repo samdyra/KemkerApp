@@ -1,9 +1,10 @@
 import React from "react";
-import NavBar from "../../Components/Navbar/NavBar";
+import NavBarDefault from "../../ComponentsV2/NavbarDefault";
+
 const AboutScreen = () => {
   return (
     <div>
-      <NavBar></NavBar>
+      <NavBarDefault></NavBarDefault>
     </div>
   );
 };

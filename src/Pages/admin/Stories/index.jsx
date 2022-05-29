@@ -6,6 +6,7 @@ import "./index.css";
 import { useAuthState } from "react-firebase-hooks/auth";
 import DeleteStory from "./DeleteStory";
 import AddStory from "./AddStory";
+import NavBarDefault from "../../../ComponentsV2/NavbarDefault";
 
 const Stories = () => {
   const [story, setStory] = useState([]);
@@ -24,6 +25,7 @@ const Stories = () => {
 
   return (
     <div>
+      <NavBarDefault></NavBarDefault>
       <div className="admin-navbar">
         <a href="/admin/kelompok">Kamerad</a>
         <a href="/admin/Gallery">Gallery</a>

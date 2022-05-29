@@ -2,11 +2,12 @@ import React, { useState, useEffect, useRef } from "react";
 import style from "./WebGIS.module.css";
 import { MapContainer, TileLayer, GeoJSON } from "react-leaflet";
 import data from "../../Constants/Shapefiles/cirebonDatabase.json";
-import { Pembatas, SearchBar, BasemapSwitch, Dropdown, ImageSlider, Penerbit, Navbar } from "../../Components";
+import { Pembatas, SearchBar, BasemapSwitch, Dropdown, ImageSlider, Penerbit } from "../../Components";
 import { SecondaryFooter, Minimap, Legenda, Referensi, Maptitle, Keterangan, Modal } from "../../Components";
 import { highlightFeature, resetHighlightFeature, polygonStyling } from "../../Helpers";
 import { light, dark } from "../../Constants";
 import { helpSymbol } from "../../Assets";
+import NavBarDefault from "../../ComponentsV2/NavbarDefault";
 
 const WebGIS = () => {
   const { container, settingContainer, legendContainer, mapContainer, wrapper, settingWrapper, legendStyle, help } = style;
@@ -74,7 +75,7 @@ const WebGIS = () => {
 
   return (
     <>
-      <Navbar></Navbar>
+      <NavBarDefault></NavBarDefault>
       <div className={container}>
         <div className={settingContainer}>
           <div className={settingWrapper}>

@@ -6,6 +6,7 @@ import AddKamerad from "./AddKamerad";
 import "./index.css";
 import DeleteKamerad from "./DeleteKamerad";
 import { useAuthState } from "react-firebase-hooks/auth";
+import NavBarDefault from "../../../ComponentsV2/NavbarDefault";
 
 const Kamerads = () => {
   const [kamerad, setKamerad] = useState([]);
@@ -24,6 +25,8 @@ const Kamerads = () => {
 
   return (
     <div>
+      <NavBarDefault></NavBarDefault>
+
       <div className="admin-navbar">
         <a href="/admin/kelompok">Kamerad</a>
         <a href="/admin/Gallery">Gallery</a>

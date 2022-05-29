@@ -6,6 +6,7 @@ import "./index.css";
 import { useAuthState } from "react-firebase-hooks/auth";
 import AddImage from "./AddImage";
 import DeleteImage from "./DeleteImage";
+import NavBarDefault from "../../../ComponentsV2/NavbarDefault";
 
 const Gallery = () => {
   const [image, setImage] = useState([]);
@@ -24,6 +25,7 @@ const Gallery = () => {
 
   return (
     <div>
+      <NavBarDefault></NavBarDefault>
       <div className="admin-navbar">
         <a href="/admin/kelompok">Kamerad</a>
         <a href="/admin/Gallery">Gallery</a>
