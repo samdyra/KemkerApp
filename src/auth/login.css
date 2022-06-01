@@ -24,7 +24,8 @@ a {
   min-height: 470px;
   position: relative;
   background: url(../Assets/Images/fotoIMG.JPG) no-repeat center;
-  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
   font: 600 16px/18px "Open Sans", sans-serif;
 }
 .login-html {
@@ -148,7 +149,13 @@ a {
 .login-form .group .check:checked + label .icon:after {
   transform: scale(1) rotate(-45deg);
 }
-.login-html .sign-in:checked + .tab + .sign-up + .tab + .login-form .sign-in-htm {
+.login-html
+  .sign-in:checked
+  + .tab
+  + .sign-up
+  + .tab
+  + .login-form
+  .sign-in-htm {
   transform: rotate(0);
 }
 .login-html .sign-up:checked + .tab + .login-form .sign-up-htm {
@@ -162,4 +169,8 @@ a {
 }
 .foot-lnk {
   text-align: center;
+}
+
+.group input {
+  font-family: poppins;
 }

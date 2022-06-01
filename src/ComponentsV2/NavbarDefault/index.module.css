@@ -32,6 +32,11 @@
   font-size: 16px;
 }
 
+.kemkerlogocontainer div:hover {
+  color: rgb(173, 111, 70);
+  transition-duration: 250ms;
+}
+
 .linkcontainer a {
   /* border: 3px solid red; */
   padding-left: 29px;
@@ -44,4 +49,9 @@
   letter-spacing: 0.05em;
   text-decoration: none;
   color: rgba(98, 58, 32, 1);
+}
+
+.linkcontainer a:hover {
+  color: rgb(173, 111, 70);
+  transition-duration: 250ms;
 }

@@ -8,7 +8,7 @@
 }
 
 .bcd img {
-  width: 100vw;
+  width: calc(100vw - 8px);
   height: 100vh;
 }
 
@@ -50,8 +50,8 @@
 }
 
 .descContainer {
-  width: 500px;
-  height: 415px;
+  /* width: 500px; */
+  /* height: 415px; */
 }
 
 .descTitle {
@@ -75,6 +75,7 @@
   line-height: 137.5%;
   text-align: justify;
   color: #000000;
+  width: 500px;
 }
 
 .madeWrapper {
@@ -159,4 +160,65 @@
   border-radius: 11px;
   padding: 9px 25px;
   margin-top: 17px;
+}
+
+.madeElementButton:hover {
+  background: #ff8735;
+  border: 2px solid #ff8356;
+  border-radius: 11px;
+  cursor: pointer;
+  transition-duration: 300ms;
+}
+
+.creatorWrapper {
+}
+.creatorTitle {
+}
+.creatorCarousel {
+}
+.galleryWrapper {
+}
+.galleryTitle {
+}
+.galleryCarousel {
+}
+.messageWrapper {
+}
+.messageTitle {
+}
+.messageCarousel {
+}
+.footer {
+  height: 200px;
+  margin: 0 auto;
+}
+.footerElements {
+  display: flex;
+  justify-content: center;
+}
+
+.footerLogos {
+  margin-right: 656px;
+  padding-bottom: 20px;
+}
+
+.footerLogos img {
+  height: 50px;
+  margin-right: 27px;
+}
+.footerSocmeds img {
+  width: 30px;
+  margin-left: 27px;
+}
+.footerTexts {
+  font-family: poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 108.5%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #623a20;
 }

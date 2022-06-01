@@ -1,7 +1,15 @@
 import React from "react";
 import Navbar from "../../ComponentsV2/Navbar";
 import style from "./AboutScreen.module.css";
-import { noImage } from "../../Assets";
+import {
+  noImage,
+  logoGD19,
+  logoKemker,
+  logoIMG,
+  insta,
+  twitterLogo,
+  github,
+} from "../../Assets";
 import foto from "../../Assets/Images/fotokemker.png";
 const AboutScreen = () => {
   const {
@@ -22,6 +30,20 @@ const AboutScreen = () => {
     madeElementContent,
     madeElementButton,
     bcd,
+    creatorWrapper,
+    creatorTitle,
+    creatorCarousel,
+    galleryWrapper,
+    galleryTitle,
+    galleryCarousel,
+    messageWrapper,
+    messageTitle,
+    messageCarousel,
+    footer,
+    footerElements,
+    footerLogos,
+    footerSocmeds,
+    footerTexts,
   } = style;
   return (
     <div className={bc}>
@@ -90,6 +112,36 @@ const AboutScreen = () => {
             </div>
             <div className={madeElementButton}>View WebGIS</div>
           </div>
+        </div>
+      </div>
+      <div className={creatorWrapper}>
+        <div className={creatorTitle}></div>
+        <div className={creatorCarousel}></div>
+      </div>
+      <div className={galleryWrapper}>
+        <div className={galleryTitle}></div>
+        <div className={galleryCarousel}></div>
+      </div>
+      <div className={messageWrapper}>
+        <div className={messageTitle}></div>
+        <div className={messageCarousel}></div>
+      </div>
+      <div className={footer}>
+        <div className={footerElements}>
+          <div className={footerLogos}>
+            <img src={logoGD19}></img>
+            <img src={logoIMG}></img>
+            <img src={logoKemker}></img>
+          </div>
+          <div className={footerSocmeds}>
+            <img src={insta}></img>
+            <img src={twitterLogo}></img>
+            <img src={github}></img>
+          </div>
+        </div>
+        <div className={footerTexts}>
+          Copyright © 2022 Kemah Kerja Teknik Geodesi dan Geomatika ITB 2019.
+          All right reserved.
         </div>
       </div>
     </div>
