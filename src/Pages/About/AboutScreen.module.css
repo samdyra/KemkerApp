@@ -1,8 +1,15 @@
 .bc {
   background-color: rgba(254, 249, 243, 1);
-  background-image: url("../../Assets/Images/fotokemker.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+}
+
+.bcd {
+  position: absolute;
+  z-index: 1;
+}
+
+.bcd img {
+  width: 100vw;
+  height: 100vh;
 }
 
 .headerWrapper {
@@ -23,43 +30,133 @@
   text-align: justify;
   color: #623a20;
   text-shadow: 2px 7px 8px rgba(0, 0, 0, 0.25);
+  z-index: 2;
 }
 
 .descWrapper {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  height: 415px;
+  margin-inline: 90px;
+  display: flex;
+  justify-content: center;
 }
 
-.descImage {
+.descImage img {
+  height: 415px;
+  width: 553px;
+  border-radius: 30px;
+  margin-right: 54px;
 }
 
 .descContainer {
+  width: 500px;
+  height: 415px;
 }
 
 .descTitle {
+  margin-bottom: 24px;
+  font-family: poppins;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 53px;
+  line-height: 108.5%;
+  text-align: justify;
+  letter-spacing: 0.005em;
+  color: #623a20;
+  text-shadow: 2px 7px 8px rgba(0, 0, 0, 0.25);
 }
 
 .descContent {
+  font-family: poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 137.5%;
+  text-align: justify;
+  color: #000000;
 }
 
 .madeWrapper {
+  width: 1100px;
+  height: 591px;
+  margin: 0 auto 100px auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .madeTitle {
+  font-family: poppins;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #623a20;
+  text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.25);
+  margin: 0 auto;
 }
 
 .madeElementWrapper {
+  display: flex;
+  justify-content: space-between;
 }
 
 .madeElementContainer {
+  height: 476px;
+  width: 314px;
+  background: #ffffff;
+  box-shadow: 8px 9px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 46px;
 }
 
-.madeElementImage {
+.madeElementImage img {
+  width: 251px;
+  height: 171px;
+  margin-top: 29px;
 }
 
 .madeElementTitle {
+  font-family: poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  display: flex;
+  color: #000000;
+  margin-top: 9px;
 }
 
 .madeElementContent {
+  font-family: poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: justify;
+  color: #000000;
+  padding-inline: 43px;
+  margin-top: 3px;
 }
 
 .madeElementButton {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  border: 2px solid #ff8356;
+  border-radius: 11px;
+  padding: 9px 25px;
+  margin-top: 17px;
 }
