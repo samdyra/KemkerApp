@@ -11,6 +11,10 @@ import {
   github,
 } from "../../Assets";
 import foto from "../../Assets/Images/fotokemker.png";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 const AboutScreen = () => {
   const {
     bc,
@@ -45,6 +49,14 @@ const AboutScreen = () => {
     footerSocmeds,
     footerTexts,
   } = style;
+
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+  };
   return (
     <div className={bc}>
       <div className={bcd}>
@@ -115,8 +127,38 @@ const AboutScreen = () => {
         </div>
       </div>
       <div className={creatorWrapper}>
-        <div className={creatorTitle}></div>
-        <div className={creatorCarousel}></div>
+        <div className={creatorTitle}>Who We Are</div>
+        <div className={creatorCarousel}>
+          <Slider {...settings}>
+            <div>
+              <h3>1</h3>
+            </div>
+            <div>
+              <h3>2</h3>
+            </div>
+            <div>
+              <h3>3</h3>
+            </div>
+            <div>
+              <h3>4</h3>
+            </div>
+            <div>
+              <h3>5</h3>
+            </div>
+            <div>
+              <h3>6</h3>
+            </div>
+            <div>
+              <h3>7</h3>
+            </div>
+            <div>
+              <h3>8</h3>
+            </div>
+            <div>
+              <h3>9</h3>
+            </div>
+          </Slider>
+        </div>
       </div>
       <div className={galleryWrapper}>
         <div className={galleryTitle}></div>
