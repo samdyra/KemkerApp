@@ -1,0 +1,35 @@
+[
+  {
+    "kelompok": "1",
+    "anggota": [
+      { "name": "Dwiputra Sam1", "image": "https://gdurl.com/ra7En" },
+      { "name": "Dwiputra Sam2", "image": "https://gdurl.com/ra7En" },
+      { "name": "Dwiputra Sam3", "image": "https://gdurl.com/ra7En" },
+      { "name": "Dwiputra Sam5", "image": "https://gdurl.com/ra7En" },
+      { "name": "Dwiputra Sam6", "image": "https://gdurl.com/ra7En" },
+      { "name": "Dwiputra Sam7", "image": "https://gdurl.com/ra7En" }
+    ]
+  },
+  {
+    "kelompok": "2",
+    "anggota": [
+      { "name": "Dwiputra Sam8", "image": "https://gdurl.com/ra7En" },
+      { "name": "Dwiputra Sam9", "image": "https://gdurl.com/ra7En" },
+      { "name": "Dwiputra Sam10", "image": "https://gdurl.com/ra7En" },
+      { "name": "Dwiputra Sam11", "image": "https://gdurl.com/ra7En" },
+      { "name": "Dwiputra Sam12", "image": "https://gdurl.com/ra7En" },
+      { "name": "Dwiputra Sam13", "image": "https://gdurl.com/ra7En" }
+    ]
+  },
+  {
+    "kelompok": "3",
+    "anggota": [
+      { "name": "Dwiputra Sam14", "image": "https://gdurl.com/ra7En" },
+      { "name": "Dwiputra Sam15", "image": "https://gdurl.com/ra7En" },
+      { "name": "Dwiputra Sam16", "image": "https://gdurl.com/ra7En" },
+      { "name": "Dwiputra Sam17", "image": "https://gdurl.com/ra7En" },
+      { "name": "Dwiputra Sam18", "image": "https://gdurl.com/ra7En" },
+      { "name": "Dwiputra Sam19", "image": "https://gdurl.com/ra7En" }
+    ]
+  }
+]

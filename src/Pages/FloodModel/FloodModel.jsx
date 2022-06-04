@@ -2,7 +2,6 @@ import React from "react";
 import Navbar from "../../ComponentsV2/Navbar";
 import style from "./FloodModel.module.css";
 import fotoIMG from "../../Assets/Images/logoKemker.png";
-import data from "../../Assets/New-Confetti-27May.json";
 
 const FloodModel = () => {
   const {

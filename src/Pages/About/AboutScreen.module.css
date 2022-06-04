@@ -197,7 +197,86 @@
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   margin: 75px auto 75px auto;
 }
-.creatorCarousel {
+
+.creatorCarouselElements {
+  /* border: 3px solid red; */
+}
+
+.carouselElements {
+  /* border: 3px solid red; */
+}
+
+.carouselElements .caElContainer {
+  /* border: 3px solid red; */
+  margin-inline: 25px;
+  height: 369px;
+  background: #ffca78;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(9px);
+  border-radius: 24px;
+}
+
+.caElContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.caElTitle {
+  font-family: poppins;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #623a20;
+  background: rgba(255, 135, 53, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.25);
+  border-radius: 24px;
+  height: 61px;
+  width: 248px;
+  margin: 25px auto 0 auto;
+}
+
+.caElMember {
+  margin-inline: 32px;
+  margin-top: 22px;
+  margin-bottom: 7px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.caElMemberContainer {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  width: 120px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 1px 20px 0;
+}
+
+.caElMemberContainer img {
+  width: 81px;
+  height: 81px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.caElMemberContainer div {
+  font-family: poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
 }
 
 .galleryWrapper {

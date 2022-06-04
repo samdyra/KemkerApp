@@ -14,6 +14,7 @@ import foto from "../../Assets/Images/fotokemker.png";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import mockData from "../../Constants/mockData.json";
 
 const AboutScreen = () => {
   const {
@@ -48,15 +49,23 @@ const AboutScreen = () => {
     footerLogos,
     footerSocmeds,
     footerTexts,
+    creatorCarouselElements,
+    carouselElements,
+    caElContainer,
+    caElTitle,
+    caElMember,
+    caElMemberContainer,
+    caElMemberName,
   } = style;
 
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 2,
     slidesToScroll: 1,
   };
+
   return (
     <div className={bc}>
       <div className={bcd}>
@@ -128,37 +137,29 @@ const AboutScreen = () => {
       </div>
       <div className={creatorWrapper}>
         <div className={creatorTitle}>Who We Are</div>
-        <div className={creatorCarousel}>
-          <Slider {...settings}>
-            <div>
-              <h3>1</h3>
-            </div>
-            <div>
-              <h3>2</h3>
-            </div>
-            <div>
-              <h3>3</h3>
-            </div>
-            <div>
-              <h3>4</h3>
-            </div>
-            <div>
-              <h3>5</h3>
-            </div>
-            <div>
-              <h3>6</h3>
-            </div>
-            <div>
-              <h3>7</h3>
-            </div>
-            <div>
-              <h3>8</h3>
-            </div>
-            <div>
-              <h3>9</h3>
-            </div>
-          </Slider>
-        </div>
+        <Slider {...settings} className={creatorCarouselElements}>
+          {mockData.map((kelompok) => {
+            return (
+              <div className={carouselElements}>
+                <div className={caElContainer}>
+                  <div
+                    className={caElTitle}
+                  >{`Kelompok ${kelompok.kelompok}`}</div>
+                  <div className={caElMember}>
+                    {kelompok.anggota.map((anggota) => {
+                      return (
+                        <div className={caElMemberContainer}>
+                          <img src={anggota.image}></img>
+                          <div className={caElMemberName}>{anggota.name}</div>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+              </div>
+            );
+          })}
+        </Slider>
       </div>
       <div className={galleryWrapper}>
         <div className={galleryTitle}></div>
