@@ -204,6 +204,12 @@
 
 .carouselElements .caElContainer {
   /* border: 3px solid red; */
+  margin-inline: 25px;
+  height: 369px;
+  background: #ffca78;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(9px);
+  border-radius: 24px;
 }
 
 .caElContainer {
