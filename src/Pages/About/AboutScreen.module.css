@@ -181,7 +181,7 @@
   );
   box-shadow: 4px 5px 25px 4px rgba(0, 0, 0, 0.25);
   border-radius: 30px;
-  margin: 0 auto 50px auto;
+  margin: 0 auto 150px auto;
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
@@ -204,12 +204,6 @@
 
 .carouselElements .caElContainer {
   /* border: 3px solid red; */
-  margin-inline: 25px;
-  height: 369px;
-  background: #ffca78;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(9px);
-  border-radius: 24px;
 }
 
 .caElContainer {
@@ -311,11 +305,90 @@
 }
 
 .messageWrapper {
+  margin-inline: 90px;
+  margin-bottom: 100px;
 }
 .messageTitle {
+  font-family: poppins;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+  color: #623a20;
+  text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 50px;
 }
+
+.messageDesc {
+  font-family: poppins;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  /* line-height: 72px; */
+  text-align: center;
+  color: #623a20;
+  text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.25);
+
+  /* margin-top: 58px; */
+}
+
 .messageCarousel {
+  /* margin-inline: 250px; */
+  /* margin-inline: 20px; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
+
+.meElContainer {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.meElContainer .meElEl {
+  margin-inline: 250px;
+  padding: 10px 30px 10px 30px;
+  background: #fafafa;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 18px;
+}
+
+.meElName {
+  font-family: poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 130%;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.meElNim {
+  font-family: poppins;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 130%;
+  display: flex;
+  justify-content: center;
+  color: #000000;
+}
+
+.meElme {
+  font-family: poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  text-align: justify;
+  color: #000000;
+  margin-top: 25px;
+  padding-bottom: 30px;
+}
+
 .footer {
   height: 200px;
   margin: 0 auto;

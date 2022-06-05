@@ -62,6 +62,12 @@ const AboutScreen = () => {
     caElMemberName,
     galleryElementContainer,
     lottie,
+    messageDesc,
+    meElContainer,
+    meElName,
+    meElNim,
+    meElme,
+    meElEl,
   } = style;
 
   const creatorSettings = {
@@ -83,6 +89,13 @@ const AboutScreen = () => {
     autoplaySpeed: 2500,
   };
 
+  const messageSettings = {
+    dots: true,
+    infinite: true,
+    speed: 2000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
   const ReversedData = mockData[1].slice(0).reverse();
 
   return (
@@ -193,6 +206,25 @@ const AboutScreen = () => {
           })}
         </Slider>
       </div>
+      <div className={messageWrapper}>
+        <div className={messageTitle}>What is it like in Kemah Kerja 2022</div>
+        <div className={messageDesc}>See what others have to say about us</div>
+        <div className={messageCarousel}>
+          <Slider {...messageSettings}>
+            {mockData[2].map((message) => {
+              return (
+                <div className={meElContainer}>
+                  <div className={meElEl}>
+                    <div className={meElName}>{message.nama}</div>
+                    <div className={meElNim}>{message.nim}</div>
+                    <div className={meElme}>{message.message}</div>
+                  </div>
+                </div>
+              );
+            })}
+          </Slider>
+        </div>
+      </div>
       <div className={galleryWrapper}>
         <div className={galleryTitle}>Galeri Kemah Kerja 2022</div>
         <div className={galleryCarousel}>
@@ -215,10 +247,6 @@ const AboutScreen = () => {
             })}
           </Slider>
         </div>
-      </div>
-      <div className={messageWrapper}>
-        <div className={messageTitle}></div>
-        <div className={messageCarousel}></div>
       </div>
       <div className={footer}>
         <div className={footerElements}>
