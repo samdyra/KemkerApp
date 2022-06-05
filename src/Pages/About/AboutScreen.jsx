@@ -9,12 +9,16 @@ import {
   insta,
   twitterLogo,
   github,
+  webgis,
+  engineering,
+  flood,
 } from "../../Assets";
 import foto from "../../Assets/Images/fotokemker.png";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import mockData from "../../Constants/mockData.json";
+import Lottie from "lottie-react";
 
 const AboutScreen = () => {
   const {
@@ -56,17 +60,30 @@ const AboutScreen = () => {
     caElMember,
     caElMemberContainer,
     caElMemberName,
+    galleryElementContainer,
+    lottie,
   } = style;
 
-  const settings = {
+  const creatorSettings = {
     dots: false,
     infinite: true,
     speed: 2000,
     slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 2500,
   };
+
+  const gallerySettings = {
+    infinite: true,
+    speed: 2000,
+    slidesToShow: 6,
+    slidesToScroll: 3,
+    autoplay: true,
+    autoplaySpeed: 2500,
+  };
+
+  const ReversedData = mockData[1].slice(0).reverse();
 
   return (
     <div className={bc}>
@@ -98,7 +115,12 @@ const AboutScreen = () => {
         <div className={madeElementWrapper}>
           <div className={madeElementContainer}>
             <div className={madeElementImage}>
-              <img src={noImage}></img>
+              <Lottie
+                animationData={webgis}
+                loop={true}
+                className={lottie}
+                speed={3}
+              ></Lottie>
             </div>
             <div className={madeElementTitle}>WebGIS</div>
             <div className={madeElementContent}>
@@ -107,42 +129,50 @@ const AboutScreen = () => {
               Dignissimos iure quam ab dolore ipsam fugit voluptatem
               voluptatibus quas.
             </div>
-            <div className={madeElementButton}>View WebGIS</div>
+            <div className={madeElementButton}>View</div>
           </div>
           <div className={madeElementContainer}>
             <div className={madeElementImage}>
-              <img src={noImage}></img>
+              <Lottie
+                animationData={engineering}
+                loop={true}
+                className={lottie}
+              ></Lottie>
             </div>
-            <div className={madeElementTitle}>WebGIS</div>
+            <div className={madeElementTitle}>Terrain Profiles</div>
             <div className={madeElementContent}>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. At iure
               ratione laudantium ducimus vel sapiente, qui ea! Earum, sit ullam!
               Dignissimos iure quam ab dolore ipsam fugit voluptatem
               voluptatibus quas.
             </div>
-            <div className={madeElementButton}>View WebGIS</div>
+            <div className={madeElementButton}>View</div>
           </div>
           <div className={madeElementContainer}>
             <div className={madeElementImage}>
-              <img src={noImage}></img>
+              <Lottie
+                animationData={flood}
+                loop={true}
+                className={lottie}
+              ></Lottie>
             </div>
-            <div className={madeElementTitle}>WebGIS</div>
+            <div className={madeElementTitle}>Flood Model</div>
             <div className={madeElementContent}>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. At iure
               ratione laudantium ducimus vel sapiente, qui ea! Earum, sit ullam!
               Dignissimos iure quam ab dolore ipsam fugit voluptatem
               voluptatibus quas.
             </div>
-            <div className={madeElementButton}>View WebGIS</div>
+            <div className={madeElementButton}>View</div>
           </div>
         </div>
       </div>
       <div className={creatorWrapper}>
-        <div className={creatorTitle}>Who We Are</div>
-        <Slider {...settings} className={creatorCarouselElements}>
-          {mockData.map((kelompok) => {
+        <div className={creatorTitle}>Get to know us!</div>
+        <Slider {...creatorSettings} className={creatorCarouselElements}>
+          {mockData[0].map((kelompok) => {
             return (
-              <div className={carouselElements}>
+              <div className={carouselElements} tabIndex="0">
                 <div className={caElContainer}>
                   <div
                     className={caElTitle}
@@ -164,8 +194,27 @@ const AboutScreen = () => {
         </Slider>
       </div>
       <div className={galleryWrapper}>
-        <div className={galleryTitle}></div>
-        <div className={galleryCarousel}></div>
+        <div className={galleryTitle}>Galeri Kemah Kerja 2022</div>
+        <div className={galleryCarousel}>
+          <Slider {...gallerySettings}>
+            {mockData[1].map((image) => {
+              return (
+                <div className={galleryElementContainer}>
+                  <img src={image.image}></img>
+                </div>
+              );
+            })}
+          </Slider>
+          <Slider {...gallerySettings}>
+            {ReversedData.map((image) => {
+              return (
+                <div className={galleryElementContainer}>
+                  <img src={image.image}></img>
+                </div>
+              );
+            })}
+          </Slider>
+        </div>
       </div>
       <div className={messageWrapper}>
         <div className={messageTitle}></div>

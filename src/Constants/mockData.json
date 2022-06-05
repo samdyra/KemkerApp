@@ -1,35 +1,67 @@
 [
-  {
-    "kelompok": "1",
-    "anggota": [
-      { "name": "Dwiputra Sam1", "image": "https://gdurl.com/ra7En" },
-      { "name": "Dwiputra Sam2", "image": "https://gdurl.com/ra7En" },
-      { "name": "Dwiputra Sam3", "image": "https://gdurl.com/ra7En" },
-      { "name": "Dwiputra Sam5", "image": "https://gdurl.com/ra7En" },
-      { "name": "Dwiputra Sam6", "image": "https://gdurl.com/ra7En" },
-      { "name": "Dwiputra Sam7", "image": "https://gdurl.com/ra7En" }
-    ]
-  },
-  {
-    "kelompok": "2",
-    "anggota": [
-      { "name": "Dwiputra Sam8", "image": "https://gdurl.com/ra7En" },
-      { "name": "Dwiputra Sam9", "image": "https://gdurl.com/ra7En" },
-      { "name": "Dwiputra Sam10", "image": "https://gdurl.com/ra7En" },
-      { "name": "Dwiputra Sam11", "image": "https://gdurl.com/ra7En" },
-      { "name": "Dwiputra Sam12", "image": "https://gdurl.com/ra7En" },
-      { "name": "Dwiputra Sam13", "image": "https://gdurl.com/ra7En" }
-    ]
-  },
-  {
-    "kelompok": "3",
-    "anggota": [
-      { "name": "Dwiputra Sam14", "image": "https://gdurl.com/ra7En" },
-      { "name": "Dwiputra Sam15", "image": "https://gdurl.com/ra7En" },
-      { "name": "Dwiputra Sam16", "image": "https://gdurl.com/ra7En" },
-      { "name": "Dwiputra Sam17", "image": "https://gdurl.com/ra7En" },
-      { "name": "Dwiputra Sam18", "image": "https://gdurl.com/ra7En" },
-      { "name": "Dwiputra Sam19", "image": "https://gdurl.com/ra7En" }
-    ]
-  }
+  [
+    {
+      "kelompok": "1",
+      "anggota": [
+        { "name": "Dwiputra Sam1", "image": "https://gdurl.com/ra7En" },
+        { "name": "Dwiputra Sam2", "image": "https://gdurl.com/ra7En" },
+        { "name": "Dwiputra Sam3", "image": "https://gdurl.com/ra7En" },
+        { "name": "Dwiputra Sam5", "image": "https://gdurl.com/ra7En" },
+        { "name": "Dwiputra Sam6", "image": "https://gdurl.com/ra7En" },
+        { "name": "Dwiputra Sam7", "image": "https://gdurl.com/ra7En" },
+        { "name": "Dwiputra Sam8", "image": "https://gdurl.com/ra7En" }
+      ]
+    },
+    {
+      "kelompok": "2",
+      "anggota": [
+        { "name": "Dwiputra Sam8", "image": "https://gdurl.com/ra7En" },
+        { "name": "Dwiputra Sam9", "image": "https://gdurl.com/ra7En" },
+        { "name": "Dwiputra Sam10", "image": "https://gdurl.com/ra7En" },
+        { "name": "Dwiputra Sam11", "image": "https://gdurl.com/ra7En" },
+        { "name": "Dwiputra Sam12", "image": "https://gdurl.com/ra7En" },
+        { "name": "Dwiputra Sam13", "image": "https://gdurl.com/ra7En" }
+      ]
+    },
+    {
+      "kelompok": "3",
+      "anggota": [
+        { "name": "Dwiputra Sam14", "image": "https://gdurl.com/ra7En" },
+        { "name": "Dwiputra Sam15", "image": "https://gdurl.com/ra7En" },
+        { "name": "Dwiputra Sam16", "image": "https://gdurl.com/ra7En" },
+        { "name": "Dwiputra Sam17", "image": "https://gdurl.com/ra7En" },
+        { "name": "Dwiputra Sam18", "image": "https://gdurl.com/ra7En" },
+        { "name": "Dwiputra Sam19", "image": "https://gdurl.com/ra7En" }
+      ]
+    }
+  ],
+  [
+    { "judul": "foto1", "image": "https://gdurl.com/ra7En" },
+    { "judul": "foto2", "image": "https://gdurl.com/ra7En" },
+    { "judul": "foto3", "image": "https://gdurl.com/ra7En" },
+    { "judul": "foto4", "image": "https://gdurl.com/ra7En" },
+    { "judul": "foto5", "image": "https://gdurl.com/ra7En" },
+    { "judul": "foto6", "image": "https://gdurl.com/ra7En" },
+    { "judul": "foto7", "image": "https://gdurl.com/ra7En" },
+    { "judul": "foto8", "image": "https://gdurl.com/ra7En" },
+    { "judul": "foto9", "image": "https://gdurl.com/ra7En" },
+    { "judul": "foto10", "image": "https://gdurl.com/ra7En" },
+    { "judul": "foto11", "image": "https://gdurl.com/ra7En" },
+    { "judul": "foto12", "image": "https://gdurl.com/ra7En" },
+    { "judul": "foto13", "image": "https://gdurl.com/ra7En" },
+    { "judul": "foto14", "image": "https://gdurl.com/ra7En" },
+    { "judul": "foto15", "image": "https://gdurl.com/ra7En" },
+    { "judul": "foto16", "image": "https://gdurl.com/ra7En" },
+    { "judul": "foto17", "image": "https://gdurl.com/ra7En" },
+    { "judul": "foto18", "image": "https://gdurl.com/ra7En" },
+    { "judul": "foto19", "image": "https://gdurl.com/ra7En" },
+    { "judul": "foto20", "image": "https://gdurl.com/ra7En" },
+    { "judul": "foto21", "image": "https://gdurl.com/ra7En" },
+    { "judul": "foto22", "image": "https://gdurl.com/ra7En" },
+    { "judul": "foto23", "image": "https://gdurl.com/ra7En" },
+    {
+      "judul": "foto24",
+      "image": "https://memegenerator.net/img/instances/33774418/ekspresi-guwe-pas-liat-komik-meme-versi-indo.jpg"
+    }
+  ]
 ]

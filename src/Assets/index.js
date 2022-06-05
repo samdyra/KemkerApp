@@ -12,3 +12,7 @@ export { default as twitterLogo } from "./Images/twttr.png";
 export { default as footerLine } from "./Images/footerLine.png";
 export { default as helpSymbol } from "./Images/helpSymbol.png";
 export { default as hiasan } from "./Images/hiasanGVT.png";
+export { default as webgis } from "./Animations/area-map.json";
+export { default as flood } from "./Animations/flood.json";
+export { default as engineering } from "./Animations/engineering.json";
+export { default as background } from "./Animations/background.json";

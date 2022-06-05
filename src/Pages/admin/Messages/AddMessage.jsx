@@ -10,6 +10,7 @@ const AddMessage = () => {
   const [formData, setFormData] = useState({
     message: "",
     nama: "",
+    nim: "",
   });
   const [user] = useAuthState(auth);
 
@@ -18,7 +19,7 @@ const AddMessage = () => {
   };
 
   const handlePublish = (e) => {
-    if (!formData.message || !formData.nama) {
+    if (!formData.message || !formData.nama || !formData.nim) {
       toast("Please fill all the fields");
       return;
     }
@@ -27,6 +28,7 @@ const AddMessage = () => {
     addDoc(messageRef, {
       message: formData.message,
       nama: formData.nama,
+      nim: formData.nim,
     })
       .then(() => {
         toast("message added successfully", { type: "success" });
@@ -49,12 +51,34 @@ const AddMessage = () => {
           <div className="formtitle">Kesan Pesan</div>
           <div className="formadmin">
             <label htmlFor="">Nama</label>
-            <input type="text" name="nama" className="formik" value={formData.nama} onChange={(e) => handleChange(e)} />
+            <input
+              type="text"
+              name="nama"
+              className="formik"
+              value={formData.nama}
+              onChange={(e) => handleChange(e)}
+            />
+          </div>
+
+          <div className="formadmin">
+            <label htmlFor="">NIM / Jabatan</label>
+            <input
+              type="text"
+              name="nim"
+              className="formik"
+              value={formData.nim}
+              onChange={(e) => handleChange(e)}
+            />
           </div>
 
           <div className="formadmin">
             <label htmlFor="">kesan pesan</label>
-            <textarea name="message" className="formik" value={formData.message} onChange={(e) => handleChange(e)} />
+            <textarea
+              name="message"
+              className="formik"
+              value={formData.message}
+              onChange={(e) => handleChange(e)}
+            />
           </div>
 
           <button className="formbutton" onClick={handlePublish}>

@@ -37,12 +37,13 @@ const Messages = () => {
           {message.length === 0 ? (
             <span className="visually-hidden">Loading...</span>
           ) : (
-            message.map(({ id, nama, message }) => (
+            message.map(({ id, nama, message, nim }) => (
               <div className="kameradContainer">
                 <div key={id} className="kamerad-container-id">
                   <div className="kamerad-ids">
                     <p>{message}</p>
                     <div>{`by ${nama}`}</div>
+                    <div>{`${nim}`}</div>
                     {user && <DeleteMessage id={id} />}
                   </div>
                 </div>

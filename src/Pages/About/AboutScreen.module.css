@@ -37,9 +37,10 @@
   margin-top: 50px;
   margin-bottom: 100px;
   height: 415px;
-  margin-inline: 90px;
+  margin-inline: 80px;
   display: flex;
   justify-content: center;
+  /* border: 3px solid red; */
 }
 
 .descImage img {
@@ -50,7 +51,6 @@
 }
 
 .descContainer {
-  /* width: 500px; */
   /* height: 415px; */
 }
 
@@ -117,7 +117,7 @@
   margin-top: 46px;
 }
 
-.madeElementImage img {
+.lottie {
   width: 251px;
   height: 171px;
   margin-top: 29px;
@@ -198,12 +198,8 @@
   margin: 75px auto 75px auto;
 }
 
-.creatorCarouselElements {
-  /* border: 3px solid red; */
-}
-
-.carouselElements {
-  /* border: 3px solid red; */
+.carouselElements:hover {
+  cursor: grab;
 }
 
 .carouselElements .caElContainer {
@@ -241,17 +237,17 @@
 }
 
 .caElMember {
-  margin-inline: 32px;
+  margin-inline: 6px;
   margin-top: 22px;
   margin-bottom: 7px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  /* border: 1px solid red; */
 }
 
 .caElMemberContainer {
-  /* border: 1px solid red; */
   display: flex;
   flex-direction: column;
   width: 120px;
@@ -280,11 +276,40 @@
 }
 
 .galleryWrapper {
+  width: 1280px;
+  height: 720px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
 }
 .galleryTitle {
+  font-family: poppins;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+  color: #623a20;
+  text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 58px;
 }
 .galleryCarousel {
+  height: 422px;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
+.galleryCarousel:hover {
+  cursor: grab;
+}
+
+.galleryElementContainer img {
+  /* margin-inline: 1px; */
+  height: 200px;
+  width: 200px;
+}
+
 .messageWrapper {
 }
 .messageTitle {
