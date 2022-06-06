@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "../../ComponentsV2/Navbar";
 import style from "./AboutScreen.module.css";
 import {
@@ -23,6 +23,7 @@ import Lottie from "lottie-react";
 const AboutScreen = () => {
   const {
     bc,
+    gd,
     headerWrapper,
     headerText,
     descWrapper,
@@ -68,8 +69,16 @@ const AboutScreen = () => {
     meElNim,
     meElme,
     meElEl,
+    headerDesc,
+    parallaxWrapper,
+    headerContainer,
+    laxImageOne,
+    laxImageTwo,
+    laxImageThree,
+    laxImageFour,
+    laxImageFive,
+    laxImageSix,
   } = style;
-
   const creatorSettings = {
     dots: false,
     infinite: true,
@@ -79,7 +88,6 @@ const AboutScreen = () => {
     autoplay: true,
     autoplaySpeed: 2500,
   };
-
   const gallerySettings = {
     infinite: true,
     speed: 2000,
@@ -88,7 +96,6 @@ const AboutScreen = () => {
     autoplay: true,
     autoplaySpeed: 2500,
   };
-
   const messageSettings = {
     dots: true,
     infinite: true,
@@ -98,21 +105,99 @@ const AboutScreen = () => {
   };
   const ReversedData = mockData[1].slice(0).reverse();
 
+  const [offsetX, setOffsetX] = useState(0);
+  const [offsetY, setOffsetY] = useState(0);
+
+  window.addEventListener("mousemove", (e) => {
+    return setOffsetY(e.clientY);
+  });
+
+  window.addEventListener("mousemove", (e) => {
+    return setOffsetX(e.clientX);
+  });
+
   return (
     <div className={bc}>
-      <div className={bcd}>
-        <img src={foto}></img>
-      </div>
       <Navbar></Navbar>
       <div className={headerWrapper}>
-        <div className={headerText}>Kemah Kerja 2022</div>
+        <div className={headerContainer}>
+          <div className={gd}>GD306</div>
+          <div className={headerText}>
+            Kemah Kerja
+            <br />
+            2022
+          </div>
+          <div className={headerDesc}>
+            GD3206 Field Camp is part of Geodesy and Geomatics Engineering
+            curriculum for third year students. This course provides an
+            opportunity for students to implement skills that theyve acquired
+            throughout the years, especially on geodesy and geomatics
+            engineering.
+          </div>
+        </div>
+        <div className={parallaxWrapper}>
+          <img
+            className={laxImageOne}
+            src={noImage}
+            style={{
+              transform: `translateX(-${offsetX * 0.01}px) translateY(-${
+                offsetY * 0.01
+              }px)`,
+            }}
+          ></img>
+          <img
+            className={laxImageTwo}
+            src={noImage}
+            style={{
+              transform: `translateX(-${offsetX * 0.018}px) translateY(-${
+                offsetY * 0.018
+              }px)`,
+            }}
+          ></img>
+          <img
+            className={laxImageThree}
+            src={noImage}
+            style={{
+              transform: `translateX(-${offsetX * 0.024}px) translateY(-${
+                offsetY * 0.024
+              }px)`,
+            }}
+          ></img>
+          <img
+            className={laxImageFour}
+            src={noImage}
+            style={{
+              transform: `translateX(${offsetX * 0.01}px) translateY(${
+                offsetY * 0.01
+              }px)`,
+            }}
+          ></img>
+          <img
+            className={laxImageFive}
+            src={noImage}
+            style={{
+              transform: `translateX(-${offsetX * 0.02}px) translateY(-${
+                offsetY * 0.02
+              }px)`,
+            }}
+          ></img>
+          <img
+            className={laxImageSix}
+            src={noImage}
+            style={{
+              transform: `translateX(${offsetX * 0.015}px) translateY( ${
+                offsetY * 0.015
+              }px)`,
+            }}
+          ></img>
+        </div>
       </div>
       <div className={descWrapper}>
         <div className={descImage}>
           <img src={noImage}></img>
         </div>
         <div className={descContainer}>
-          <div className={descTitle}>Kemah Kerja 2022</div>
+          <div className={descTitle}>What Are We</div>
           <div className={descContent}>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
             optio natus odit sequi? Quis similique vitae quibusdam natus sequi
@@ -181,7 +266,7 @@ const AboutScreen = () => {
         </div>
       </div>
       <div className={creatorWrapper}>
-        <div className={creatorTitle}>Get to know us!</div>
+        <div className={creatorTitle}>Who We Are</div>
         <Slider {...creatorSettings} className={creatorCarouselElements}>
           {mockData[0].map((kelompok) => {
             return (
@@ -226,7 +311,7 @@ const AboutScreen = () => {
         </div>
       </div>
       <div className={galleryWrapper}>
-        <div className={galleryTitle}>Galeri Kemah Kerja 2022</div>
+        <div className={galleryTitle}>Kemah Kerja 2022 Gallery</div>
         <div className={galleryCarousel}>
           <Slider {...gallerySettings}>
             {mockData[1].map((image) => {
