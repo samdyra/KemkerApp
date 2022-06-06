@@ -217,7 +217,7 @@ const AboutScreen = () => {
                   <div className={meElEl}>
                     <div className={meElName}>{message.nama}</div>
                     <div className={meElNim}>{message.nim}</div>
-                    <div className={meElme}>{message.message}</div>
+                    <div className={meElme}>{`"${message.message}"`}</div>
                   </div>
                 </div>
               );
