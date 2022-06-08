@@ -32,6 +32,10 @@ const Messages = () => {
         <a href="/admin/kesanpesan">Kesan Pesan</a>
         <a href="/admin/story">Cerita</a>
       </div>
+      <div className="warning">
+        kasih kesan pesan yg lucu lucu sedih sedih atau serem2 <br></br>
+        gass, tp inget jangan yg kasar yaa.. muncul di landing page soalnya
+      </div>
       <div className="testContainer">
         <div className="adminContainer">
           {message.length === 0 ? (

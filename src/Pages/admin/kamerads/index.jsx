@@ -33,6 +33,11 @@ const Kamerads = () => {
         <a href="/admin/kesanpesan">Kesan Pesan</a>
         <a href="/admin/story">Cerita</a>
       </div>
+      <div className="warning">
+        Jangan delete yang punya orang lain ya..
+        <br></br>boleh delete yg diri sendiri, terus publish yang diri sendiri kalo mau ganti
+        foto{" "}
+      </div>
       <div className="testContainer">
         <div className="adminContainer">
           {kamerad.length === 0 ? (

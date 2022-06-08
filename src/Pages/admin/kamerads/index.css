@@ -13,6 +13,11 @@
   /* position: absolute; */
 }
 
+.warning {
+  text-align: center;
+  font-family: poppins;
+}
+
 .kameradContainerz {
   width: 600px;
   display: flex;

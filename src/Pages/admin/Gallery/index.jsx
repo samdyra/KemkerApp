@@ -32,6 +32,10 @@ const Gallery = () => {
         <a href="/admin/kesanpesan">Kesan Pesan</a>
         <a href="/admin/story">Cerita</a>
       </div>
+      <div className="warning">
+        foto2 yang dimasukin kesini bakal muncul di gallery <br></br>
+        di landing page guys, jangan masukin foto yang engga engga ya, nangisss
+      </div>
       <div className="testContainerIMG">
         <div className="adminContainerIMG">
           {image.length === 0 ? (
@@ -43,7 +47,9 @@ const Gallery = () => {
                   <img src={image} style={{ width: 200, height: 200 }}></img>
                   <div className="kamerad-idIMG">
                     <p>{name}</p>
-                    <div className="deletegallery">{user && <DeleteImage id={id} image={image} />}</div>
+                    <div className="deletegallery">
+                      {user && <DeleteImage id={id} image={image} />}
+                    </div>
                   </div>
                 </div>
               </div>

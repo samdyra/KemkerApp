@@ -18,7 +18,6 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import mockData from "../../Constants/mockData.json";
-import Lottie from "lottie-react";
 
 const AboutScreen = () => {
   const {
@@ -213,12 +212,7 @@ const AboutScreen = () => {
         <div className={madeElementWrapper}>
           <div className={madeElementContainer}>
             <div className={madeElementImage}>
-              <Lottie
-                animationData={webgis}
-                loop={true}
-                className={lottie}
-                speed={3}
-              ></Lottie>
+              <img src={noImage}></img>
             </div>
             <div className={madeElementTitle}>WebGIS</div>
             <div className={madeElementContent}>
@@ -231,11 +225,7 @@ const AboutScreen = () => {
           </div>
           <div className={madeElementContainer}>
             <div className={madeElementImage}>
-              <Lottie
-                animationData={engineering}
-                loop={true}
-                className={lottie}
-              ></Lottie>
+              <img src={noImage}></img>
             </div>
             <div className={madeElementTitle}>Terrain Profiles</div>
             <div className={madeElementContent}>
@@ -248,11 +238,7 @@ const AboutScreen = () => {
           </div>
           <div className={madeElementContainer}>
             <div className={madeElementImage}>
-              <Lottie
-                animationData={flood}
-                loop={true}
-                className={lottie}
-              ></Lottie>
+              <img src={noImage}></img>
             </div>
             <div className={madeElementTitle}>Flood Model</div>
             <div className={madeElementContent}>

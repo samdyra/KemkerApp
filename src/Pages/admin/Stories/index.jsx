@@ -32,6 +32,10 @@ const Stories = () => {
         <a href="/admin/kesanpesan">Kesan Pesan</a>
         <a href="/admin/story">Cerita</a>
       </div>
+      <div className="warning">
+        ayoo kasih cerita kemker yg lucu2/serem2 dll dari kalian <br></br>
+        (kalo udah ada minimal 3 cerita nanti di munculin di landing page)
+      </div>
       <div className="testContainer">
         <div className="adminContainer">
           {story.length === 0 ? (

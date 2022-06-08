@@ -10,7 +10,7 @@
 .headerWrapper {
   height: calc(100vh - 58px);
   max-width: 1280px;
-  margin: 0 auto 200px auto;
+  margin: 0 auto 100px auto;
   display: flex;
 }
 
@@ -27,7 +27,6 @@
   line-height: 108.5%;
   text-align: justify;
   color: #5e5e5e;
-  text-shadow: 2px 7px 8px rgba(0, 0, 0, 0.25);
   margin-left: 15px;
 }
 
@@ -240,6 +239,13 @@
   display: flex;
   color: #000000;
   margin-top: 9px;
+}
+
+.madeElementImage img {
+  width: 251px;
+  height: 171px;
+  border-radius: 10px;
+  margin-top: 29px;
 }
 
 .madeElementContent {
