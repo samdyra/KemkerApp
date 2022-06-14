@@ -1,11 +1,6 @@
 import "./widget.scss";
-import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
-import PersonOutlinedIcon from "@mui/icons-material/PersonOutlined";
-import AccountBalanceWalletOutlinedIcon from "@mui/icons-material/AccountBalanceWalletOutlined";
-import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
-import MonetizationOnOutlinedIcon from "@mui/icons-material/MonetizationOnOutlined";
 
-const Widget = ({ type }) => {
+const Widget = ({ type, actualData }) => {
   let data;
 
   //temporary
@@ -17,24 +12,28 @@ const Widget = ({ type }) => {
       data = {
         title: "PENGUKURAN GNSS",
         isMoney: false,
+        progress: actualData ? actualData[0].progressGNSS : 0,
       };
       break;
     case "order":
       data = {
         title: "PENGUKURAN KDH",
         isMoney: false,
+        progress: actualData ? actualData[0].progressKDH : 0,
       };
       break;
     case "earning":
       data = {
         title: "PENGUKURAN KDV",
         isMoney: false,
+        progress: actualData ? actualData[0].progressKDV : 0,
       };
       break;
     case "balance":
       data = {
         title: "PENGOLAHAN DATA",
         isMoney: false,
+        progress: actualData ? actualData[0].PengolahanData : 0,
       };
       break;
     default:
@@ -45,7 +44,7 @@ const Widget = ({ type }) => {
     <div className="widget">
       <div className="left">
         <span className="title">{data.title}</span>
-        <span className="counter">{data.isMoney && "$"} 0%</span>
+        <span className="counter">{data.progress}%</span>
         <span className="link">{data.link}</span>
       </div>
       <div className="right">

@@ -5,7 +5,49 @@ import "react-circular-progressbar/dist/styles.css";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import KeyboardArrowUpOutlinedIcon from "@mui/icons-material/KeyboardArrowUpOutlined";
 
-const Featured = () => {
+const Featured = ({ actualData, iniHariKe }) => {
+  const targetBesok =
+    iniHariKe == 1
+      ? 15
+      : iniHariKe == 2
+      ? 30
+      : iniHariKe == 3
+      ? 47.5
+      : iniHariKe == 4
+      ? 54.5
+      : iniHariKe == 5
+      ? 60.5
+      : iniHariKe == 6
+      ? 66.5
+      : iniHariKe == 7
+      ? 72.5
+      : iniHariKe == 8
+      ? 78.5
+      : iniHariKe == 9
+      ? 100
+      : 0;
+
+  const targetHariIni =
+    iniHariKe == 1
+      ? 0
+      : iniHariKe == 2
+      ? 15
+      : iniHariKe == 3
+      ? 30
+      : iniHariKe == 4
+      ? 47.5
+      : iniHariKe == 5
+      ? 57.5
+      : iniHariKe == 6
+      ? 60.5
+      : iniHariKe == 7
+      ? 66.5
+      : iniHariKe == 8
+      ? 72.5
+      : iniHariKe == 9
+      ? 78.5
+      : 100;
+
   return (
     <div className="featured">
       <div className="top">
@@ -25,14 +67,14 @@ const Featured = () => {
             <div className="itemTitle">Target Besok</div>
             <div className="itemResult">
               <KeyboardArrowUpOutlinedIcon fontSize="small" />
-              <div className="resultAmount">0.5%</div>
+              <div className="resultAmount">{targetBesok}%</div>
             </div>
           </div>
           <div className="item">
             <div className="itemTitle">Target Hari ini</div>
             <div className="itemResult">
               <KeyboardArrowUpOutlinedIcon fontSize="small" />
-              <div className="resultAmount">0</div>
+              <div className="resultAmount">{targetHariIni}%</div>
             </div>
           </div>
           <div className="item">
