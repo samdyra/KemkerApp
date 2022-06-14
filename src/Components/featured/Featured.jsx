@@ -48,6 +48,8 @@ const Featured = ({ actualData, iniHariKe }) => {
       ? 78.5
       : 100;
 
+  const totalProgress = actualData ? actualData[0].totalHariIni : 0;
+  console.log(totalProgress);
   return (
     <div className="featured">
       <div className="top">
@@ -56,7 +58,11 @@ const Featured = ({ actualData, iniHariKe }) => {
       </div>
       <div className="bottom">
         <div className="featuredChart">
-          <CircularProgressbar value={0} text={"0%"} strokeWidth={5} />
+          <CircularProgressbar
+            value={totalProgress}
+            text={`${totalProgress}%`}
+            strokeWidth={5}
+          />
         </div>
         <p className="title">Total Progress Sampai Hari Ini</p>
         <p className="desc">
