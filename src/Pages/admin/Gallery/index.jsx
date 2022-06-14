@@ -22,7 +22,6 @@ const Gallery = () => {
       setImage(images);
     });
   }, []);
-
   return (
     <div>
       <NavBarDefault></NavBarDefault>

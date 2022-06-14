@@ -13,7 +13,7 @@ const Kamerads = () => {
   const [user] = useAuthState(auth);
   useEffect(() => {
     const kameradRef = collection(db, "kamerad");
-    const q = query(kameradRef, orderBy("NIM"));
+    const q = query(kameradRef, orderBy("kelompok"));
     onSnapshot(q, (snapshot) => {
       const kamerads = snapshot.docs.map((doc) => ({
         id: doc.id,
@@ -22,6 +22,13 @@ const Kamerads = () => {
       setKamerad(kamerads);
     });
   }, []);
+
+  const groupedKamerad = kamerad.reduce((groupedKamerad, kamerad) => {
+    const kelompok = kamerad.klmpkID;
+    if (groupedKamerad[kelompok] == null) groupedKamerad[kelompok] = [];
+    groupedKamerad[kelompok].push(kamerad);
+    return groupedKamerad;
+  }, {});
 
   return (
     <div>
@@ -35,20 +42,19 @@ const Kamerads = () => {
       </div>
       <div className="warning">
         Jangan delete yang punya orang lain ya..
-        <br></br>boleh delete yg diri sendiri, terus publish yang diri sendiri kalo mau ganti
-        foto{" "}
+        <br></br>boleh delete yg diri sendiri, terus publish yang diri sendiri
+        kalo mau ganti foto{" "}
       </div>
       <div className="testContainer">
         <div className="adminContainer">
           {kamerad.length === 0 ? (
             <span className="visually-hidden">Loading...</span>
           ) : (
-            kamerad.map(({ id, NIM, Nama, image, kelompok }) => (
+            kamerad.map(({ id, Nama, image, kelompok }) => (
               <div className="kameradContainerz">
                 <div key={id} className="kamerad-container-id">
                   <img src={image} style={{ width: 135, height: 135 }}></img>
                   <div className="kamerad-idz">
-                    <div>{NIM}</div>
                     <div>{Nama}</div>
                     <div>{`Kelompok: ${kelompok}`}</div>
                     {user && <DeleteKamerad id={id} image={image} />}

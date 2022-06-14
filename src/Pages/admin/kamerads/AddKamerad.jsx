@@ -9,10 +9,10 @@ import { Link } from "react-router-dom";
 export default function AddKamerad() {
   const [user] = useAuthState(auth);
   const [formData, setFormData] = useState({
-    NIM: "",
     Nama: "",
     image: "",
     kelompok: "",
+    klmpkID: "",
   });
 
   const [progress, setProgress] = useState(0);
@@ -26,7 +26,7 @@ export default function AddKamerad() {
   };
 
   const handlePublish = () => {
-    if (!formData.NIM || !formData.Nama || !formData.image || !formData.kelompok) {
+    if (!formData.Nama || !formData.image || !formData.kelompok) {
       toast("Please fill all the fields");
       return;
     }
@@ -38,7 +38,9 @@ export default function AddKamerad() {
     uploadImage.on(
       "state_changed",
       (snapshot) => {
-        const progressPercent = Math.round((snapshot.bytesTransferred / snapshot.totalBytes) * 100);
+        const progressPercent = Math.round(
+          (snapshot.bytesTransferred / snapshot.totalBytes) * 100
+        );
         setProgress(progressPercent);
       },
       (err) => {
@@ -46,19 +48,18 @@ export default function AddKamerad() {
       },
       () => {
         setFormData({
-          NIM: "",
           Nama: "",
-          image: "",
           kelompok: "",
+          image: "",
         });
 
         getDownloadURL(uploadImage.snapshot.ref).then((url) => {
           const kameradRef = collection(db, "kamerad");
           addDoc(kameradRef, {
-            NIM: formData.NIM,
             Nama: formData.Nama,
             image: url,
-            kelompok: formData.kelompok,
+            kelompok: parseInt(formData.kelompok),
+            klmpkID: `kelompok ${formData.kelompok}`,
           })
             .then(() => {
               toast("kamerad pun lahir", { type: "success" });
@@ -83,25 +84,41 @@ export default function AddKamerad() {
       ) : (
         <div className="formadmincontainer">
           <dic className="formtitle">Create kamerad</dic>
-          <div className="formadmin">
-            <label htmlFor="">NIM</label>
-            <input type="text" name="NIM" className="formik" value={formData.NIM} onChange={(e) => handleChange(e)} />
-          </div>
+
           <div className="formadmin">
             <label htmlFor="">Nama</label>
-            <textarea name="Nama" className="form-control" value={formData.Nama} onChange={(e) => handleChange(e)} />
+            <textarea
+              name="Nama"
+              className="form-control"
+              value={formData.Nama}
+              onChange={(e) => handleChange(e)}
+            />
           </div>
           <div className="formadmin">
             <label htmlFor="">kelompok</label>
-            <textarea name="kelompok" className="form-control" value={formData.kelompok} onChange={(e) => handleChange(e)} />
+            <textarea
+              name="kelompok"
+              className="form-control"
+              value={formData.kelompok}
+              onChange={(e) => handleChange(e)}
+            />
           </div>
           <div className="formadmin">
             <label htmlFor="">Image</label>
-            <input type="file" name="image" accept="image/*" className="form-control" onChange={(e) => handleImageChange(e)} />
+            <input
+              type="file"
+              name="image"
+              accept="image/*"
+              className="form-control"
+              onChange={(e) => handleImageChange(e)}
+            />
           </div>
           {progress === 0 ? null : (
             <div className="progress">
-              <div className="progress-bar progress-bar-striped mt-2" style={{ width: `${progress}%` }}>
+              <div
+                className="progress-bar progress-bar-striped mt-2"
+                style={{ width: `${progress}%` }}
+              >
                 {`uploading image ${progress}%`}
               </div>
             </div>

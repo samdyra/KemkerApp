@@ -7,6 +7,13 @@
   z-index: 1;
 }
 
+.hwc img {
+  position: absolute;
+  height: calc(100vh - 58px);
+  width: calc(100vw - 8px);
+  /* border: 3px solid red; */
+}
+
 .headerWrapper {
   height: calc(100vh - 58px);
   max-width: 1280px;
@@ -17,6 +24,14 @@
 .headerContainer {
   margin-left: 2%;
   margin-top: calc(0.26 * (100vh - 58px));
+}
+
+.jdl img {
+  height: 170px;
+  /* margin: 40px; */
+  margin-top: 10px;
+  /* margin-left: 12px; */
+  margin-bottom: 20px;
 }
 
 .gd {
@@ -55,7 +70,6 @@
   text-align: justify;
   color: #000000;
   /* margin-top: 5px; */
-  margin-left: 15px;
 }
 
 .headerWrapper .headerText {
@@ -348,6 +362,7 @@
   height: 61px;
   width: 248px;
   margin: 25px auto 0 auto;
+  padding: 12px;
 }
 
 .caElMember {
@@ -375,6 +390,7 @@
   height: 81px;
   border-radius: 50%;
   margin-bottom: 10px;
+  object-fit: cover;
 }
 
 .caElMemberContainer div {

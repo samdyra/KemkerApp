@@ -1,4 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { query, collection, onSnapshot, orderBy } from "firebase/firestore";
+import { db } from "../../firebase/firebaseConfig";
 import Navbar from "../../ComponentsV2/Navbar";
 import style from "./AboutScreen.module.css";
 import {
@@ -9,16 +11,15 @@ import {
   insta,
   twitterLogo,
   github,
-  webgis,
-  engineering,
-  flood,
 } from "../../Assets";
 import foto from "../../Assets/Images/fotokemker.png";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import mockData from "../../Constants/mockData.json";
-
+import ornamen from "../../Assets/Images/ornamengv.png";
+import judulImage from "../../Assets/Images/judul2.png";
+import capitalizeFirstLetter from "../../Helpers/globalHelper";
 const AboutScreen = () => {
   const {
     bc,
@@ -77,7 +78,49 @@ const AboutScreen = () => {
     laxImageFour,
     laxImageFive,
     laxImageSix,
+    hwc,
+    jdl,
   } = style;
+
+  const [image, setImage] = useState([]);
+  useEffect(() => {
+    const imageRef = collection(db, "gallery");
+    const q = query(imageRef);
+    onSnapshot(q, (snapshot) => {
+      const images = snapshot.docs.map((doc) => ({
+        id: doc.id,
+        ...doc.data(),
+      }));
+      setImage(images);
+    });
+  }, []);
+
+  const [message, setMessage] = useState([]);
+  useEffect(() => {
+    const messageRef = collection(db, "message");
+    const q = query(messageRef);
+    onSnapshot(q, (snapshot) => {
+      const message = snapshot.docs.map((doc) => ({
+        id: doc.id,
+        ...doc.data(),
+      }));
+      setMessage(message);
+    });
+  }, []);
+
+  const [kamerad, setKamerad] = useState([]);
+  useEffect(() => {
+    const kameradRef = collection(db, "kamerad");
+    const q = query(kameradRef, orderBy("kelompok"));
+    onSnapshot(q, (snapshot) => {
+      const kamerads = snapshot.docs.map((doc) => ({
+        id: doc.id,
+        ...doc.data(),
+      }));
+      setKamerad(kamerads);
+    });
+  }, []);
+
   const creatorSettings = {
     dots: false,
     infinite: true,
@@ -102,8 +145,20 @@ const AboutScreen = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
   };
-  const ReversedData = mockData[1].slice(0).reverse();
 
+  const groupedKamerad = kamerad.reduce((groupedKamerad, kamerad) => {
+    const kelompok = kamerad.klmpkID;
+    if (groupedKamerad[kelompok] == null) groupedKamerad[kelompok] = [];
+    groupedKamerad[kelompok].push(kamerad);
+    return groupedKamerad;
+  }, {});
+
+  const finalGroupValue = Object.entries(groupedKamerad);
+  const parsedImage = image.map((image) => {
+    return image.image;
+  });
+  const ReversedData = parsedImage.slice(0).reverse();
+  console.log(finalGroupValue);
   const [offsetX, setOffsetX] = useState(0);
   const [offsetY, setOffsetY] = useState(0);
 
@@ -118,13 +173,15 @@ const AboutScreen = () => {
   return (
     <div className={bc}>
       <Navbar></Navbar>
+      <div className={hwc}>
+        <img src={ornamen}></img>
+      </div>
       <div className={headerWrapper}>
         <div className={headerContainer}>
-          <div className={gd}>GD306</div>
-          <div className={headerText}>
-            Kemah Kerja
-            <br />
-            2022
+          {/* <div className={gd}></div>
+          <div className={headerText}></div> */}
+          <div className={jdl}>
+            <img src={judulImage}></img>
           </div>
           <div className={headerDesc}>
             GD3206 Field Camp is part of Geodesy and Geomatics Engineering
@@ -254,19 +311,19 @@ const AboutScreen = () => {
       <div className={creatorWrapper}>
         <div className={creatorTitle}>Who We Are</div>
         <Slider {...creatorSettings} className={creatorCarouselElements}>
-          {mockData[0].map((kelompok) => {
+          {finalGroupValue.map((kelompok) => {
             return (
               <div className={carouselElements} tabIndex="0">
                 <div className={caElContainer}>
-                  <div
-                    className={caElTitle}
-                  >{`Kelompok ${kelompok.kelompok}`}</div>
+                  <div className={caElTitle}>
+                    {capitalizeFirstLetter(kelompok[0])}
+                  </div>
                   <div className={caElMember}>
-                    {kelompok.anggota.map((anggota) => {
+                    {kelompok[1].map((anggota) => {
                       return (
                         <div className={caElMemberContainer}>
                           <img src={anggota.image}></img>
-                          <div className={caElMemberName}>{anggota.name}</div>
+                          <div className={caElMemberName}>{anggota.Nama}</div>
                         </div>
                       );
                     })}
@@ -282,7 +339,7 @@ const AboutScreen = () => {
         <div className={messageDesc}>See what others have to say about us</div>
         <div className={messageCarousel}>
           <Slider {...messageSettings}>
-            {mockData[2].map((message) => {
+            {message.map((message) => {
               return (
                 <div className={meElContainer}>
                   <div className={meElEl}>
@@ -300,7 +357,7 @@ const AboutScreen = () => {
         <div className={galleryTitle}>Kemah Kerja 2022 Gallery</div>
         <div className={galleryCarousel}>
           <Slider {...gallerySettings}>
-            {mockData[1].map((image) => {
+            {image.map((image) => {
               return (
                 <div className={galleryElementContainer}>
                   <img src={image.image}></img>
@@ -312,7 +369,7 @@ const AboutScreen = () => {
             {ReversedData.map((image) => {
               return (
                 <div className={galleryElementContainer}>
-                  <img src={image.image}></img>
+                  <img src={image}></img>
                 </div>
               );
             })}
