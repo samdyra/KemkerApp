@@ -11,7 +11,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<AboutScreen />}></Route>
-        <Route path="/FloodModelScreen" element={<FloodModel />}></Route>
+        <Route path="/KurvaS" element={<FloodModel />}></Route>
         <Route path="/ProfileModelScreen" element={<ProfileMap />}></Route>
         <Route path="/WebGIS" element={<WebGIS />}></Route>
         <Route path="/LoginScreen" element={<Login />}></Route>
