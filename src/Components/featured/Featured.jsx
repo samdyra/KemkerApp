@@ -29,7 +29,7 @@ const Featured = ({ actualData, iniHariKe }) => {
 
   const targetHariIni =
     iniHariKe == 1
-      ? 0
+      ? 0.5
       : iniHariKe == 2
       ? 15
       : iniHariKe == 3
@@ -87,7 +87,7 @@ const Featured = ({ actualData, iniHariKe }) => {
             <div className="itemTitle">Ketercapaian</div>
             <div className="itemResult ">
               <KeyboardArrowUpOutlinedIcon fontSize="small" />
-              <div className="resultAmount">0</div>
+              <div className="resultAmount">{totalProgress}%</div>
             </div>
           </div>
         </div>
