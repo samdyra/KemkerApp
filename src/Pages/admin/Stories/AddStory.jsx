@@ -7,7 +7,6 @@ import { Link } from "react-router-dom";
 
 const AddStory = () => {
   const [formData, setFormData] = useState({
-    judul: "",
     nama: "",
     cerita: "",
   });
@@ -18,14 +17,13 @@ const AddStory = () => {
   };
 
   const handlePublish = (e) => {
-    if (!formData.judul || !formData.nama || !formData.cerita) {
+    if (!formData.nama || !formData.cerita) {
       toast("Please fill all the fields");
       return;
     }
 
     const storyRef = collection(db, "story");
     addDoc(storyRef, {
-      judul: formData.judul,
       nama: formData.nama,
       cerita: formData.cerita,
     })
@@ -49,18 +47,25 @@ const AddStory = () => {
         <div className="formadmincontainer">
           <div className="formtitle">Form Cerita</div>
           <div className="formadmin">
-            <label htmlFor="">Nama</label>
-            <input type="text" name="nama" className="formik" value={formData.nama} onChange={(e) => handleChange(e)} />
+            <label htmlFor="">Nama (Boleh Anonim)</label>
+            <input
+              type="text"
+              name="nama"
+              className="formik"
+              value={formData.nama}
+              onChange={(e) => handleChange(e)}
+            />
           </div>
 
           <div className="formadmin">
-            <label htmlFor="">Judul</label>
-            <input name="judul" className="formik" value={formData.judul} onChange={(e) => handleChange(e)} />
-          </div>
-
-          <div className="formadmin">
-            <label htmlFor="">Cerita</label>
-            <textarea name="cerita" className="formik" value={formData.cerita} onChange={(e) => handleChange(e)} rows="7" />
+            <label htmlFor="">Curhatan</label>
+            <textarea
+              name="cerita"
+              className="formik"
+              value={formData.cerita}
+              onChange={(e) => handleChange(e)}
+              rows="7"
+            />
           </div>
           <button className="formbutton" onClick={handlePublish}>
             Publish

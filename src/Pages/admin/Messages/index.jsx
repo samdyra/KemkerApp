@@ -30,7 +30,7 @@ const Messages = () => {
         <a href="/admin/kelompok">Kamerad</a>
         <a href="/admin/Gallery">Gallery</a>
         <a href="/admin/kesanpesan">Kesan Pesan</a>
-        <a href="/admin/story">Cerita</a>
+        <a href="/admin/story">Kotak Pesan</a>
       </div>
       <div className="warning">
         kasih kesan pesan yg lucu lucu sedih sedih atau serem2 <br></br>

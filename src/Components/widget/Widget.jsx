@@ -31,20 +31,24 @@ const Widget = ({ type, actualData }) => {
       break;
     case "balance":
       data = {
-        title: "PENGOLAHAN DATA",
+        title: "PENGUKURAN DETAIL SITUASI",
         isMoney: false,
-        progress: actualData ? actualData[0].PengolahanData : 0,
+        progress: actualData ? actualData[0].detailSituasi : 0,
       };
       break;
     default:
       break;
   }
-
   return (
     <div className="widget">
       <div className="left">
         <span className="title">{data.title}</span>
-        <span className="counter">{data.progress}%</span>
+        {data.progress == 100 ? (
+          <span className="counterSuccess">{data.progress}%</span>
+        ) : (
+          <span className="counter">{data.progress}%</span>
+        )}
+
         <span className="link">{data.link}</span>
       </div>
       <div className="right">

@@ -30,25 +30,23 @@ const Stories = () => {
         <a href="/admin/kelompok">Kamerad</a>
         <a href="/admin/Gallery">Gallery</a>
         <a href="/admin/kesanpesan">Kesan Pesan</a>
-        <a href="/admin/story">Cerita</a>
+        <a href="/admin/story">Kotak Pesan</a>
       </div>
       <div className="warning">
-        ayoo kasih cerita kemker yg lucu2/serem2 dll dari kalian <br></br>
-        (kalo udah ada minimal 3 cerita nanti di munculin di landing page)
+        Silahkan bagi yang ingin berkeluh kesah tentang Kemker <br></br>
+        atau mau sambat ke tim M dan Q silahkan.
       </div>
       <div className="testContainer">
         <div className="adminContainer">
           {story.length === 0 ? (
             <span className="visually-hidden">Loading...</span>
           ) : (
-            story.map(({ id, nama, judul, cerita }) => (
+            story.map(({ id, nama, cerita }) => (
               <div className="kameradContainer">
                 <div key={id} className="kamerad-container-id">
                   <div className="kamerad-idx">
-                    <div className="kmrdjdl">{`Judul: ${judul}`}</div>
                     <div className="kmrdnm">{`By: ${nama}`}</div>
                     <div className="kmrdcrt">{`${cerita}`}</div>
-                    {user && <DeleteStory id={id} />}
                   </div>
                 </div>
               </div>
