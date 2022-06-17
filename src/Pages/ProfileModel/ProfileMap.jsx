@@ -17,7 +17,7 @@ const ProfileMap = () => {
     <div className={bc}>
       <Navbar></Navbar>
       <div className={headerWrapper}>
-        <div className={headerText}>Terrain Profiles</div>
+        <div className={headerText}>Utility Mapping</div>
       </div>
       <div className={latarContainer}>
         <div className={latarTitle}>Latar Belakang</div>

@@ -1,5 +1,7 @@
 .navcontainer {
   background: #ffffff;
+  /* border: 3px solid red; */
+  border-bottom: 2px solid rgba(190, 190, 190, 0.526);
 }
 
 .navelement {

@@ -19,7 +19,7 @@ const NavBar = () => {
         </div>
         <div className={linkcontainer}>
           <a href="/WebGIS">WebGIS</a>
-          <a href="/ProfileModelScreen">Terrain Profiles</a>
+          <a href="/ProfileModelScreen">Utility Mapping</a>
           <a href="/KurvaS">Kurva S</a>
           <a href="/loginScreen">Login</a>
         </div>
