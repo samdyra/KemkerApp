@@ -7,13 +7,13 @@ import { useAuthState } from "react-firebase-hooks/auth";
 import DeleteStory from "./DeleteStory";
 import AddStory from "./AddStory";
 import NavBarDefault from "../../../ComponentsV2/NavbarDefault";
-
+import { orderBy } from "firebase/firestore";
 const Stories = () => {
   const [story, setStory] = useState([]);
   const [user] = useAuthState(auth);
   useEffect(() => {
     const storyRef = collection(db, "story");
-    const q = query(storyRef);
+    const q = query(storyRef, orderBy("cerita"));
     onSnapshot(q, (snapshot) => {
       const story = snapshot.docs.map((doc) => ({
         id: doc.id,
@@ -27,7 +27,7 @@ const Stories = () => {
     <div>
       <NavBarDefault></NavBarDefault>
       <div className="admin-navbar">
-        <a href="/admin/kelompok">Kamerad</a>
+        {/* <a href="/admin/kelompok">Kamerad</a> */}
         <a href="/admin/Gallery">Gallery</a>
         <a href="/admin/kesanpesan">Kesan Pesan</a>
         <a href="/admin/story">Kotak Pesan</a>

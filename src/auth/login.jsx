@@ -15,7 +15,7 @@ export default function Login() {
   const handleLogin = async () => {
     try {
       await signInWithEmailAndPassword(auth, email, password);
-      navigate("/admin/kelompok");
+      navigate("/admin/story");
     } catch (error) {
       toast(error.code, { type: "error" });
     }
@@ -40,7 +40,7 @@ export default function Login() {
           fontFamily: "poppins",
         }}
       >
-        Bagi yang mau kasih kesan pesan, input foto gallery atau edit foto, 
+        Bagi yang mau kasih kesan pesan, input foto gallery atau edit foto,
         gallery, silahkan masuk..
       </p>
 
