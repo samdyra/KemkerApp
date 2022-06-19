@@ -40,6 +40,8 @@ const FloodModel = () => {
   useEffect(() => {
     fetchData();
   }, []);
+
+  // console.log(data.map((coor) => coor.x));
   return (
     <div className="home">
       <div className="homeContainer">
@@ -54,9 +56,13 @@ const FloodModel = () => {
           <Featured iniHariKe={iniHariKe} actualData={data} />
           <Chart
             title="Target dan Aktualisasi Kurva S (%)"
-            aspect={2 / 1}
+            aspect={2.5 / 1}
             actualData={data}
           />
+        </div>
+        <div className="listContainer">
+          <div className="listTitle">Hasil Pengukuran Koordinat</div>
+          <Table data={data} />
         </div>
       </div>
     </div>

@@ -49,7 +49,6 @@ const Featured = ({ actualData, iniHariKe }) => {
       : 100;
 
   const totalProgress = actualData ? actualData[0].totalHariIni : 0;
-  console.log(totalProgress);
   return (
     <div className="featured">
       <div className="top">
