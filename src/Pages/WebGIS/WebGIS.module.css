@@ -14,7 +14,7 @@
 .settingContainer {
   border-bottom: 2px solid rgb(143, 143, 143);
   display: flex;
-  border-top: 2px solid rgba(193, 193, 193, 0.605);
+  /* border-top: 2px solid rgba(193, 193, 193, 0.605); */
 }
 
 .settingWrapper {
