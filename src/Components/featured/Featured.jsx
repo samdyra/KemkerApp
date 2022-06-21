@@ -49,6 +49,9 @@ const Featured = ({ actualData, iniHariKe }) => {
       : 100;
 
   const totalProgress = actualData ? actualData[0].totalHariIni : 0;
+  const ketertinggalan =
+    Math.round((parseFloat(totalProgress) - parseFloat(targetHariIni)) * 100) /
+    100;
   return (
     <div className="featured">
       <div className="top">
@@ -84,15 +87,17 @@ const Featured = ({ actualData, iniHariKe }) => {
           </div>
           <div className="item">
             <div className="itemTitle">Ketertinggalan</div>
-            <div className="itemResult negative">
-              <KeyboardArrowDownIcon fontSize="small" />
-              <div>
-                {Math.round(
-                  (parseFloat(totalProgress) - parseFloat(targetHariIni)) * 100
-                ) / 100}
-                %
+            {ketertinggalan <= 0 ? (
+              <div className="itemResult negative">
+                <KeyboardArrowDownIcon fontSize="small" />
+                <div>{ketertinggalan}%</div>
               </div>
-            </div>
+            ) : ketertinggalan >= 0 ? (
+              <div className="itemResult positive">
+                <KeyboardArrowUpOutlinedIcon fontSize="small" />
+                <div>{ketertinggalan}%</div>
+              </div>
+            ) : null}
           </div>
         </div>
       </div>
