@@ -52,8 +52,8 @@ const List = ({ data }) => {
         <TableHead>
           <TableRow>
             <TableCell className="tableCell">Nama Titik</TableCell>
-            <TableCell className="tableCell">Koordinat Easting (m)</TableCell>
             <TableCell className="tableCell">Koordinat Northing (m)</TableCell>
+            <TableCell className="tableCell">Koordinat Easting (m)</TableCell>
             <TableCell className="tableCell">Elevasi (m)</TableCell>
           </TableRow>
         </TableHead>
