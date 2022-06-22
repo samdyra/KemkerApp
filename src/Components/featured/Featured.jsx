@@ -87,7 +87,7 @@ const Featured = ({ actualData, iniHariKe }) => {
           </div>
           <div className="item">
             <div className="itemTitle">Ketertinggalan</div>
-            {ketertinggalan <= 0 ? (
+            {ketertinggalan < 0 ? (
               <div className="itemResult negative">
                 <KeyboardArrowDownIcon fontSize="small" />
                 <div>{ketertinggalan}%</div>

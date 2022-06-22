@@ -2,15 +2,43 @@ import React, { useState, useEffect, useRef } from "react";
 import style from "./WebGIS.module.css";
 import { MapContainer, TileLayer, GeoJSON } from "react-leaflet";
 import data from "../../Constants/Shapefiles/cirebonDatabase.json";
-import { Pembatas, SearchBar, BasemapSwitch, Dropdown, ImageSlider, Penerbit } from "../../Components";
-import { SecondaryFooter, Minimap, Legenda, Referensi, Maptitle, Keterangan, Modal } from "../../Components";
-import { highlightFeature, resetHighlightFeature, polygonStyling } from "../../Helpers";
+import {
+  Pembatas,
+  SearchBar,
+  BasemapSwitch,
+  Dropdown,
+  ImageSlider,
+  Penerbit,
+} from "../../Components";
+import {
+  SecondaryFooter,
+  Minimap,
+  Legenda,
+  Referensi,
+  Maptitle,
+  Keterangan,
+  Modal,
+} from "../../Components";
+import {
+  highlightFeature,
+  resetHighlightFeature,
+  polygonStyling,
+} from "../../Helpers";
 import { light, dark } from "../../Constants";
 import { helpSymbol } from "../../Assets";
 import NavBarDefault from "../../ComponentsV2/NavbarDefault";
 
 const WebGIS = () => {
-  const { container, settingContainer, legendContainer, mapContainer, wrapper, settingWrapper, legendStyle, help } = style;
+  const {
+    container,
+    settingContainer,
+    legendContainer,
+    mapContainer,
+    wrapper,
+    settingWrapper,
+    legendStyle,
+    help,
+  } = style;
   const [uhiValue, setUhiValue] = useState("24.18");
   const [nightLightValue, setNightLightValue] = useState("11.7109");
   const [ndbiValue, setNdbiValue] = useState("-69.2544");
@@ -93,10 +121,18 @@ const WebGIS = () => {
           <div className={legendContainer}>
             <div className={legendStyle}>
               {modal && (
-                <Modal title="Welcome!" toggleModal={toggleModal} desc="Please click one of the polygons on the map to see the statistics on the left!"></Modal>
+                <Modal
+                  title="Welcome!"
+                  toggleModal={toggleModal}
+                  desc="Please click one of the polygons on the map to see the statistics on the right!"
+                ></Modal>
               )}
               <Maptitle></Maptitle>
-              <ImageSlider firstImage={firstImage} secondImage={secondImage} thirdImage={thirdImage}></ImageSlider>
+              <ImageSlider
+                firstImage={firstImage}
+                secondImage={secondImage}
+                thirdImage={thirdImage}
+              ></ImageSlider>
               <Keterangan
                 id={uhiValue}
                 nameObj={nightLightValue}
@@ -112,9 +148,17 @@ const WebGIS = () => {
             </div>
           </div>
           <div className={mapContainer}>
-            <MapContainer center={[-6.733252, 108.552161]} zoom={13} style={{ height: "100%", position: "relative", zIndex: 0 }}>
+            <MapContainer
+              center={[-6.733252, 108.552161]}
+              zoom={13}
+              style={{ height: "100%", position: "relative", zIndex: 0 }}
+            >
               <TileLayer ref={ref} url={colorMode === "light" ? light : dark} />
-              <GeoJSON data={data} onEachFeature={onEachPolygons} style={polygonStyling}></GeoJSON>
+              <GeoJSON
+                data={data}
+                onEachFeature={onEachPolygons}
+                style={polygonStyling}
+              ></GeoJSON>
               <Minimap position="topleft"></Minimap>
             </MapContainer>
           </div>

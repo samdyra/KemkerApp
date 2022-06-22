@@ -88,7 +88,7 @@
 }
 
 .parallaxWrapper .laxImageOne {
-  border: 1px solid red;
+  /* border: 1px solid red; */
 
   border-radius: 50%;
   width: 350px;
@@ -97,10 +97,11 @@
   margin-left: 112.5px;
   margin-top: 112.5px;
   z-index: 5;
+  object-fit: cover;
 }
 
 .parallaxWrapper .laxImageTwo {
-  border: 1px solid red;
+  object-fit: cover;
 
   border-radius: 50%;
   width: 250px;
@@ -112,7 +113,7 @@
 }
 
 .parallaxWrapper .laxImageThree {
-  border: 1px solid red;
+  object-fit: cover;
 
   border-radius: 50%;
   width: 250px;
@@ -124,7 +125,7 @@
 }
 
 .parallaxWrapper .laxImageFour {
-  border: 1px solid red;
+  object-fit: cover;
 
   border-radius: 50%;
   width: 310px;
@@ -136,7 +137,7 @@
 }
 
 .parallaxWrapper .laxImageFive {
-  border: 1px solid red;
+  object-fit: cover;
 
   border-radius: 50%;
   width: 200px;
@@ -149,13 +150,14 @@
 
 .parallaxWrapper .laxImageSix {
   border-radius: 50%;
-  border: 1px solid red;
   width: 210px;
   height: 210px;
   position: absolute;
   margin-left: -50px;
   margin-top: 15px;
   z-index: 4;
+
+  object-fit: cover;
 }
 
 .descWrapper {
@@ -227,7 +229,7 @@
 }
 
 .madeElementContainer {
-  height: 476px;
+  height: 500px;
   width: 314px;
   background: #ffffff;
   box-shadow: 8px 9px 16px rgba(0, 0, 0, 0.2);
@@ -236,12 +238,7 @@
   flex-direction: column;
   align-items: center;
   margin-top: 46px;
-}
-
-.lottie {
-  width: 251px;
-  height: 171px;
-  margin-top: 29px;
+  justify-content: space-between;
 }
 
 .madeElementTitle {
@@ -252,7 +249,8 @@
   line-height: 36px;
   display: flex;
   color: #000000;
-  margin-top: 9px;
+  margin-top: -5px;
+  text-align: center;
 }
 
 .madeElementImage img {
@@ -260,6 +258,7 @@
   height: 171px;
   border-radius: 10px;
   margin-top: 29px;
+  object-fit: cover;
 }
 
 .madeElementContent {
@@ -271,7 +270,7 @@
   text-align: justify;
   color: #000000;
   padding-inline: 43px;
-  margin-top: 3px;
+  margin-top: -5px;
 }
 
 .madeElementButton {
@@ -287,7 +286,7 @@
   border: 2px solid #ff8356;
   border-radius: 11px;
   padding: 9px 25px;
-  margin-top: 17px;
+  margin-bottom: 25px;
 }
 
 .madeElementButton:hover {

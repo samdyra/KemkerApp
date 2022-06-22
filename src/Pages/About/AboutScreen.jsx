@@ -4,13 +4,22 @@ import { db } from "../../firebase/firebaseConfig";
 import Navbar from "../../ComponentsV2/Navbar";
 import style from "./AboutScreen.module.css";
 import {
-  noImage,
   logoGD19,
   logoKemker,
   logoIMG,
   insta,
   twitterLogo,
   github,
+  foto1,
+  foto2,
+  foto3,
+  foto4,
+  foto5,
+  foto6,
+  foto7,
+  foto8,
+  foto10,
+  foto11,
 } from "../../Assets";
 import foto from "../../Assets/Images/fotokemker.png";
 import Slider from "react-slick";
@@ -62,7 +71,6 @@ const AboutScreen = () => {
     caElMemberContainer,
     caElMemberName,
     galleryElementContainer,
-    lottie,
     messageDesc,
     meElContainer,
     meElName,
@@ -194,7 +202,7 @@ const AboutScreen = () => {
         <div className={parallaxWrapper}>
           <img
             className={laxImageOne}
-            src={noImage}
+            src={foto4}
             style={{
               transform: `translateX(-${offsetX * 0.01}px) translateY(-${
                 offsetY * 0.01
@@ -203,7 +211,7 @@ const AboutScreen = () => {
           ></img>
           <img
             className={laxImageTwo}
-            src={noImage}
+            src={foto1}
             style={{
               transform: `translateX(-${offsetX * 0.018}px) translateY(-${
                 offsetY * 0.018
@@ -212,7 +220,7 @@ const AboutScreen = () => {
           ></img>
           <img
             className={laxImageThree}
-            src={noImage}
+            src={foto2}
             style={{
               transform: `translateX(-${offsetX * 0.024}px) translateY(-${
                 offsetY * 0.024
@@ -221,7 +229,7 @@ const AboutScreen = () => {
           ></img>
           <img
             className={laxImageFour}
-            src={noImage}
+            src={foto3}
             style={{
               transform: `translateX(${offsetX * 0.01}px) translateY(${
                 offsetY * 0.01
@@ -230,7 +238,7 @@ const AboutScreen = () => {
           ></img>
           <img
             className={laxImageFive}
-            src={noImage}
+            src={foto5}
             style={{
               transform: `translateX(-${offsetX * 0.02}px) translateY(-${
                 offsetY * 0.02
@@ -239,7 +247,7 @@ const AboutScreen = () => {
           ></img>
           <img
             className={laxImageSix}
-            src={noImage}
+            src={foto6}
             style={{
               transform: `translateX(${offsetX * 0.015}px) translateY( ${
                 offsetY * 0.015
@@ -250,17 +258,19 @@ const AboutScreen = () => {
       </div>
       <div className={descWrapper}>
         <div className={descImage}>
-          <img src={noImage}></img>
+          <img src={foto7}></img>
         </div>
         <div className={descContainer}>
           <div className={descTitle}>What Are We</div>
           <div className={descContent}>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
-            optio natus odit sequi? Quis similique vitae quibusdam natus sequi
-            iusto corrupti aliquid enim cumque perspiciatis nisi magni ducimus
-            reprehenderit asperiores soluta maxime, dicta hic obcaecati quisquam
-            accusantium? Earum maiores voluptatibus officia voluptas labore.
-            Ducimus nulla, labore fugiat alias deserunt cupiditate.
+            Geodesy and Geomatics Students were required to apply the
+            theoritical basis of geodesy and geomatics engineering through
+            surveying and mapping project at ITB Kampus Jatinangor with
+            supervision from respective lecturers and lab. assistant from
+            Laboratorium Survey dan Pemetaan ITB. This course provides an
+            opportunity for students to implement skills that theyve acquired
+            throughout the years, and also an opportunity to bond together to
+            become a solid team.
           </div>
         </div>
       </div>
@@ -269,42 +279,49 @@ const AboutScreen = () => {
         <div className={madeElementWrapper}>
           <div className={madeElementContainer}>
             <div className={madeElementImage}>
-              <img src={noImage}></img>
+              <img src={foto8}></img>
             </div>
             <div className={madeElementTitle}>WebGIS</div>
             <div className={madeElementContent}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. At iure
-              ratione laudantium ducimus vel sapiente, qui ea! Earum, sit ullam!
-              Dignissimos iure quam ab dolore ipsam fugit voluptatem
-              voluptatibus quas.
+              Web based GIS (Geographic Information System) of ITB Kampus
+              Jatinangor. We hope this feature would contribute to realized a
+              continuous monitoring and sustainable development of ITB Kampus
+              Jatinangor.
             </div>
-            <div className={madeElementButton}>View</div>
+            <a href="/WebGIS">
+              <div className={madeElementButton}>View</div>
+            </a>
           </div>
           <div className={madeElementContainer}>
             <div className={madeElementImage}>
-              <img src={noImage}></img>
+              <img src={foto11}></img>
             </div>
-            <div className={madeElementTitle}>Terrain Profiles</div>
+            <div className={madeElementTitle}>Pipe Mapping</div>
             <div className={madeElementContent}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. At iure
-              ratione laudantium ducimus vel sapiente, qui ea! Earum, sit ullam!
-              Dignissimos iure quam ab dolore ipsam fugit voluptatem
-              voluptatibus quas.
+              A map of distribution of pipes in ITB Kampus Jatinangor. We hope
+              by analyzing and mapping the distribution of pipes, a future
+              analysis such as water source management and flood risk mitigation
+              could be made.
             </div>
-            <div className={madeElementButton}>View</div>
+            <a href="/ProfileModelScreen">
+              <div className={madeElementButton}>View</div>
+            </a>
           </div>
           <div className={madeElementContainer}>
             <div className={madeElementImage}>
-              <img src={noImage}></img>
+              <img src={foto10}></img>
             </div>
-            <div className={madeElementTitle}>Flood Model</div>
+            <div className={madeElementTitle}>
+              Reporting & <br></br> Monitoring System
+            </div>
             <div className={madeElementContent}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. At iure
-              ratione laudantium ducimus vel sapiente, qui ea! Earum, sit ullam!
-              Dignissimos iure quam ab dolore ipsam fugit voluptatem
-              voluptatibus quas.
+              In order to maximize the productivty of this project, a reporting
+              and monitoring system is made. The feature consist of graph of a S
+              curve, and a admin dashboard for managing the data.
             </div>
-            <div className={madeElementButton}>View</div>
+            <a href="/KurvaS">
+              <div className={madeElementButton}>View</div>
+            </a>
           </div>
         </div>
       </div>

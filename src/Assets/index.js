@@ -1,6 +1,5 @@
 export { default as github } from "./Images/github.png";
 export { default as insta } from "./Images/instgrm.png";
-export { default as logoITB } from "./Images/ITB.png";
 export { default as lightMode } from "./Images/light.png";
 export { default as logoGD19 } from "./Images/logoGD19.png";
 export { default as logoIMG } from "./Images/logoIMG.png";
@@ -16,3 +15,16 @@ export { default as webgis } from "./Animations/area-map.json";
 export { default as flood } from "./Animations/flood.json";
 export { default as engineering } from "./Animations/engineering.json";
 export { default as background } from "./Animations/background.json";
+export { default as foto1 } from "./Images/foto1.jpg";
+export { default as foto2 } from "./Images/foto2.jpg";
+export { default as foto3 } from "./Images/foto3.jpg";
+export { default as foto4 } from "./Images/foto4.jpg";
+export { default as foto5 } from "./Images/foto5.jpg";
+export { default as foto6 } from "./Images/foto6.jpg";
+export { default as foto7 } from "./Images/foto7.jpg";
+export { default as foto8 } from "./Images/foto8.png";
+export { default as foto9 } from "./Images/foto9.jpg";
+export { default as foto10 } from "./Images/foto10.png";
+export { default as foto11 } from "./Images/foto11.jpg";
+
+export { default as logoITB } from "./Images/ITB.png";
