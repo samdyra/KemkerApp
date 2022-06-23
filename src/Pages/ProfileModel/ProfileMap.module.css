@@ -13,18 +13,17 @@
 }
 
 .headerText {
-  width: 302px;
+  width: 600px;
   height: 208px;
   margin-left: 101px;
-  margin-top: 300px;
+  margin-top: 320px;
   justify-content: center;
   position: absolute;
   font-family: poppins;
   font-style: normal;
   font-weight: 700;
-  font-size: 96px;
+  font-size: 72px;
   line-height: 108.5%;
-  text-align: justify;
   color: #623a20;
   text-shadow: 2px 7px 8px rgba(0, 0, 0, 0.25);
 }
