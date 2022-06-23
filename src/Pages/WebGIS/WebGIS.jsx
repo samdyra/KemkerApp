@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import style from "./WebGIS.module.css";
 import { MapContainer, TileLayer, GeoJSON } from "react-leaflet";
-import data from "../../Constants/Shapefiles/cirebonDatabase.json";
+import mockNangor from "../../Constants/Shapefiles/jatinangorMock.json";
 import {
   Pembatas,
   SearchBar,
@@ -39,13 +39,15 @@ const WebGIS = () => {
     legendStyle,
     help,
   } = style;
-  const [uhiValue, setUhiValue] = useState("24.18");
-  const [nightLightValue, setNightLightValue] = useState("11.7109");
-  const [ndbiValue, setNdbiValue] = useState("-69.2544");
-  const [ndviValue, setNdviValue] = useState("0.472515");
-  const [kelurahanValue, setKelurahanValue] = useState("Larangan");
-  const [kecamatanValue, setKecamatanValue] = useState("Harjamukti");
-  const [firstImage, setFirstImage] = useState("https://gdurl.com/ra7En");
+  const [uhiValue, setUhiValue] = useState("1");
+  const [nightLightValue, setNightLightValue] = useState("Danau Barat");
+  const [ndbiValue, setNdbiValue] = useState("Danau");
+  const [ndviValue, setNdviValue] = useState("6579.165");
+  const [kelurahanValue, setKelurahanValue] = useState("470.282");
+  const [kecamatanValue, setKecamatanValue] = useState(
+    "https://gdurl.com/lF9W"
+  );
+  const [firstImage, setFirstImage] = useState("https://gdurl.com/lF9W");
   const [secondImage, setSecondImage] = useState("https://gdurl.com/ra7En");
   const [modal, setModal] = useState(false);
   const [thirdImage, setThridImage] = useState("https://gdurl.com/ra7En");
@@ -71,15 +73,15 @@ const WebGIS = () => {
   }, [colorMode]);
 
   const onEachPolygons = (feature, layer) => {
-    const uhiValue = feature.properties.UHI;
-    const nightLightValue = feature.properties.NL;
-    const ndbiValue = feature.properties.NDBI;
-    const ndviValue = feature.properties.NDVI;
-    const kelurahanValue = feature.properties.Kelurahan;
-    const kecamatanValue = feature.properties.Kecamatan;
-    const firstImage = feature.properties.Foto_1;
-    const secondImage = feature.properties.Foto_2;
-    const thirdImage = feature.properties.Foto_3;
+    const uhiValue = feature.properties.OBJECTID;
+    const nightLightValue = feature.properties.nama;
+    const ndbiValue = feature.properties.jenis;
+    const ndviValue = feature.properties.luas;
+    const kelurahanValue = feature.properties.keliling;
+    const kecamatanValue = feature.properties.FOTO_1;
+    const firstImage = feature.properties.FOTO_1;
+    const secondImage = feature.properties.FOTO_2;
+    const thirdImage = feature.properties.FOTO_3;
 
     function paramsFunc() {
       setUhiValue(uhiValue);
@@ -149,13 +151,13 @@ const WebGIS = () => {
           </div>
           <div className={mapContainer}>
             <MapContainer
-              center={[-6.733252, 108.552161]}
-              zoom={13}
+              center={[-6.92877232399857, 107.76856033033198]}
+              zoom={17}
               style={{ height: "100%", position: "relative", zIndex: 0 }}
             >
               <TileLayer ref={ref} url={colorMode === "light" ? light : dark} />
               <GeoJSON
-                data={data}
+                data={mockNangor}
                 onEachFeature={onEachPolygons}
                 style={polygonStyling}
               ></GeoJSON>

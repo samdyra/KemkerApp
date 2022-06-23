@@ -12,9 +12,17 @@ const getColor = (d) => {
     : "";
 };
 
+const getKind = (d) => {
+  return d == "Danau"
+    ? "rgb(0,0,255)"
+    : d == "Bangunan"
+    ? "rgb(255,255,0)"
+    : "rgb(220,220,220)";
+};
+
 const polygonStyle = (feature) => {
   return {
-    fillColor: getColor(feature.properties.UHI),
+    fillColor: getKind(feature.properties.jenis),
     weight: 0.8,
     opacity: 1,
     border: "solid",

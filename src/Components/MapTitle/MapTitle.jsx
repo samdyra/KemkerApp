@@ -6,8 +6,8 @@ const MapTitle = () => {
   return (
     <div className={container}>
       <div className={title}>INSTITUT TEKNOLOGI BANDUNG</div>
-      <div className={skala}>1 : 25.000</div>
-      <div className={kampus}>KAMPUS CIREBON</div>
+      <div className={skala}>1 : 1000</div>
+      <div className={kampus}>KAMPUS JATINANGOR</div>
     </div>
   );
 };

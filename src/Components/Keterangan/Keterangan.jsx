@@ -2,7 +2,14 @@ import React from "react";
 import style from "./Keterangan.module.css";
 
 const Keterangan = ({ id, nameObj, area, coorX, coorY, contour }) => {
-  const { referencecontainer, referencetitle, referencewrapper, reference, titikdua, referencedata } = style;
+  const {
+    referencecontainer,
+    referencetitle,
+    referencewrapper,
+    reference,
+    titikdua,
+    referencedata,
+  } = style;
   return (
     <div className={referencecontainer}>
       <div className={referencetitle}>
@@ -11,11 +18,11 @@ const Keterangan = ({ id, nameObj, area, coorX, coorY, contour }) => {
       <div className={referencewrapper}>
         <div className={reference}>
           <div>Objek ID</div>
-          <div>Keterangan Objek</div>
+          <div>Nama Objek</div>
+          <div>Jenis Objek</div>
           <div>Luas Area</div>
-          <div>Koordinat X</div>
-          <div>Koordinat Y</div>
-          <div>Selang Kontur</div>
+          <div>Keliling Area </div>
+          <div>Link Foto</div>
         </div>
         <div className={titikdua}>
           <div>:</div>
