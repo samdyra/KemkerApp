@@ -1,4 +1,10 @@
-import { MapContainer, TileLayer, useMap, useMapEvent, Rectangle } from "react-leaflet";
+import {
+  MapContainer,
+  TileLayer,
+  useMap,
+  useMapEvent,
+  Rectangle,
+} from "react-leaflet";
 import { useEventHandlers } from "@react-leaflet/core";
 import React, { useCallback, useState, useMemo } from "react";
 
@@ -40,7 +46,7 @@ function MinimapBounds({ parentMap, zoom }) {
 
 function MinimapControl({ position, zoom }) {
   const parentMap = useMap();
-  const mapZoom = zoom || 8;
+  const mapZoom = zoom || 12;
 
   // Memoize the minimap so it's not affected by position changes
   const minimap = useMemo(
@@ -62,7 +68,8 @@ function MinimapControl({ position, zoom }) {
     []
   );
 
-  const positionClass = (position && POSITION_CLASSES[position]) || POSITION_CLASSES.topright;
+  const positionClass =
+    (position && POSITION_CLASSES[position]) || POSITION_CLASSES.topright;
   return (
     <div className={positionClass}>
       <div className="leaflet-control leaflet-bar">{minimap}</div>
