@@ -116,18 +116,18 @@ const AboutScreen = () => {
     });
   }, []);
 
-  const [kamerad, setKamerad] = useState([]);
-  useEffect(() => {
-    const kameradRef = collection(db, "kamerad");
-    const q = query(kameradRef, orderBy("kelompok"));
-    onSnapshot(q, (snapshot) => {
-      const kamerads = snapshot.docs.map((doc) => ({
-        id: doc.id,
-        ...doc.data(),
-      }));
-      setKamerad(kamerads);
-    });
-  }, []);
+  // const [kamerad, setKamerad] = useState([]);
+  // useEffect(() => {
+  //   const kameradRef = collection(db, "kamerad");
+  //   const q = query(kameradRef, orderBy("kelompok"));
+  //   onSnapshot(q, (snapshot) => {
+  //     const kamerads = snapshot.docs.map((doc) => ({
+  //       id: doc.id,
+  //       ...doc.data(),
+  //     }));
+  //     setKamerad(kamerads);
+  //   });
+  // }, []);
 
   const creatorSettings = {
     dots: false,
@@ -154,19 +154,18 @@ const AboutScreen = () => {
     slidesToScroll: 1,
   };
 
-  const groupedKamerad = kamerad.reduce((groupedKamerad, kamerad) => {
-    const kelompok = kamerad.klmpkID;
-    if (groupedKamerad[kelompok] == null) groupedKamerad[kelompok] = [];
-    groupedKamerad[kelompok].push(kamerad);
-    return groupedKamerad;
-  }, {});
+  // const groupedKamerad = kamerad.reduce((groupedKamerad, kamerad) => {
+  //   const kelompok = kamerad.klmpkID;
+  //   if (groupedKamerad[kelompok] == null) groupedKamerad[kelompok] = [];
+  //   groupedKamerad[kelompok].push(kamerad);
+  //   return groupedKamerad;
+  // }, {});
 
-  const finalGroupValue = Object.entries(groupedKamerad);
+  // const finalGroupValue = Object.entries(groupedKamerad);
   const parsedImage = image.map((image) => {
     return image.image;
   });
   const ReversedData = parsedImage.slice(0).reverse();
-  console.log(finalGroupValue);
   const [offsetX, setOffsetX] = useState(0);
   const [offsetY, setOffsetY] = useState(0);
 
@@ -325,7 +324,7 @@ const AboutScreen = () => {
           </div>
         </div>
       </div>
-      <div className={creatorWrapper}>
+      {/* <div className={creatorWrapper}>
         <div className={creatorTitle}>Who We Are</div>
         <Slider {...creatorSettings} className={creatorCarouselElements}>
           {finalGroupValue.map((kelompok) => {
@@ -350,7 +349,7 @@ const AboutScreen = () => {
             );
           })}
         </Slider>
-      </div>
+      </div> */}
       <div className={messageWrapper}>
         <div className={messageTitle}>What is it like in Kemah Kerja 2022</div>
         <div className={messageDesc}>See what others have to say about us</div>
