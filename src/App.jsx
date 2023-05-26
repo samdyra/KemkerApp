@@ -19,7 +19,7 @@ function App() {
         <Route path="/admin/gallery" element={<Gallery />}></Route>
         <Route path="/admin/kesanpesan" element={<Message />}></Route>
         <Route path="/admin/story" element={<Stories />}></Route>
-        {/* <Route path="/admin/kotakpesan" element={<Stories />}></Route> */}
+        <Route path="/admin/kotakpesan" element={<Stories />}></Route>
       </Routes>
     </Router>
   );

@@ -3,13 +3,13 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 import { getAuth } from "firebase/auth";
 const firebaseConfig = {
-  apiKey: "AIzaSyB1pcMdR28myk8jk4W4XDjKNTNgdxqFBRI",
-  authDomain: "kemkerapp.firebaseapp.com",
-  projectId: "kemkerapp",
-  storageBucket: "kemkerapp.appspot.com",
-  messagingSenderId: "1043345476411",
-  appId: "1:1043345476411:web:7d59c6fa7ab4a7f30d851e",
-  measurementId: "G-BJL3J3B44M",
+  apiKey: "AIzaSyBg3Srs5xa2LuPOadoZeT3Gdwp8F9rsV4o",
+  authDomain: "kemahkerja-bb8a1.firebaseapp.com",
+  projectId: "kemahkerja-bb8a1",
+  storageBucket: "kemahkerja-bb8a1.appspot.com",
+  messagingSenderId: "76788250437",
+  appId: "1:76788250437:web:76b3915c0d09fa79c5b02c",
+  measurementId: "G-BQ2Z7Y0975"
 };
 
 const app = initializeApp(firebaseConfig);
